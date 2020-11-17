@@ -19,25 +19,25 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: [Device 21-403] Loading part xc7z010clg400-1
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 7664 
+INFO: Helper process launched with PID 2720 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 726.566 ; gain = 176.059
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 726.871 ; gain = 176.145
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'led_test_system_wrapper' [C:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/hdl/led_test_system_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'led_test_system' [C:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/synth/led_test_system.v:13]
-INFO: [Synth 8-6157] synthesizing module 'led_test_system_led_controller_0_0' [C:/Zynq_Book/led_controller/led_controller.runs/synth_1/.Xil/Vivado-108-DESKTOP-7QAIPHN/realtime/led_test_system_led_controller_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'led_test_system_led_controller_0_0' (1#1) [C:/Zynq_Book/led_controller/led_controller.runs/synth_1/.Xil/Vivado-108-DESKTOP-7QAIPHN/realtime/led_test_system_led_controller_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'led_test_system_processing_system7_0_0' [C:/Zynq_Book/led_controller/led_controller.runs/synth_1/.Xil/Vivado-108-DESKTOP-7QAIPHN/realtime/led_test_system_processing_system7_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'led_test_system_processing_system7_0_0' (2#1) [C:/Zynq_Book/led_controller/led_controller.runs/synth_1/.Xil/Vivado-108-DESKTOP-7QAIPHN/realtime/led_test_system_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'led_test_system_led_controller_0_0' [C:/Zynq_Book/led_controller/led_controller.runs/synth_1/.Xil/Vivado-4476-DESKTOP-7QAIPHN/realtime/led_test_system_led_controller_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'led_test_system_led_controller_0_0' (1#1) [C:/Zynq_Book/led_controller/led_controller.runs/synth_1/.Xil/Vivado-4476-DESKTOP-7QAIPHN/realtime/led_test_system_led_controller_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'led_test_system_processing_system7_0_0' [C:/Zynq_Book/led_controller/led_controller.runs/synth_1/.Xil/Vivado-4476-DESKTOP-7QAIPHN/realtime/led_test_system_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'led_test_system_processing_system7_0_0' (2#1) [C:/Zynq_Book/led_controller/led_controller.runs/synth_1/.Xil/Vivado-4476-DESKTOP-7QAIPHN/realtime/led_test_system_processing_system7_0_0_stub.v:6]
 WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'led_test_system_processing_system7_0_0' has 73 connections declared, but only 65 given [C:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/synth/led_test_system.v:166]
 INFO: [Synth 8-6157] synthesizing module 'led_test_system_ps7_0_axi_periph_0' [C:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/synth/led_test_system.v:305]
 INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1QS9P9U' [C:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/synth/led_test_system.v:620]
-INFO: [Synth 8-6157] synthesizing module 'led_test_system_auto_pc_0' [C:/Zynq_Book/led_controller/led_controller.runs/synth_1/.Xil/Vivado-108-DESKTOP-7QAIPHN/realtime/led_test_system_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'led_test_system_auto_pc_0' (3#1) [C:/Zynq_Book/led_controller/led_controller.runs/synth_1/.Xil/Vivado-108-DESKTOP-7QAIPHN/realtime/led_test_system_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'led_test_system_auto_pc_0' [C:/Zynq_Book/led_controller/led_controller.runs/synth_1/.Xil/Vivado-4476-DESKTOP-7QAIPHN/realtime/led_test_system_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'led_test_system_auto_pc_0' (3#1) [C:/Zynq_Book/led_controller/led_controller.runs/synth_1/.Xil/Vivado-4476-DESKTOP-7QAIPHN/realtime/led_test_system_auto_pc_0_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1QS9P9U' (4#1) [C:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/synth/led_test_system.v:620]
 INFO: [Synth 8-6155] done synthesizing module 'led_test_system_ps7_0_axi_periph_0' (5#1) [C:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/synth/led_test_system.v:305]
-INFO: [Synth 8-6157] synthesizing module 'led_test_system_rst_ps7_0_100M_0' [C:/Zynq_Book/led_controller/led_controller.runs/synth_1/.Xil/Vivado-108-DESKTOP-7QAIPHN/realtime/led_test_system_rst_ps7_0_100M_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'led_test_system_rst_ps7_0_100M_0' (6#1) [C:/Zynq_Book/led_controller/led_controller.runs/synth_1/.Xil/Vivado-108-DESKTOP-7QAIPHN/realtime/led_test_system_rst_ps7_0_100M_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'led_test_system_rst_ps7_0_100M_0' [C:/Zynq_Book/led_controller/led_controller.runs/synth_1/.Xil/Vivado-4476-DESKTOP-7QAIPHN/realtime/led_test_system_rst_ps7_0_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'led_test_system_rst_ps7_0_100M_0' (6#1) [C:/Zynq_Book/led_controller/led_controller.runs/synth_1/.Xil/Vivado-4476-DESKTOP-7QAIPHN/realtime/led_test_system_rst_ps7_0_100M_0_stub.v:6]
 WARNING: [Synth 8-7023] instance 'rst_ps7_0_100M' of module 'led_test_system_rst_ps7_0_100M_0' has 10 connections declared, but only 6 given [C:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/synth/led_test_system.v:296]
 INFO: [Synth 8-6155] done synthesizing module 'led_test_system' (7#1) [C:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/synth/led_test_system.v:13]
 INFO: [Synth 8-6155] done synthesizing module 'led_test_system_wrapper' (8#1) [C:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/hdl/led_test_system_wrapper.v:12]
@@ -46,7 +46,7 @@ WARNING: [Synth 8-3331] design s00_couplers_imp_1QS9P9U has unconnected port M_A
 WARNING: [Synth 8-3331] design led_test_system_ps7_0_axi_periph_0 has unconnected port ACLK
 WARNING: [Synth 8-3331] design led_test_system_ps7_0_axi_periph_0 has unconnected port ARESETN
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 794.551 ; gain = 244.043
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 794.395 ; gain = 243.668
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -59,10 +59,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 794.551 ; gain = 244.043
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 794.395 ; gain = 243.668
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 794.551 ; gain = 244.043
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 794.395 ; gain = 243.668
 ---------------------------------------------------------------------------------
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
@@ -72,10 +72,10 @@ Parsing XDC File [c:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/l
 Finished Parsing XDC File [c:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_led_controller_0_0/led_test_system_led_controller_0_0/led_test_system_led_controller_0_0_in_context.xdc] for cell 'led_test_system_i/led_controller_0'
 Parsing XDC File [c:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0_in_context.xdc] for cell 'led_test_system_i/processing_system7_0'
 Finished Parsing XDC File [c:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0_in_context.xdc] for cell 'led_test_system_i/processing_system7_0'
-Parsing XDC File [c:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_auto_pc_0/led_test_system_auto_pc_0/led_test_system_auto_pc_0_in_context.xdc] for cell 'led_test_system_i/ps7_0_axi_periph/s00_couplers/auto_pc'
-Finished Parsing XDC File [c:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_auto_pc_0/led_test_system_auto_pc_0/led_test_system_auto_pc_0_in_context.xdc] for cell 'led_test_system_i/ps7_0_axi_periph/s00_couplers/auto_pc'
 Parsing XDC File [c:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_100M_0/led_test_system_rst_ps7_0_100M_0/led_test_system_rst_ps7_0_100M_0_in_context.xdc] for cell 'led_test_system_i/rst_ps7_0_100M'
 Finished Parsing XDC File [c:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_100M_0/led_test_system_rst_ps7_0_100M_0/led_test_system_rst_ps7_0_100M_0_in_context.xdc] for cell 'led_test_system_i/rst_ps7_0_100M'
+Parsing XDC File [c:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_auto_pc_0/led_test_system_auto_pc_0/led_test_system_auto_pc_0_in_context.xdc] for cell 'led_test_system_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+Finished Parsing XDC File [c:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_auto_pc_0/led_test_system_auto_pc_0/led_test_system_auto_pc_0_in_context.xdc] for cell 'led_test_system_i/ps7_0_axi_periph/s00_couplers/auto_pc'
 Parsing XDC File [C:/Zynq_Book/led_controller/led_controller.srcs/constrs_1/new/led_constraints.xdc]
 Finished Parsing XDC File [C:/Zynq_Book/led_controller/led_controller.srcs/constrs_1/new/led_constraints.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Zynq_Book/led_controller/led_controller.srcs/constrs_1/new/led_constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/led_test_system_wrapper_propImpl.xdc].
@@ -84,20 +84,20 @@ Parsing XDC File [C:/Zynq_Book/led_controller/led_controller.runs/synth_1/dont_t
 Finished Parsing XDC File [C:/Zynq_Book/led_controller/led_controller.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 844.355 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 842.738 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 844.355 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 842.738 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 844.355 ; gain = 293.848
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 842.738 ; gain = 292.012
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 844.355 ; gain = 293.848
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 842.738 ; gain = 292.012
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -365,14 +365,14 @@ Applied set_property CLOCK_BUFFER_TYPE = NONE for FIXED_IO_ps_srstb. (constraint
 Applied set_property DONT_TOUCH = true for led_test_system_i. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for led_test_system_i/led_controller_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for led_test_system_i/processing_system7_0. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for led_test_system_i/ps7_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for led_test_system_i/ps7_0_axi_periph. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for led_test_system_i/rst_ps7_0_100M. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for led_test_system_i/ps7_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 844.355 ; gain = 293.848
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 842.738 ; gain = 292.012
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 844.355 ; gain = 293.848
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 842.738 ; gain = 292.012
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -412,7 +412,7 @@ WARNING: [Synth 8-3331] design led_test_system_ps7_0_axi_periph_0 has unconnecte
 WARNING: [Synth 8-3331] design led_test_system_ps7_0_axi_periph_0 has unconnected port M00_ACLK
 WARNING: [Synth 8-3331] design led_test_system_ps7_0_axi_periph_0 has unconnected port M00_ARESETN
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 844.355 ; gain = 293.848
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 842.738 ; gain = 292.012
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -426,13 +426,13 @@ Start Applying XDC Timing Constraints
 INFO: [Synth 8-5578] Moved timing constraint from pin 'led_test_system_i/processing_system7_0/FCLK_CLK0' to pin 'led_test_system_i/processing_system7_0/bbstub_FCLK_CLK0/O'
 INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 880.914 ; gain = 330.406
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 885.391 ; gain = 334.664
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 880.988 ; gain = 330.480
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 885.539 ; gain = 334.812
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -444,7 +444,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 890.766 ; gain = 340.258
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 895.320 ; gain = 344.594
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -468,7 +468,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 906.566 ; gain = 356.059
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 911.121 ; gain = 360.395
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -481,7 +481,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 906.566 ; gain = 356.059
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 911.121 ; gain = 360.395
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -493,25 +493,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 906.566 ; gain = 356.059
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 911.121 ; gain = 360.395
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 906.566 ; gain = 356.059
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 911.121 ; gain = 360.395
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 906.566 ; gain = 356.059
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 911.121 ; gain = 360.395
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 906.566 ; gain = 356.059
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 911.121 ; gain = 360.395
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -548,25 +548,25 @@ Report Instance Areas:
 |4     |      s00_couplers   |s00_couplers_imp_1QS9P9U           |   177|
 +------+---------------------+-----------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 906.566 ; gain = 356.059
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 911.121 ; gain = 360.395
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:27 . Memory (MB): peak = 906.566 ; gain = 306.254
-Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 906.566 ; gain = 356.059
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 911.121 ; gain = 312.051
+Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 911.121 ; gain = 360.395
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 927.262 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 928.496 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
 32 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 927.262 ; gain = 627.883
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 927.262 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:43 . Memory (MB): peak = 928.496 ; gain = 632.312
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 928.496 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'C:/Zynq_Book/led_controller/led_controller.runs/synth_1/led_test_system_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file led_test_system_wrapper_utilization_synth.rpt -pb led_test_system_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Nov 16 13:33:06 2020...
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 17 15:22:52 2020...

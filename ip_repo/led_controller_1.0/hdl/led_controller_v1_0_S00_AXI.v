@@ -115,6 +115,11 @@
 	integer	 byte_index;
 	reg	 aw_en;
 
+	// used for bit counting algorithm
+    reg [3:0] i_low_bits;   // index of the low bits
+	reg [3:0] count;   // current the count so far
+	reg [3:0] max;     // the maximum count
+
 	// I/O Connections assignments
 
 	assign S_AXI_AWREADY	= axi_awready;
@@ -399,7 +404,34 @@
 	end    
 
 	// Add user logic here
-	assign LEDs_out = slv_reg0;
+	// begin sequential code
+	always @( slv_reg0 )
+	begin
+	   // initialize all counts to 0
+	   count = 0;
+       max = 0;
+       // right shift bits until there are no more bits
+       // to ensure a constant loop, we instead loop through the bits starting at 0
+	   for ( i_low_bits = 0; i_low_bits < 15; i_low_bits = i_low_bits+1 )
+	   begin
+	       // if current bit is 1, increase the current count
+	       if (slv_reg0[i_low_bits] == 1'b1)
+	       begin
+	           count = count + 1;
+               // if the current count exceeds the max, use it as the max
+               if (max < count)
+               begin
+                   max = count;
+               end // if (max < count)
+	       end // if (slv_reg0[i_low_bits] == 1'b1)
+	       // otherwise reset the count
+	       else
+	       begin
+	           //count = 0;
+	       end // if (slv_reg0[i_low_bits] == 1'b1) else
+       end // for ( i_low_bits = 0; i_low_bits < 15; i_low_bits = i_low_bits+1 )
+	end
+	assign LEDs_out = max;
 
 	// User logic ends
 

@@ -12,13 +12,13 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==led_test_system
 # IP: bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==led_test_system_processing_system7_0_0 || ORIG_REF_NAME==led_test_system_processing_system7_0_0} -quiet] -quiet
 
-# IP: bd/led_test_system/ip/led_test_system_auto_pc_0/led_test_system_auto_pc_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==led_test_system_auto_pc_0 || ORIG_REF_NAME==led_test_system_auto_pc_0} -quiet] -quiet
-
 # IP: bd/led_test_system/ip/led_test_system_ps7_0_axi_periph_0/led_test_system_ps7_0_axi_periph_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==led_test_system_ps7_0_axi_periph_0 || ORIG_REF_NAME==led_test_system_ps7_0_axi_periph_0} -quiet] -quiet
 
 # IP: bd/led_test_system/ip/led_test_system_rst_ps7_0_100M_0/led_test_system_rst_ps7_0_100M_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==led_test_system_rst_ps7_0_100M_0 || ORIG_REF_NAME==led_test_system_rst_ps7_0_100M_0} -quiet] -quiet
+
+# IP: bd/led_test_system/ip/led_test_system_auto_pc_0/led_test_system_auto_pc_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==led_test_system_auto_pc_0 || ORIG_REF_NAME==led_test_system_auto_pc_0} -quiet] -quiet
 
 # XDC: bd/led_test_system/led_test_system_ooc.xdc

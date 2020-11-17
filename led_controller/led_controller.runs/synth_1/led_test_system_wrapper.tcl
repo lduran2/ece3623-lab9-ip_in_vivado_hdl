@@ -17,7 +17,7 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_msg_config -id {HDL-1065} -limit 10000
+set_param chipscope.maxJobs 1
 create_project -in_memory -part xc7z010clg400-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -40,10 +40,10 @@ set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib C:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/hdl/led_test_system_wrapper.v
 add_files C:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/led_test_system.bd
 set_property used_in_implementation false [get_files -all c:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0/led_test_system_processing_system7_0_0.xdc]
-set_property used_in_implementation false [get_files -all c:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_auto_pc_0/led_test_system_auto_pc_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_100M_0/led_test_system_rst_ps7_0_100M_0_board.xdc]
 set_property used_in_implementation false [get_files -all c:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_100M_0/led_test_system_rst_ps7_0_100M_0.xdc]
 set_property used_in_implementation false [get_files -all c:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_rst_ps7_0_100M_0/led_test_system_rst_ps7_0_100M_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_auto_pc_0/led_test_system_auto_pc_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all C:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/led_test_system_ooc.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being
