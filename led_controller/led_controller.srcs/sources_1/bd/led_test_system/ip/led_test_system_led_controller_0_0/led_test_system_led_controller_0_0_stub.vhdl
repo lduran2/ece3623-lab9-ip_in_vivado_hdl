@@ -1,7 +1,7 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
--- Date        : Tue Nov 17 15:20:53 2020
+-- Date        : Tue Nov 17 16:19:23 2020
 -- Host        : DESKTOP-7QAIPHN running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode synth_stub
 --               C:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_led_controller_0_0/led_test_system_led_controller_0_0_stub.vhdl

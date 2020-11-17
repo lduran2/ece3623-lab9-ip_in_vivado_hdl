@@ -1,6 +1,6 @@
 verilog xil_defaultlib --include "../../../../led_controller.srcs/sources_1/bd/led_test_system/ipshared/ec67/hdl" --include "../../../../led_controller.srcs/sources_1/bd/led_test_system/ipshared/8c62/hdl" --include "../../../../led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0" \
-"../../../bd/led_test_system/ipshared/7066/hdl/led_controller_v1_0_S00_AXI.v" \
-"../../../bd/led_test_system/ipshared/7066/hdl/led_controller_v1_0.v" \
+"../../../bd/led_test_system/ipshared/629c/hdl/led_controller_v1_0_S00_AXI.v" \
+"../../../bd/led_test_system/ipshared/629c/hdl/led_controller_v1_0.v" \
 "../../../bd/led_test_system/ip/led_test_system_led_controller_0_0/sim/led_test_system_led_controller_0_0.v" \
 "../../../bd/led_test_system/ip/led_test_system_processing_system7_0_0/sim/led_test_system_processing_system7_0_0.v" \
 "../../../bd/led_test_system/ip/led_test_system_auto_pc_0/sim/led_test_system_auto_pc_0.v" \

@@ -427,7 +427,7 @@
 	       // otherwise reset the count
 	       else
 	       begin
-	           //count = 0;
+	           count = 0;
 	       end // if (slv_reg0[i_low_bits] == 1'b1) else
        end // for ( i_low_bits = 0; i_low_bits < 15; i_low_bits = i_low_bits+1 )
 	end

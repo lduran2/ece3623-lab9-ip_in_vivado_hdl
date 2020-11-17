@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Nov 17 15:21:49 2020" VIVADOVERSION="2019.1">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Nov 17 16:25:13 2020" VIVADOVERSION="2019.1">
 
   <SYSTEMINFO ARCH="zynq" BOARD="digilentinc.com:zybo:part0:1.0" DEVICE="7z010" NAME="led_test_system" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
@@ -164,7 +164,7 @@
   </EXTERNALINTERFACES>
 
   <MODULES>
-    <MODULE COREREVISION="9" FULLNAME="/led_controller_0" HWVERSION="1.0" INSTANCE="led_controller_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="led_controller" VLNV="xilinx.com:user:led_controller:1.0">
+    <MODULE COREREVISION="10" FULLNAME="/led_controller_0" HWVERSION="1.0" INSTANCE="led_controller_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="led_controller" VLNV="xilinx.com:user:led_controller:1.0">
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="" INTERFACE="S00_AXI" NAME="S00_AXI_reg" RANGE="4096" USAGE="register"/>

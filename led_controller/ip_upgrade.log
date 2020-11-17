@@ -1,6 +1,27 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Tue Nov 17 16:17:32 2020
+| Host         : DESKTOP-7QAIPHN running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'led_test_system_led_controller_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of led_test_system_led_controller_0_0 (xilinx.com:user:led_controller:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
 | Date         : Tue Nov 17 15:19:33 2020
 | Host         : DESKTOP-7QAIPHN running 64-bit major release  (build 9200)
 | Command      : upgrade_ip

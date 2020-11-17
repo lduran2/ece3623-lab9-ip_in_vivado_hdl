@@ -2,10 +2,10 @@
 <Root MajorVersion="0" MinorVersion="37">
   <CompositeFile CompositeFileTopName="led_test_system" CanBeSetAsTop="false" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1605644509"/>
-    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1605644509"/>
-    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1605644509"/>
-    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1605644509"/>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1605648313"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1605648313"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1605648313"/>
+    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1605648313"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip\led_test_system_led_controller_0_0\led_test_system_led_controller_0_0.xci" Type="IP">
         <Instance HierarchyPath="led_controller_0"/>

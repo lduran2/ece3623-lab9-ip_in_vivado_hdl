@@ -17,8 +17,8 @@
   "C:/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_VCOMP.vhd" \
 -endlib
 -makelib ies_lib/xil_defaultlib \
-  "../../../bd/led_test_system/ipshared/7066/hdl/led_controller_v1_0_S00_AXI.v" \
-  "../../../bd/led_test_system/ipshared/7066/hdl/led_controller_v1_0.v" \
+  "../../../bd/led_test_system/ipshared/629c/hdl/led_controller_v1_0_S00_AXI.v" \
+  "../../../bd/led_test_system/ipshared/629c/hdl/led_controller_v1_0.v" \
   "../../../bd/led_test_system/ip/led_test_system_led_controller_0_0/sim/led_test_system_led_controller_0_0.v" \
 -endlib
 -makelib ies_lib/axi_infrastructure_v1_1_0 \

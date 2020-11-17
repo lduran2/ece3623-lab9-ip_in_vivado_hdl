@@ -1,7 +1,7 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
--- Date        : Tue Nov 17 15:20:53 2020
+-- Date        : Tue Nov 17 16:19:23 2020
 -- Host        : DESKTOP-7QAIPHN running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
 --               C:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_led_controller_0_0/led_test_system_led_controller_0_0_sim_netlist.vhdl
@@ -16,11 +16,11 @@ library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
 entity led_test_system_led_controller_0_0_led_controller_v1_0_S00_AXI is
   port (
-    LEDs_out : out STD_LOGIC_VECTOR ( 3 downto 0 );
     S_AXI_AWREADY : out STD_LOGIC;
     S_AXI_WREADY : out STD_LOGIC;
     S_AXI_ARREADY : out STD_LOGIC;
     s00_axi_rdata : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    LEDs_out : out STD_LOGIC_VECTOR ( 3 downto 0 );
     s00_axi_rvalid : out STD_LOGIC;
     s00_axi_bvalid : out STD_LOGIC;
     s00_axi_aclk : in STD_LOGIC;
@@ -40,11 +40,143 @@ entity led_test_system_led_controller_0_0_led_controller_v1_0_S00_AXI is
 end led_test_system_led_controller_0_0_led_controller_v1_0_S00_AXI;
 
 architecture STRUCTURE of led_test_system_led_controller_0_0_led_controller_v1_0_S00_AXI is
+  signal \LEDs_out[0]_INST_0_i_10_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_11_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_12_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_13_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_14_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_15_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_16_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_17_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_18_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_19_n_0\ : STD_LOGIC;
   signal \LEDs_out[0]_INST_0_i_1_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_20_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_21_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_22_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_23_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_24_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_25_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_26_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_27_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_28_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_29_n_0\ : STD_LOGIC;
   signal \LEDs_out[0]_INST_0_i_2_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_30_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_31_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_32_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_33_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_34_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_35_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_36_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_37_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_38_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_39_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_3_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_40_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_41_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_42_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_43_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_44_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_45_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_46_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_47_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_48_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_49_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_4_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_50_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_51_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_52_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_53_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_54_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_55_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_56_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_57_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_58_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_59_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_5_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_60_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_61_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_62_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_6_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_7_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_8_n_0\ : STD_LOGIC;
+  signal \LEDs_out[0]_INST_0_i_9_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_10_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_11_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_12_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_13_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_14_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_15_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_16_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_17_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_18_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_19_n_0\ : STD_LOGIC;
   signal \LEDs_out[1]_INST_0_i_1_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_20_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_21_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_22_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_23_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_24_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_25_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_26_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_27_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_28_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_29_n_0\ : STD_LOGIC;
   signal \LEDs_out[1]_INST_0_i_2_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_30_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_31_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_32_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_33_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_34_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_35_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_36_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_37_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_38_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_39_n_0\ : STD_LOGIC;
   signal \LEDs_out[1]_INST_0_i_3_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_40_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_41_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_4_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_5_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_6_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_7_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_8_n_0\ : STD_LOGIC;
+  signal \LEDs_out[1]_INST_0_i_9_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_10_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_11_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_12_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_13_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_14_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_15_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_16_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_17_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_18_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_19_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_1_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_20_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_21_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_22_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_23_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_24_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_25_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_26_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_27_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_28_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_29_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_2_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_30_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_31_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_32_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_33_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_34_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_3_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_4_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_5_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_6_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_7_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_8_n_0\ : STD_LOGIC;
+  signal \LEDs_out[2]_INST_0_i_9_n_0\ : STD_LOGIC;
   signal \LEDs_out[3]_INST_0_i_10_n_0\ : STD_LOGIC;
   signal \LEDs_out[3]_INST_0_i_11_n_0\ : STD_LOGIC;
   signal \LEDs_out[3]_INST_0_i_12_n_0\ : STD_LOGIC;
@@ -60,11 +192,6 @@ architecture STRUCTURE of led_test_system_led_controller_0_0_led_controller_v1_0
   signal \LEDs_out[3]_INST_0_i_21_n_0\ : STD_LOGIC;
   signal \LEDs_out[3]_INST_0_i_22_n_0\ : STD_LOGIC;
   signal \LEDs_out[3]_INST_0_i_23_n_0\ : STD_LOGIC;
-  signal \LEDs_out[3]_INST_0_i_24_n_0\ : STD_LOGIC;
-  signal \LEDs_out[3]_INST_0_i_25_n_0\ : STD_LOGIC;
-  signal \LEDs_out[3]_INST_0_i_26_n_0\ : STD_LOGIC;
-  signal \LEDs_out[3]_INST_0_i_27_n_0\ : STD_LOGIC;
-  signal \LEDs_out[3]_INST_0_i_28_n_0\ : STD_LOGIC;
   signal \LEDs_out[3]_INST_0_i_2_n_0\ : STD_LOGIC;
   signal \LEDs_out[3]_INST_0_i_3_n_0\ : STD_LOGIC;
   signal \LEDs_out[3]_INST_0_i_4_n_0\ : STD_LOGIC;
@@ -144,262 +271,697 @@ architecture STRUCTURE of led_test_system_led_controller_0_0_led_controller_v1_0
   signal \slv_reg_rden__0\ : STD_LOGIC;
   signal \slv_reg_wren__0\ : STD_LOGIC;
   attribute SOFT_HLUTNM : string;
-  attribute SOFT_HLUTNM of \LEDs_out[0]_INST_0\ : label is "soft_lutpair3";
-  attribute SOFT_HLUTNM of \LEDs_out[1]_INST_0_i_2\ : label is "soft_lutpair6";
-  attribute SOFT_HLUTNM of \LEDs_out[1]_INST_0_i_3\ : label is "soft_lutpair3";
-  attribute SOFT_HLUTNM of \LEDs_out[2]_INST_0\ : label is "soft_lutpair8";
-  attribute SOFT_HLUTNM of \LEDs_out[3]_INST_0\ : label is "soft_lutpair8";
-  attribute SOFT_HLUTNM of \LEDs_out[3]_INST_0_i_1\ : label is "soft_lutpair7";
-  attribute SOFT_HLUTNM of \LEDs_out[3]_INST_0_i_12\ : label is "soft_lutpair1";
-  attribute SOFT_HLUTNM of \LEDs_out[3]_INST_0_i_14\ : label is "soft_lutpair0";
-  attribute SOFT_HLUTNM of \LEDs_out[3]_INST_0_i_17\ : label is "soft_lutpair1";
-  attribute SOFT_HLUTNM of \LEDs_out[3]_INST_0_i_20\ : label is "soft_lutpair2";
-  attribute SOFT_HLUTNM of \LEDs_out[3]_INST_0_i_21\ : label is "soft_lutpair2";
-  attribute SOFT_HLUTNM of \LEDs_out[3]_INST_0_i_22\ : label is "soft_lutpair0";
-  attribute SOFT_HLUTNM of \LEDs_out[3]_INST_0_i_24\ : label is "soft_lutpair4";
-  attribute SOFT_HLUTNM of \LEDs_out[3]_INST_0_i_27\ : label is "soft_lutpair10";
-  attribute SOFT_HLUTNM of \LEDs_out[3]_INST_0_i_28\ : label is "soft_lutpair10";
-  attribute SOFT_HLUTNM of \LEDs_out[3]_INST_0_i_6\ : label is "soft_lutpair6";
-  attribute SOFT_HLUTNM of \LEDs_out[3]_INST_0_i_7\ : label is "soft_lutpair7";
-  attribute SOFT_HLUTNM of \LEDs_out[3]_INST_0_i_9\ : label is "soft_lutpair4";
-  attribute SOFT_HLUTNM of \axi_araddr[2]_i_1\ : label is "soft_lutpair5";
-  attribute SOFT_HLUTNM of axi_arready_i_1 : label is "soft_lutpair5";
-  attribute SOFT_HLUTNM of axi_awready_i_2 : label is "soft_lutpair9";
-  attribute SOFT_HLUTNM of axi_wready_i_1 : label is "soft_lutpair9";
+  attribute SOFT_HLUTNM of \LEDs_out[0]_INST_0_i_40\ : label is "soft_lutpair3";
+  attribute SOFT_HLUTNM of \LEDs_out[0]_INST_0_i_59\ : label is "soft_lutpair2";
+  attribute SOFT_HLUTNM of \LEDs_out[1]_INST_0_i_31\ : label is "soft_lutpair5";
+  attribute SOFT_HLUTNM of \LEDs_out[1]_INST_0_i_33\ : label is "soft_lutpair1";
+  attribute SOFT_HLUTNM of \LEDs_out[2]_INST_0_i_24\ : label is "soft_lutpair2";
+  attribute SOFT_HLUTNM of \LEDs_out[2]_INST_0_i_25\ : label is "soft_lutpair6";
+  attribute SOFT_HLUTNM of \LEDs_out[2]_INST_0_i_32\ : label is "soft_lutpair4";
+  attribute SOFT_HLUTNM of \LEDs_out[2]_INST_0_i_33\ : label is "soft_lutpair6";
+  attribute SOFT_HLUTNM of \LEDs_out[2]_INST_0_i_34\ : label is "soft_lutpair3";
+  attribute SOFT_HLUTNM of \LEDs_out[3]_INST_0_i_10\ : label is "soft_lutpair9";
+  attribute SOFT_HLUTNM of \LEDs_out[3]_INST_0_i_11\ : label is "soft_lutpair9";
+  attribute SOFT_HLUTNM of \LEDs_out[3]_INST_0_i_16\ : label is "soft_lutpair0";
+  attribute SOFT_HLUTNM of \LEDs_out[3]_INST_0_i_19\ : label is "soft_lutpair0";
+  attribute SOFT_HLUTNM of \LEDs_out[3]_INST_0_i_21\ : label is "soft_lutpair1";
+  attribute SOFT_HLUTNM of \LEDs_out[3]_INST_0_i_22\ : label is "soft_lutpair4";
+  attribute SOFT_HLUTNM of \LEDs_out[3]_INST_0_i_23\ : label is "soft_lutpair5";
+  attribute SOFT_HLUTNM of \axi_araddr[3]_i_1\ : label is "soft_lutpair7";
+  attribute SOFT_HLUTNM of axi_arready_i_1 : label is "soft_lutpair7";
+  attribute SOFT_HLUTNM of axi_awready_i_2 : label is "soft_lutpair8";
+  attribute SOFT_HLUTNM of axi_wready_i_1 : label is "soft_lutpair8";
 begin
   S_AXI_ARREADY <= \^s_axi_arready\;
   S_AXI_AWREADY <= \^s_axi_awready\;
   S_AXI_WREADY <= \^s_axi_wready\;
   s00_axi_bvalid <= \^s00_axi_bvalid\;
   s00_axi_rvalid <= \^s00_axi_rvalid\;
-\LEDs_out[0]_INST_0\: unisim.vcomponents.LUT5
-    generic map(
-      INIT => X"69969669"
-    )
-        port map (
-      I0 => \slv_reg0_reg_n_0_[14]\,
-      I1 => \slv_reg0_reg_n_0_[12]\,
-      I2 => \LEDs_out[0]_INST_0_i_1_n_0\,
-      I3 => \slv_reg0_reg_n_0_[11]\,
-      I4 => \slv_reg0_reg_n_0_[13]\,
-      O => LEDs_out(0)
+\LEDs_out[0]_INST_0\: unisim.vcomponents.MUXF7
+     port map (
+      I0 => \LEDs_out[0]_INST_0_i_1_n_0\,
+      I1 => \LEDs_out[0]_INST_0_i_2_n_0\,
+      O => LEDs_out(0),
+      S => \slv_reg0_reg_n_0_[14]\
     );
 \LEDs_out[0]_INST_0_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"9669699669969669"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[10]\,
-      I1 => \slv_reg0_reg_n_0_[8]\,
-      I2 => \slv_reg0_reg_n_0_[6]\,
-      I3 => \LEDs_out[0]_INST_0_i_2_n_0\,
-      I4 => \slv_reg0_reg_n_0_[7]\,
-      I5 => \slv_reg0_reg_n_0_[9]\,
+      I0 => \LEDs_out[0]_INST_0_i_3_n_0\,
+      I1 => \LEDs_out[0]_INST_0_i_4_n_0\,
+      I2 => \slv_reg0_reg_n_0_[13]\,
+      I3 => \LEDs_out[0]_INST_0_i_5_n_0\,
+      I4 => \slv_reg0_reg_n_0_[12]\,
+      I5 => \LEDs_out[0]_INST_0_i_6_n_0\,
       O => \LEDs_out[0]_INST_0_i_1_n_0\
+    );
+\LEDs_out[0]_INST_0_i_10\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_25_n_0\,
+      I1 => \slv_reg0_reg_n_0_[9]\,
+      I2 => \LEDs_out[0]_INST_0_i_26_n_0\,
+      I3 => \slv_reg0_reg_n_0_[8]\,
+      I4 => \LEDs_out[0]_INST_0_i_27_n_0\,
+      O => \LEDs_out[0]_INST_0_i_10_n_0\
+    );
+\LEDs_out[0]_INST_0_i_11\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_28_n_0\,
+      I1 => \slv_reg0_reg_n_0_[9]\,
+      I2 => \LEDs_out[0]_INST_0_i_29_n_0\,
+      I3 => \slv_reg0_reg_n_0_[8]\,
+      I4 => \LEDs_out[0]_INST_0_i_30_n_0\,
+      O => \LEDs_out[0]_INST_0_i_11_n_0\
+    );
+\LEDs_out[0]_INST_0_i_12\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_31_n_0\,
+      I1 => \slv_reg0_reg_n_0_[9]\,
+      I2 => \LEDs_out[0]_INST_0_i_29_n_0\,
+      I3 => \slv_reg0_reg_n_0_[8]\,
+      I4 => \LEDs_out[0]_INST_0_i_30_n_0\,
+      O => \LEDs_out[0]_INST_0_i_12_n_0\
+    );
+\LEDs_out[0]_INST_0_i_13\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"AFA0CFCFAFA0C0C0"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_32_n_0\,
+      I1 => \LEDs_out[0]_INST_0_i_27_n_0\,
+      I2 => \slv_reg0_reg_n_0_[9]\,
+      I3 => \LEDs_out[0]_INST_0_i_29_n_0\,
+      I4 => \slv_reg0_reg_n_0_[8]\,
+      I5 => \LEDs_out[0]_INST_0_i_30_n_0\,
+      O => \LEDs_out[0]_INST_0_i_13_n_0\
+    );
+\LEDs_out[0]_INST_0_i_14\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"AFA0CFCFAFA0C0C0"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_28_n_0\,
+      I1 => \LEDs_out[0]_INST_0_i_30_n_0\,
+      I2 => \slv_reg0_reg_n_0_[9]\,
+      I3 => \LEDs_out[0]_INST_0_i_33_n_0\,
+      I4 => \slv_reg0_reg_n_0_[8]\,
+      I5 => \LEDs_out[0]_INST_0_i_34_n_0\,
+      O => \LEDs_out[0]_INST_0_i_14_n_0\
+    );
+\LEDs_out[0]_INST_0_i_15\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_31_n_0\,
+      I1 => \slv_reg0_reg_n_0_[9]\,
+      I2 => \LEDs_out[0]_INST_0_i_33_n_0\,
+      I3 => \slv_reg0_reg_n_0_[8]\,
+      I4 => \LEDs_out[0]_INST_0_i_34_n_0\,
+      O => \LEDs_out[0]_INST_0_i_15_n_0\
+    );
+\LEDs_out[0]_INST_0_i_16\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"AFA0CFCFAFA0C0C0"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_35_n_0\,
+      I1 => \LEDs_out[0]_INST_0_i_24_n_0\,
+      I2 => \slv_reg0_reg_n_0_[9]\,
+      I3 => \LEDs_out[0]_INST_0_i_26_n_0\,
+      I4 => \slv_reg0_reg_n_0_[8]\,
+      I5 => \LEDs_out[0]_INST_0_i_27_n_0\,
+      O => \LEDs_out[0]_INST_0_i_16_n_0\
+    );
+\LEDs_out[0]_INST_0_i_17\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"AFA0CFCFAFA0C0C0"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_31_n_0\,
+      I1 => \LEDs_out[0]_INST_0_i_34_n_0\,
+      I2 => \slv_reg0_reg_n_0_[9]\,
+      I3 => \LEDs_out[0]_INST_0_i_33_n_0\,
+      I4 => \slv_reg0_reg_n_0_[8]\,
+      I5 => \LEDs_out[0]_INST_0_i_36_n_0\,
+      O => \LEDs_out[0]_INST_0_i_17_n_0\
+    );
+\LEDs_out[0]_INST_0_i_18\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8BBB888"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_37_n_0\,
+      I1 => \slv_reg0_reg_n_0_[9]\,
+      I2 => \LEDs_out[0]_INST_0_i_38_n_0\,
+      I3 => \slv_reg0_reg_n_0_[8]\,
+      I4 => \LEDs_out[0]_INST_0_i_22_n_0\,
+      O => \LEDs_out[0]_INST_0_i_18_n_0\
+    );
+\LEDs_out[0]_INST_0_i_19\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_39_n_0\,
+      I1 => \slv_reg0_reg_n_0_[9]\,
+      I2 => \LEDs_out[0]_INST_0_i_23_n_0\,
+      I3 => \slv_reg0_reg_n_0_[8]\,
+      I4 => \LEDs_out[0]_INST_0_i_24_n_0\,
+      O => \LEDs_out[0]_INST_0_i_19_n_0\
     );
 \LEDs_out[0]_INST_0_i_2\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"6996966996696996"
+      INIT => X"AFA0CFCFAFA0C0C0"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_7_n_0\,
+      I1 => \LEDs_out[0]_INST_0_i_8_n_0\,
+      I2 => \slv_reg0_reg_n_0_[13]\,
+      I3 => \LEDs_out[0]_INST_0_i_5_n_0\,
+      I4 => \slv_reg0_reg_n_0_[12]\,
+      I5 => \LEDs_out[0]_INST_0_i_4_n_0\,
+      O => \LEDs_out[0]_INST_0_i_2_n_0\
+    );
+\LEDs_out[0]_INST_0_i_20\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_28_n_0\,
+      I1 => \slv_reg0_reg_n_0_[9]\,
+      I2 => \LEDs_out[0]_INST_0_i_26_n_0\,
+      I3 => \slv_reg0_reg_n_0_[8]\,
+      I4 => \LEDs_out[0]_INST_0_i_27_n_0\,
+      O => \LEDs_out[0]_INST_0_i_20_n_0\
+    );
+\LEDs_out[0]_INST_0_i_21\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"8AFF8A00FF00FF00"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \LEDs_out[0]_INST_0_i_40_n_0\,
+      I2 => \slv_reg0_reg_n_0_[4]\,
+      I3 => \slv_reg0_reg_n_0_[7]\,
+      I4 => \LEDs_out[3]_INST_0_i_13_n_0\,
+      I5 => \slv_reg0_reg_n_0_[6]\,
+      O => \LEDs_out[0]_INST_0_i_21_n_0\
+    );
+\LEDs_out[0]_INST_0_i_22\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_41_n_0\,
+      I1 => \slv_reg0_reg_n_0_[7]\,
+      I2 => \LEDs_out[0]_INST_0_i_42_n_0\,
+      I3 => \slv_reg0_reg_n_0_[6]\,
+      I4 => \LEDs_out[2]_INST_0_i_26_n_0\,
+      O => \LEDs_out[0]_INST_0_i_22_n_0\
+    );
+\LEDs_out[0]_INST_0_i_23\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_43_n_0\,
+      I1 => \slv_reg0_reg_n_0_[7]\,
+      I2 => \LEDs_out[0]_INST_0_i_44_n_0\,
+      I3 => \slv_reg0_reg_n_0_[6]\,
+      I4 => \LEDs_out[0]_INST_0_i_45_n_0\,
+      O => \LEDs_out[0]_INST_0_i_23_n_0\
+    );
+\LEDs_out[0]_INST_0_i_24\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_46_n_0\,
+      I1 => \slv_reg0_reg_n_0_[7]\,
+      I2 => \LEDs_out[0]_INST_0_i_44_n_0\,
+      I3 => \slv_reg0_reg_n_0_[6]\,
+      I4 => \LEDs_out[0]_INST_0_i_45_n_0\,
+      O => \LEDs_out[0]_INST_0_i_24_n_0\
+    );
+\LEDs_out[0]_INST_0_i_25\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_47_n_0\,
+      I1 => \slv_reg0_reg_n_0_[7]\,
+      I2 => \LEDs_out[0]_INST_0_i_48_n_0\,
+      I3 => \slv_reg0_reg_n_0_[6]\,
+      I4 => \LEDs_out[0]_INST_0_i_49_n_0\,
+      O => \LEDs_out[0]_INST_0_i_25_n_0\
+    );
+\LEDs_out[0]_INST_0_i_26\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_50_n_0\,
+      I1 => \slv_reg0_reg_n_0_[7]\,
+      I2 => \LEDs_out[0]_INST_0_i_48_n_0\,
+      I3 => \slv_reg0_reg_n_0_[6]\,
+      I4 => \LEDs_out[0]_INST_0_i_49_n_0\,
+      O => \LEDs_out[0]_INST_0_i_26_n_0\
+    );
+\LEDs_out[0]_INST_0_i_27\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_51_n_0\,
+      I1 => \slv_reg0_reg_n_0_[7]\,
+      I2 => \LEDs_out[0]_INST_0_i_48_n_0\,
+      I3 => \slv_reg0_reg_n_0_[6]\,
+      I4 => \LEDs_out[0]_INST_0_i_49_n_0\,
+      O => \LEDs_out[0]_INST_0_i_27_n_0\
+    );
+\LEDs_out[0]_INST_0_i_28\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"AFA0CFCFAFA0C0C0"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_52_n_0\,
+      I1 => \LEDs_out[0]_INST_0_i_45_n_0\,
+      I2 => \slv_reg0_reg_n_0_[7]\,
+      I3 => \LEDs_out[0]_INST_0_i_48_n_0\,
+      I4 => \slv_reg0_reg_n_0_[6]\,
+      I5 => \LEDs_out[0]_INST_0_i_49_n_0\,
+      O => \LEDs_out[0]_INST_0_i_28_n_0\
+    );
+\LEDs_out[0]_INST_0_i_29\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_50_n_0\,
+      I1 => \slv_reg0_reg_n_0_[7]\,
+      I2 => \LEDs_out[0]_INST_0_i_53_n_0\,
+      I3 => \slv_reg0_reg_n_0_[6]\,
+      I4 => \LEDs_out[0]_INST_0_i_54_n_0\,
+      O => \LEDs_out[0]_INST_0_i_29_n_0\
+    );
+\LEDs_out[0]_INST_0_i_3\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"AFA0CFCFAFA0C0C0"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_9_n_0\,
+      I1 => \LEDs_out[0]_INST_0_i_10_n_0\,
+      I2 => \slv_reg0_reg_n_0_[11]\,
+      I3 => \LEDs_out[0]_INST_0_i_11_n_0\,
+      I4 => \slv_reg0_reg_n_0_[10]\,
+      I5 => \LEDs_out[0]_INST_0_i_12_n_0\,
+      O => \LEDs_out[0]_INST_0_i_3_n_0\
+    );
+\LEDs_out[0]_INST_0_i_30\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_55_n_0\,
+      I1 => \slv_reg0_reg_n_0_[7]\,
+      I2 => \LEDs_out[0]_INST_0_i_53_n_0\,
+      I3 => \slv_reg0_reg_n_0_[6]\,
+      I4 => \LEDs_out[0]_INST_0_i_54_n_0\,
+      O => \LEDs_out[0]_INST_0_i_30_n_0\
+    );
+\LEDs_out[0]_INST_0_i_31\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"AFA0CFCFAFA0C0C0"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_47_n_0\,
+      I1 => \LEDs_out[0]_INST_0_i_49_n_0\,
+      I2 => \slv_reg0_reg_n_0_[7]\,
+      I3 => \LEDs_out[0]_INST_0_i_53_n_0\,
+      I4 => \slv_reg0_reg_n_0_[6]\,
+      I5 => \LEDs_out[0]_INST_0_i_54_n_0\,
+      O => \LEDs_out[0]_INST_0_i_31_n_0\
+    );
+\LEDs_out[0]_INST_0_i_32\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"AFA0CFCFAFA0C0C0"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_56_n_0\,
+      I1 => \LEDs_out[2]_INST_0_i_26_n_0\,
+      I2 => \slv_reg0_reg_n_0_[7]\,
+      I3 => \LEDs_out[0]_INST_0_i_44_n_0\,
+      I4 => \slv_reg0_reg_n_0_[6]\,
+      I5 => \LEDs_out[0]_INST_0_i_45_n_0\,
+      O => \LEDs_out[0]_INST_0_i_32_n_0\
+    );
+\LEDs_out[0]_INST_0_i_33\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"AFA0CFCFAFA0C0C0"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_50_n_0\,
+      I1 => \LEDs_out[0]_INST_0_i_54_n_0\,
+      I2 => \slv_reg0_reg_n_0_[7]\,
+      I3 => \LEDs_out[0]_INST_0_i_57_n_0\,
+      I4 => \slv_reg0_reg_n_0_[6]\,
+      I5 => \LEDs_out[0]_INST_0_i_58_n_0\,
+      O => \LEDs_out[0]_INST_0_i_33_n_0\
+    );
+\LEDs_out[0]_INST_0_i_34\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_55_n_0\,
+      I1 => \slv_reg0_reg_n_0_[7]\,
+      I2 => \LEDs_out[0]_INST_0_i_57_n_0\,
+      I3 => \slv_reg0_reg_n_0_[6]\,
+      I4 => \LEDs_out[0]_INST_0_i_58_n_0\,
+      O => \LEDs_out[0]_INST_0_i_34_n_0\
+    );
+\LEDs_out[0]_INST_0_i_35\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"DFD00F0FDFD00000"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \LEDs_out[0]_INST_0_i_59_n_0\,
+      I2 => \slv_reg0_reg_n_0_[7]\,
+      I3 => \LEDs_out[0]_INST_0_i_42_n_0\,
+      I4 => \slv_reg0_reg_n_0_[6]\,
+      I5 => \LEDs_out[2]_INST_0_i_26_n_0\,
+      O => \LEDs_out[0]_INST_0_i_35_n_0\
+    );
+\LEDs_out[0]_INST_0_i_36\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"AFA0CFCFAFA0C0C0"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_55_n_0\,
+      I1 => \LEDs_out[0]_INST_0_i_58_n_0\,
+      I2 => \slv_reg0_reg_n_0_[7]\,
+      I3 => \LEDs_out[0]_INST_0_i_57_n_0\,
+      I4 => \slv_reg0_reg_n_0_[6]\,
+      I5 => \LEDs_out[0]_INST_0_i_60_n_0\,
+      O => \LEDs_out[0]_INST_0_i_36_n_0\
+    );
+\LEDs_out[0]_INST_0_i_37\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"B8FFB8CC00CC00CC"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_52_n_0\,
+      I1 => \slv_reg0_reg_n_0_[8]\,
+      I2 => \LEDs_out[0]_INST_0_i_61_n_0\,
+      I3 => \slv_reg0_reg_n_0_[7]\,
+      I4 => \LEDs_out[3]_INST_0_i_13_n_0\,
+      I5 => \slv_reg0_reg_n_0_[6]\,
+      O => \LEDs_out[0]_INST_0_i_37_n_0\
+    );
+\LEDs_out[0]_INST_0_i_38\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_62_n_0\,
+      I1 => \slv_reg0_reg_n_0_[7]\,
+      I2 => \LEDs_out[0]_INST_0_i_42_n_0\,
+      I3 => \slv_reg0_reg_n_0_[6]\,
+      I4 => \LEDs_out[2]_INST_0_i_26_n_0\,
+      O => \LEDs_out[0]_INST_0_i_38_n_0\
+    );
+\LEDs_out[0]_INST_0_i_39\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_47_n_0\,
+      I1 => \slv_reg0_reg_n_0_[7]\,
+      I2 => \LEDs_out[0]_INST_0_i_44_n_0\,
+      I3 => \slv_reg0_reg_n_0_[6]\,
+      I4 => \LEDs_out[0]_INST_0_i_45_n_0\,
+      O => \LEDs_out[0]_INST_0_i_39_n_0\
+    );
+\LEDs_out[0]_INST_0_i_4\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_13_n_0\,
+      I1 => \slv_reg0_reg_n_0_[11]\,
+      I2 => \LEDs_out[0]_INST_0_i_14_n_0\,
+      I3 => \slv_reg0_reg_n_0_[10]\,
+      I4 => \LEDs_out[0]_INST_0_i_15_n_0\,
+      O => \LEDs_out[0]_INST_0_i_4_n_0\
+    );
+\LEDs_out[0]_INST_0_i_40\: unisim.vcomponents.LUT4
+    generic map(
+      INIT => X"5D00"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[2]\,
+      I1 => \slv_reg0_reg_n_0_[1]\,
+      I2 => slv_reg0(0),
+      I3 => \slv_reg0_reg_n_0_[3]\,
+      O => \LEDs_out[0]_INST_0_i_40_n_0\
+    );
+\LEDs_out[0]_INST_0_i_41\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"77F7FFFFFFFFFFFF"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[4]\,
+      I1 => \slv_reg0_reg_n_0_[2]\,
+      I2 => \slv_reg0_reg_n_0_[1]\,
+      I3 => slv_reg0(0),
+      I4 => \slv_reg0_reg_n_0_[3]\,
+      I5 => \slv_reg0_reg_n_0_[5]\,
+      O => \LEDs_out[0]_INST_0_i_41_n_0\
+    );
+\LEDs_out[0]_INST_0_i_42\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"F7FFFFFFFFFFFFFF"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[4]\,
+      I1 => \slv_reg0_reg_n_0_[2]\,
+      I2 => slv_reg0(0),
+      I3 => \slv_reg0_reg_n_0_[1]\,
+      I4 => \slv_reg0_reg_n_0_[3]\,
+      I5 => \slv_reg0_reg_n_0_[5]\,
+      O => \LEDs_out[0]_INST_0_i_42_n_0\
+    );
+\LEDs_out[0]_INST_0_i_43\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"EA2A222200000000"
     )
         port map (
       I0 => \slv_reg0_reg_n_0_[5]\,
       I1 => \slv_reg0_reg_n_0_[3]\,
-      I2 => \slv_reg0_reg_n_0_[2]\,
-      I3 => \slv_reg0_reg_n_0_[1]\,
-      I4 => slv_reg0(0),
+      I2 => \slv_reg0_reg_n_0_[1]\,
+      I3 => slv_reg0(0),
+      I4 => \slv_reg0_reg_n_0_[2]\,
       I5 => \slv_reg0_reg_n_0_[4]\,
-      O => \LEDs_out[0]_INST_0_i_2_n_0\
+      O => \LEDs_out[0]_INST_0_i_43_n_0\
     );
-\LEDs_out[1]_INST_0\: unisim.vcomponents.LUT6
+\LEDs_out[0]_INST_0_i_44\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"9C9C9C639C636363"
-    )
-        port map (
-      I0 => \LEDs_out[1]_INST_0_i_1_n_0\,
-      I1 => \LEDs_out[1]_INST_0_i_2_n_0\,
-      I2 => \slv_reg0_reg_n_0_[12]\,
-      I3 => \slv_reg0_reg_n_0_[14]\,
-      I4 => \LEDs_out[1]_INST_0_i_3_n_0\,
-      I5 => \slv_reg0_reg_n_0_[13]\,
-      O => LEDs_out(1)
-    );
-\LEDs_out[1]_INST_0_i_1\: unisim.vcomponents.LUT2
-    generic map(
-      INIT => X"6"
-    )
-        port map (
-      I0 => \slv_reg0_reg_n_0_[11]\,
-      I1 => \LEDs_out[0]_INST_0_i_1_n_0\,
-      O => \LEDs_out[1]_INST_0_i_1_n_0\
-    );
-\LEDs_out[1]_INST_0_i_2\: unisim.vcomponents.LUT3
-    generic map(
-      INIT => X"B4"
-    )
-        port map (
-      I0 => \LEDs_out[0]_INST_0_i_1_n_0\,
-      I1 => \slv_reg0_reg_n_0_[11]\,
-      I2 => \LEDs_out[3]_INST_0_i_4_n_0\,
-      O => \LEDs_out[1]_INST_0_i_2_n_0\
-    );
-\LEDs_out[1]_INST_0_i_3\: unisim.vcomponents.LUT3
-    generic map(
-      INIT => X"69"
-    )
-        port map (
-      I0 => \slv_reg0_reg_n_0_[12]\,
-      I1 => \LEDs_out[0]_INST_0_i_1_n_0\,
-      I2 => \slv_reg0_reg_n_0_[11]\,
-      O => \LEDs_out[1]_INST_0_i_3_n_0\
-    );
-\LEDs_out[2]_INST_0\: unisim.vcomponents.LUT3
-    generic map(
-      INIT => X"87"
-    )
-        port map (
-      I0 => \LEDs_out[3]_INST_0_i_1_n_0\,
-      I1 => \slv_reg0_reg_n_0_[14]\,
-      I2 => \LEDs_out[3]_INST_0_i_2_n_0\,
-      O => LEDs_out(2)
-    );
-\LEDs_out[3]_INST_0\: unisim.vcomponents.LUT4
-    generic map(
-      INIT => X"F2F0"
-    )
-        port map (
-      I0 => \LEDs_out[3]_INST_0_i_1_n_0\,
-      I1 => \LEDs_out[3]_INST_0_i_2_n_0\,
-      I2 => \LEDs_out[3]_INST_0_i_3_n_0\,
-      I3 => \slv_reg0_reg_n_0_[14]\,
-      O => LEDs_out(3)
-    );
-\LEDs_out[3]_INST_0_i_1\: unisim.vcomponents.LUT4
-    generic map(
-      INIT => X"1841"
-    )
-        port map (
-      I0 => \LEDs_out[1]_INST_0_i_2_n_0\,
-      I1 => \slv_reg0_reg_n_0_[12]\,
-      I2 => \LEDs_out[1]_INST_0_i_1_n_0\,
-      I3 => \slv_reg0_reg_n_0_[13]\,
-      O => \LEDs_out[3]_INST_0_i_1_n_0\
-    );
-\LEDs_out[3]_INST_0_i_10\: unisim.vcomponents.LUT6
-    generic map(
-      INIT => X"0004040888040408"
-    )
-        port map (
-      I0 => \slv_reg0_reg_n_0_[7]\,
-      I1 => \slv_reg0_reg_n_0_[8]\,
-      I2 => \LEDs_out[3]_INST_0_i_19_n_0\,
-      I3 => \slv_reg0_reg_n_0_[6]\,
-      I4 => \LEDs_out[0]_INST_0_i_2_n_0\,
-      I5 => \LEDs_out[3]_INST_0_i_20_n_0\,
-      O => \LEDs_out[3]_INST_0_i_10_n_0\
-    );
-\LEDs_out[3]_INST_0_i_11\: unisim.vcomponents.LUT6
-    generic map(
-      INIT => X"7FFF899F76608000"
+      INIT => X"C808000000000000"
     )
         port map (
       I0 => \slv_reg0_reg_n_0_[5]\,
-      I1 => \LEDs_out[3]_INST_0_i_21_n_0\,
-      I2 => \slv_reg0_reg_n_0_[6]\,
-      I3 => \slv_reg0_reg_n_0_[7]\,
-      I4 => \LEDs_out[3]_INST_0_i_20_n_0\,
-      I5 => \LEDs_out[3]_INST_0_i_19_n_0\,
-      O => \LEDs_out[3]_INST_0_i_11_n_0\
+      I1 => \slv_reg0_reg_n_0_[3]\,
+      I2 => \slv_reg0_reg_n_0_[1]\,
+      I3 => slv_reg0(0),
+      I4 => \slv_reg0_reg_n_0_[2]\,
+      I5 => \slv_reg0_reg_n_0_[4]\,
+      O => \LEDs_out[0]_INST_0_i_44_n_0\
     );
-\LEDs_out[3]_INST_0_i_12\: unisim.vcomponents.LUT5
+\LEDs_out[0]_INST_0_i_45\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"7D4DFF82"
+      INIT => X"4080000000000000"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[9]\,
-      I1 => \LEDs_out[3]_INST_0_i_9_n_0\,
-      I2 => \slv_reg0_reg_n_0_[8]\,
-      I3 => \LEDs_out[3]_INST_0_i_10_n_0\,
-      I4 => \LEDs_out[3]_INST_0_i_11_n_0\,
-      O => \LEDs_out[3]_INST_0_i_12_n_0\
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \slv_reg0_reg_n_0_[3]\,
+      I2 => \slv_reg0_reg_n_0_[1]\,
+      I3 => slv_reg0(0),
+      I4 => \slv_reg0_reg_n_0_[2]\,
+      I5 => \slv_reg0_reg_n_0_[4]\,
+      O => \LEDs_out[0]_INST_0_i_45_n_0\
     );
-\LEDs_out[3]_INST_0_i_13\: unisim.vcomponents.LUT6
+\LEDs_out[0]_INST_0_i_46\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"BFFBFBBFAAAAAAAA"
+      INIT => X"4080888800000000"
     )
         port map (
-      I0 => \LEDs_out[3]_INST_0_i_10_n_0\,
-      I1 => \slv_reg0_reg_n_0_[8]\,
-      I2 => \slv_reg0_reg_n_0_[6]\,
-      I3 => \LEDs_out[0]_INST_0_i_2_n_0\,
-      I4 => \slv_reg0_reg_n_0_[7]\,
-      I5 => \LEDs_out[3]_INST_0_i_11_n_0\,
-      O => \LEDs_out[3]_INST_0_i_13_n_0\
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \slv_reg0_reg_n_0_[3]\,
+      I2 => \slv_reg0_reg_n_0_[1]\,
+      I3 => slv_reg0(0),
+      I4 => \slv_reg0_reg_n_0_[2]\,
+      I5 => \slv_reg0_reg_n_0_[4]\,
+      O => \LEDs_out[0]_INST_0_i_46_n_0\
     );
-\LEDs_out[3]_INST_0_i_14\: unisim.vcomponents.LUT5
+\LEDs_out[0]_INST_0_i_47\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"96696996"
+      INIT => X"40808888AAAAAAAA"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[9]\,
-      I1 => \slv_reg0_reg_n_0_[7]\,
-      I2 => \LEDs_out[0]_INST_0_i_2_n_0\,
-      I3 => \slv_reg0_reg_n_0_[6]\,
-      I4 => \slv_reg0_reg_n_0_[8]\,
-      O => \LEDs_out[3]_INST_0_i_14_n_0\
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \slv_reg0_reg_n_0_[3]\,
+      I2 => \slv_reg0_reg_n_0_[1]\,
+      I3 => slv_reg0(0),
+      I4 => \slv_reg0_reg_n_0_[2]\,
+      I5 => \slv_reg0_reg_n_0_[4]\,
+      O => \LEDs_out[0]_INST_0_i_47_n_0\
     );
-\LEDs_out[3]_INST_0_i_15\: unisim.vcomponents.LUT5
+\LEDs_out[0]_INST_0_i_48\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"10EFEF10"
+      INIT => X"C7F737F7FFFFFFFF"
     )
         port map (
-      I0 => \LEDs_out[3]_INST_0_i_22_n_0\,
-      I1 => \LEDs_out[3]_INST_0_i_11_n_0\,
-      I2 => \slv_reg0_reg_n_0_[9]\,
-      I3 => \LEDs_out[3]_INST_0_i_10_n_0\,
-      I4 => \LEDs_out[3]_INST_0_i_23_n_0\,
-      O => \LEDs_out[3]_INST_0_i_15_n_0\
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \slv_reg0_reg_n_0_[2]\,
+      I3 => \slv_reg0_reg_n_0_[1]\,
+      I4 => slv_reg0(0),
+      I5 => \slv_reg0_reg_n_0_[3]\,
+      O => \LEDs_out[0]_INST_0_i_48_n_0\
     );
-\LEDs_out[3]_INST_0_i_16\: unisim.vcomponents.LUT6
+\LEDs_out[0]_INST_0_i_49\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"8801058801020A01"
+      INIT => X"4F7FBF7FFFFFFFFF"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[10]\,
-      I1 => \LEDs_out[3]_INST_0_i_11_n_0\,
-      I2 => \LEDs_out[3]_INST_0_i_10_n_0\,
-      I3 => \slv_reg0_reg_n_0_[8]\,
-      I4 => \LEDs_out[3]_INST_0_i_9_n_0\,
-      I5 => \slv_reg0_reg_n_0_[9]\,
-      O => \LEDs_out[3]_INST_0_i_16_n_0\
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \slv_reg0_reg_n_0_[2]\,
+      I3 => \slv_reg0_reg_n_0_[1]\,
+      I4 => slv_reg0(0),
+      I5 => \slv_reg0_reg_n_0_[3]\,
+      O => \LEDs_out[0]_INST_0_i_49_n_0\
     );
-\LEDs_out[3]_INST_0_i_17\: unisim.vcomponents.LUT5
+\LEDs_out[0]_INST_0_i_5\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"00001A21"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[9]\,
-      I1 => \LEDs_out[3]_INST_0_i_11_n_0\,
-      I2 => \LEDs_out[3]_INST_0_i_9_n_0\,
-      I3 => \slv_reg0_reg_n_0_[8]\,
-      I4 => \LEDs_out[3]_INST_0_i_10_n_0\,
-      O => \LEDs_out[3]_INST_0_i_17_n_0\
+      I0 => \LEDs_out[0]_INST_0_i_16_n_0\,
+      I1 => \LEDs_out[0]_INST_0_i_12_n_0\,
+      I2 => \slv_reg0_reg_n_0_[11]\,
+      I3 => \LEDs_out[0]_INST_0_i_14_n_0\,
+      I4 => \slv_reg0_reg_n_0_[10]\,
+      I5 => \LEDs_out[0]_INST_0_i_15_n_0\,
+      O => \LEDs_out[0]_INST_0_i_5_n_0\
     );
-\LEDs_out[3]_INST_0_i_18\: unisim.vcomponents.LUT6
+\LEDs_out[0]_INST_0_i_50\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FF00FFFF1000FF10"
+      INIT => X"C5D515D5DDDDDDDD"
     )
         port map (
-      I0 => \LEDs_out[3]_INST_0_i_22_n_0\,
-      I1 => \LEDs_out[3]_INST_0_i_11_n_0\,
-      I2 => \slv_reg0_reg_n_0_[9]\,
-      I3 => \LEDs_out[3]_INST_0_i_24_n_0\,
-      I4 => \LEDs_out[3]_INST_0_i_25_n_0\,
-      I5 => \LEDs_out[3]_INST_0_i_10_n_0\,
-      O => \LEDs_out[3]_INST_0_i_18_n_0\
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \slv_reg0_reg_n_0_[2]\,
+      I3 => \slv_reg0_reg_n_0_[1]\,
+      I4 => slv_reg0(0),
+      I5 => \slv_reg0_reg_n_0_[3]\,
+      O => \LEDs_out[0]_INST_0_i_50_n_0\
     );
-\LEDs_out[3]_INST_0_i_19\: unisim.vcomponents.LUT6
+\LEDs_out[0]_INST_0_i_51\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"7EE8E881E8818117"
+      INIT => X"4F7FBF7F77777777"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \slv_reg0_reg_n_0_[2]\,
+      I3 => \slv_reg0_reg_n_0_[1]\,
+      I4 => slv_reg0(0),
+      I5 => \slv_reg0_reg_n_0_[3]\,
+      O => \LEDs_out[0]_INST_0_i_51_n_0\
+    );
+\LEDs_out[0]_INST_0_i_52\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"8088AAAAFFFFFFFF"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[4]\,
+      I1 => \slv_reg0_reg_n_0_[2]\,
+      I2 => slv_reg0(0),
+      I3 => \slv_reg0_reg_n_0_[1]\,
+      I4 => \slv_reg0_reg_n_0_[3]\,
+      I5 => \slv_reg0_reg_n_0_[5]\,
+      O => \LEDs_out[0]_INST_0_i_52_n_0\
+    );
+\LEDs_out[0]_INST_0_i_53\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"CFC838C808080808"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \slv_reg0_reg_n_0_[3]\,
+      I3 => \slv_reg0_reg_n_0_[1]\,
+      I4 => slv_reg0(0),
+      I5 => \slv_reg0_reg_n_0_[2]\,
+      O => \LEDs_out[0]_INST_0_i_53_n_0\
+    );
+\LEDs_out[0]_INST_0_i_54\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"4F40B04080808080"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \slv_reg0_reg_n_0_[3]\,
+      I3 => \slv_reg0_reg_n_0_[1]\,
+      I4 => slv_reg0(0),
+      I5 => \slv_reg0_reg_n_0_[2]\,
+      O => \LEDs_out[0]_INST_0_i_54_n_0\
+    );
+\LEDs_out[0]_INST_0_i_55\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"4762B262A2A2A2A2"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \slv_reg0_reg_n_0_[3]\,
+      I3 => \slv_reg0_reg_n_0_[1]\,
+      I4 => slv_reg0(0),
+      I5 => \slv_reg0_reg_n_0_[2]\,
+      O => \LEDs_out[0]_INST_0_i_55_n_0\
+    );
+\LEDs_out[0]_INST_0_i_56\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"77F7555500000000"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[4]\,
+      I1 => \slv_reg0_reg_n_0_[2]\,
+      I2 => \slv_reg0_reg_n_0_[1]\,
+      I3 => slv_reg0(0),
+      I4 => \slv_reg0_reg_n_0_[3]\,
+      I5 => \slv_reg0_reg_n_0_[5]\,
+      O => \LEDs_out[0]_INST_0_i_56_n_0\
+    );
+\LEDs_out[0]_INST_0_i_57\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"CF08CD1D381DCD1D"
     )
         port map (
       I0 => \slv_reg0_reg_n_0_[5]\,
@@ -408,206 +970,1333 @@ begin
       I3 => \slv_reg0_reg_n_0_[2]\,
       I4 => \slv_reg0_reg_n_0_[1]\,
       I5 => slv_reg0(0),
-      O => \LEDs_out[3]_INST_0_i_19_n_0\
+      O => \LEDs_out[0]_INST_0_i_57_n_0\
     );
-\LEDs_out[3]_INST_0_i_2\: unisim.vcomponents.LUT6
+\LEDs_out[0]_INST_0_i_58\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"CD7CDFFD32832002"
+      INIT => X"4F8047B7B0B747B7"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[13]\,
-      I1 => \LEDs_out[3]_INST_0_i_4_n_0\,
-      I2 => \slv_reg0_reg_n_0_[11]\,
-      I3 => \LEDs_out[0]_INST_0_i_1_n_0\,
-      I4 => \slv_reg0_reg_n_0_[12]\,
-      I5 => \LEDs_out[3]_INST_0_i_5_n_0\,
-      O => \LEDs_out[3]_INST_0_i_2_n_0\
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \slv_reg0_reg_n_0_[3]\,
+      I3 => \slv_reg0_reg_n_0_[2]\,
+      I4 => \slv_reg0_reg_n_0_[1]\,
+      I5 => slv_reg0(0),
+      O => \LEDs_out[0]_INST_0_i_58_n_0\
     );
-\LEDs_out[3]_INST_0_i_20\: unisim.vcomponents.LUT5
+\LEDs_out[0]_INST_0_i_59\: unisim.vcomponents.LUT5
     generic map(
-      INIT => X"177E7EE8"
+      INIT => X"F7550000"
     )
         port map (
-      I0 => slv_reg0(0),
+      I0 => \slv_reg0_reg_n_0_[3]\,
       I1 => \slv_reg0_reg_n_0_[1]\,
-      I2 => \slv_reg0_reg_n_0_[2]\,
-      I3 => \slv_reg0_reg_n_0_[3]\,
+      I2 => slv_reg0(0),
+      I3 => \slv_reg0_reg_n_0_[2]\,
       I4 => \slv_reg0_reg_n_0_[4]\,
-      O => \LEDs_out[3]_INST_0_i_20_n_0\
+      O => \LEDs_out[0]_INST_0_i_59_n_0\
     );
-\LEDs_out[3]_INST_0_i_21\: unisim.vcomponents.LUT5
+\LEDs_out[0]_INST_0_i_6\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"96696996"
+      INIT => X"AFA0CFCFAFA0C0C0"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_13_n_0\,
+      I1 => \LEDs_out[0]_INST_0_i_15_n_0\,
+      I2 => \slv_reg0_reg_n_0_[11]\,
+      I3 => \LEDs_out[0]_INST_0_i_14_n_0\,
+      I4 => \slv_reg0_reg_n_0_[10]\,
+      I5 => \LEDs_out[0]_INST_0_i_17_n_0\,
+      O => \LEDs_out[0]_INST_0_i_6_n_0\
+    );
+\LEDs_out[0]_INST_0_i_60\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"4F8047B7B0B747B6"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \slv_reg0_reg_n_0_[3]\,
+      I3 => \slv_reg0_reg_n_0_[2]\,
+      I4 => \slv_reg0_reg_n_0_[1]\,
+      I5 => slv_reg0(0),
+      O => \LEDs_out[0]_INST_0_i_60_n_0\
+    );
+\LEDs_out[0]_INST_0_i_61\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"0080000000000000"
     )
         port map (
       I0 => \slv_reg0_reg_n_0_[4]\,
-      I1 => slv_reg0(0),
+      I1 => \slv_reg0_reg_n_0_[2]\,
       I2 => \slv_reg0_reg_n_0_[1]\,
-      I3 => \slv_reg0_reg_n_0_[2]\,
+      I3 => slv_reg0(0),
       I4 => \slv_reg0_reg_n_0_[3]\,
-      O => \LEDs_out[3]_INST_0_i_21_n_0\
-    );
-\LEDs_out[3]_INST_0_i_22\: unisim.vcomponents.LUT4
-    generic map(
-      INIT => X"9669"
-    )
-        port map (
-      I0 => \slv_reg0_reg_n_0_[8]\,
-      I1 => \slv_reg0_reg_n_0_[6]\,
-      I2 => \LEDs_out[0]_INST_0_i_2_n_0\,
-      I3 => \slv_reg0_reg_n_0_[7]\,
-      O => \LEDs_out[3]_INST_0_i_22_n_0\
-    );
-\LEDs_out[3]_INST_0_i_23\: unisim.vcomponents.LUT6
-    generic map(
-      INIT => X"004B4B0F0F4B4B0F"
-    )
-        port map (
-      I0 => \LEDs_out[3]_INST_0_i_19_n_0\,
-      I1 => \slv_reg0_reg_n_0_[7]\,
-      I2 => \LEDs_out[3]_INST_0_i_26_n_0\,
-      I3 => \slv_reg0_reg_n_0_[6]\,
-      I4 => \LEDs_out[0]_INST_0_i_2_n_0\,
-      I5 => \LEDs_out[3]_INST_0_i_20_n_0\,
-      O => \LEDs_out[3]_INST_0_i_23_n_0\
-    );
-\LEDs_out[3]_INST_0_i_24\: unisim.vcomponents.LUT4
-    generic map(
-      INIT => X"0028"
-    )
-        port map (
-      I0 => \slv_reg0_reg_n_0_[7]\,
-      I1 => \slv_reg0_reg_n_0_[6]\,
-      I2 => \LEDs_out[0]_INST_0_i_2_n_0\,
-      I3 => \LEDs_out[3]_INST_0_i_19_n_0\,
-      O => \LEDs_out[3]_INST_0_i_24_n_0\
-    );
-\LEDs_out[3]_INST_0_i_25\: unisim.vcomponents.LUT6
-    generic map(
-      INIT => X"70F11070F1F770F1"
-    )
-        port map (
-      I0 => \slv_reg0_reg_n_0_[6]\,
-      I1 => \slv_reg0_reg_n_0_[4]\,
-      I2 => \LEDs_out[3]_INST_0_i_27_n_0\,
-      I3 => \slv_reg0_reg_n_0_[3]\,
-      I4 => \LEDs_out[3]_INST_0_i_28_n_0\,
       I5 => \slv_reg0_reg_n_0_[5]\,
-      O => \LEDs_out[3]_INST_0_i_25_n_0\
+      O => \LEDs_out[0]_INST_0_i_61_n_0\
     );
-\LEDs_out[3]_INST_0_i_26\: unisim.vcomponents.LUT6
+\LEDs_out[0]_INST_0_i_62\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FEE8E880E8808000"
+      INIT => X"D5DDFFFFFFFFFFFF"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[4]\,
+      I1 => \slv_reg0_reg_n_0_[2]\,
+      I2 => slv_reg0(0),
+      I3 => \slv_reg0_reg_n_0_[1]\,
+      I4 => \slv_reg0_reg_n_0_[3]\,
+      I5 => \slv_reg0_reg_n_0_[5]\,
+      O => \LEDs_out[0]_INST_0_i_62_n_0\
+    );
+\LEDs_out[0]_INST_0_i_7\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"AFA0CFCFAFA0C0C0"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_18_n_0\,
+      I1 => \LEDs_out[0]_INST_0_i_19_n_0\,
+      I2 => \slv_reg0_reg_n_0_[11]\,
+      I3 => \LEDs_out[0]_INST_0_i_20_n_0\,
+      I4 => \slv_reg0_reg_n_0_[10]\,
+      I5 => \LEDs_out[0]_INST_0_i_10_n_0\,
+      O => \LEDs_out[0]_INST_0_i_7_n_0\
+    );
+\LEDs_out[0]_INST_0_i_8\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_13_n_0\,
+      I1 => \slv_reg0_reg_n_0_[11]\,
+      I2 => \LEDs_out[0]_INST_0_i_11_n_0\,
+      I3 => \slv_reg0_reg_n_0_[10]\,
+      I4 => \LEDs_out[0]_INST_0_i_12_n_0\,
+      O => \LEDs_out[0]_INST_0_i_8_n_0\
+    );
+\LEDs_out[0]_INST_0_i_9\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"AFA0CFCFAFA0C0C0"
+    )
+        port map (
+      I0 => \LEDs_out[0]_INST_0_i_21_n_0\,
+      I1 => \LEDs_out[0]_INST_0_i_22_n_0\,
+      I2 => \slv_reg0_reg_n_0_[9]\,
+      I3 => \LEDs_out[0]_INST_0_i_23_n_0\,
+      I4 => \slv_reg0_reg_n_0_[8]\,
+      I5 => \LEDs_out[0]_INST_0_i_24_n_0\,
+      O => \LEDs_out[0]_INST_0_i_9_n_0\
+    );
+\LEDs_out[1]_INST_0\: unisim.vcomponents.MUXF7
+     port map (
+      I0 => \LEDs_out[1]_INST_0_i_1_n_0\,
+      I1 => \LEDs_out[1]_INST_0_i_2_n_0\,
+      O => LEDs_out(1),
+      S => \slv_reg0_reg_n_0_[14]\
+    );
+\LEDs_out[1]_INST_0_i_1\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_3_n_0\,
+      I1 => \slv_reg0_reg_n_0_[13]\,
+      I2 => \LEDs_out[1]_INST_0_i_4_n_0\,
+      I3 => \slv_reg0_reg_n_0_[12]\,
+      I4 => \LEDs_out[1]_INST_0_i_5_n_0\,
+      O => \LEDs_out[1]_INST_0_i_1_n_0\
+    );
+\LEDs_out[1]_INST_0_i_10\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_23_n_0\,
+      I1 => \slv_reg0_reg_n_0_[9]\,
+      I2 => \LEDs_out[1]_INST_0_i_21_n_0\,
+      I3 => \slv_reg0_reg_n_0_[8]\,
+      I4 => \LEDs_out[1]_INST_0_i_22_n_0\,
+      O => \LEDs_out[1]_INST_0_i_10_n_0\
+    );
+\LEDs_out[1]_INST_0_i_11\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"AFA0CFCFAFA0C0C0"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_24_n_0\,
+      I1 => \LEDs_out[1]_INST_0_i_19_n_0\,
+      I2 => \slv_reg0_reg_n_0_[9]\,
+      I3 => \LEDs_out[1]_INST_0_i_21_n_0\,
+      I4 => \slv_reg0_reg_n_0_[8]\,
+      I5 => \LEDs_out[1]_INST_0_i_22_n_0\,
+      O => \LEDs_out[1]_INST_0_i_11_n_0\
+    );
+\LEDs_out[1]_INST_0_i_12\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"AFA0CFCFAFA0C0C0"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_20_n_0\,
+      I1 => \LEDs_out[1]_INST_0_i_22_n_0\,
+      I2 => \slv_reg0_reg_n_0_[9]\,
+      I3 => \LEDs_out[1]_INST_0_i_25_n_0\,
+      I4 => \slv_reg0_reg_n_0_[8]\,
+      I5 => \LEDs_out[1]_INST_0_i_26_n_0\,
+      O => \LEDs_out[1]_INST_0_i_12_n_0\
+    );
+\LEDs_out[1]_INST_0_i_13\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_23_n_0\,
+      I1 => \slv_reg0_reg_n_0_[9]\,
+      I2 => \LEDs_out[1]_INST_0_i_25_n_0\,
+      I3 => \slv_reg0_reg_n_0_[8]\,
+      I4 => \LEDs_out[1]_INST_0_i_26_n_0\,
+      O => \LEDs_out[1]_INST_0_i_13_n_0\
+    );
+\LEDs_out[1]_INST_0_i_14\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_27_n_0\,
+      I1 => \slv_reg0_reg_n_0_[9]\,
+      I2 => \LEDs_out[1]_INST_0_i_21_n_0\,
+      I3 => \slv_reg0_reg_n_0_[8]\,
+      I4 => \LEDs_out[1]_INST_0_i_22_n_0\,
+      O => \LEDs_out[1]_INST_0_i_14_n_0\
+    );
+\LEDs_out[1]_INST_0_i_15\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"AFA0CFCFAFA0C0C0"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_28_n_0\,
+      I1 => \LEDs_out[2]_INST_0_i_14_n_0\,
+      I2 => \slv_reg0_reg_n_0_[9]\,
+      I3 => \LEDs_out[1]_INST_0_i_18_n_0\,
+      I4 => \slv_reg0_reg_n_0_[8]\,
+      I5 => \LEDs_out[1]_INST_0_i_19_n_0\,
+      O => \LEDs_out[1]_INST_0_i_15_n_0\
+    );
+\LEDs_out[1]_INST_0_i_16\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_29_n_0\,
+      I1 => \slv_reg0_reg_n_0_[9]\,
+      I2 => \LEDs_out[1]_INST_0_i_18_n_0\,
+      I3 => \slv_reg0_reg_n_0_[8]\,
+      I4 => \LEDs_out[1]_INST_0_i_19_n_0\,
+      O => \LEDs_out[1]_INST_0_i_16_n_0\
+    );
+\LEDs_out[1]_INST_0_i_17\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"A2AA0000FFFFFFFF"
     )
         port map (
       I0 => \slv_reg0_reg_n_0_[5]\,
       I1 => \slv_reg0_reg_n_0_[3]\,
+      I2 => \LEDs_out[1]_INST_0_i_30_n_0\,
+      I3 => \slv_reg0_reg_n_0_[2]\,
+      I4 => \slv_reg0_reg_n_0_[4]\,
+      I5 => \slv_reg0_reg_n_0_[6]\,
+      O => \LEDs_out[1]_INST_0_i_17_n_0\
+    );
+\LEDs_out[1]_INST_0_i_18\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"8F80FFFF8F800000"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_31_n_0\,
+      I1 => \slv_reg0_reg_n_0_[5]\,
+      I2 => \slv_reg0_reg_n_0_[7]\,
+      I3 => \LEDs_out[3]_INST_0_i_21_n_0\,
+      I4 => \slv_reg0_reg_n_0_[6]\,
+      I5 => \LEDs_out[3]_INST_0_i_13_n_0\,
+      O => \LEDs_out[1]_INST_0_i_18_n_0\
+    );
+\LEDs_out[1]_INST_0_i_19\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_32_n_0\,
+      I1 => \slv_reg0_reg_n_0_[7]\,
+      I2 => \LEDs_out[3]_INST_0_i_21_n_0\,
+      I3 => \slv_reg0_reg_n_0_[6]\,
+      I4 => \LEDs_out[3]_INST_0_i_13_n_0\,
+      O => \LEDs_out[1]_INST_0_i_19_n_0\
+    );
+\LEDs_out[1]_INST_0_i_2\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"AFA0CFCFAFA0C0C0"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_6_n_0\,
+      I1 => \LEDs_out[1]_INST_0_i_7_n_0\,
+      I2 => \slv_reg0_reg_n_0_[13]\,
+      I3 => \LEDs_out[1]_INST_0_i_4_n_0\,
+      I4 => \slv_reg0_reg_n_0_[12]\,
+      I5 => \LEDs_out[1]_INST_0_i_5_n_0\,
+      O => \LEDs_out[1]_INST_0_i_2_n_0\
+    );
+\LEDs_out[1]_INST_0_i_20\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"AFA0CFCFAFA0C0C0"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_33_n_0\,
+      I1 => \LEDs_out[3]_INST_0_i_13_n_0\,
+      I2 => \slv_reg0_reg_n_0_[7]\,
+      I3 => \LEDs_out[1]_INST_0_i_34_n_0\,
+      I4 => \slv_reg0_reg_n_0_[6]\,
+      I5 => \LEDs_out[1]_INST_0_i_35_n_0\,
+      O => \LEDs_out[1]_INST_0_i_20_n_0\
+    );
+\LEDs_out[1]_INST_0_i_21\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_36_n_0\,
+      I1 => \slv_reg0_reg_n_0_[7]\,
+      I2 => \LEDs_out[1]_INST_0_i_34_n_0\,
+      I3 => \slv_reg0_reg_n_0_[6]\,
+      I4 => \LEDs_out[1]_INST_0_i_35_n_0\,
+      O => \LEDs_out[1]_INST_0_i_21_n_0\
+    );
+\LEDs_out[1]_INST_0_i_22\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_37_n_0\,
+      I1 => \slv_reg0_reg_n_0_[7]\,
+      I2 => \LEDs_out[1]_INST_0_i_34_n_0\,
+      I3 => \slv_reg0_reg_n_0_[6]\,
+      I4 => \LEDs_out[1]_INST_0_i_35_n_0\,
+      O => \LEDs_out[1]_INST_0_i_22_n_0\
+    );
+\LEDs_out[1]_INST_0_i_23\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_38_n_0\,
+      I1 => \slv_reg0_reg_n_0_[7]\,
+      I2 => \LEDs_out[1]_INST_0_i_34_n_0\,
+      I3 => \slv_reg0_reg_n_0_[6]\,
+      I4 => \LEDs_out[1]_INST_0_i_35_n_0\,
+      O => \LEDs_out[1]_INST_0_i_23_n_0\
+    );
+\LEDs_out[1]_INST_0_i_24\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"DFD0FFFFDFD0F0F0"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \LEDs_out[1]_INST_0_i_31_n_0\,
+      I2 => \slv_reg0_reg_n_0_[7]\,
+      I3 => \LEDs_out[3]_INST_0_i_21_n_0\,
+      I4 => \slv_reg0_reg_n_0_[6]\,
+      I5 => \LEDs_out[3]_INST_0_i_13_n_0\,
+      O => \LEDs_out[1]_INST_0_i_24_n_0\
+    );
+\LEDs_out[1]_INST_0_i_25\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"AFA0CFCFAFA0C0C0"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_36_n_0\,
+      I1 => \LEDs_out[1]_INST_0_i_35_n_0\,
+      I2 => \slv_reg0_reg_n_0_[7]\,
+      I3 => \LEDs_out[1]_INST_0_i_39_n_0\,
+      I4 => \slv_reg0_reg_n_0_[6]\,
+      I5 => \LEDs_out[1]_INST_0_i_40_n_0\,
+      O => \LEDs_out[1]_INST_0_i_25_n_0\
+    );
+\LEDs_out[1]_INST_0_i_26\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_37_n_0\,
+      I1 => \slv_reg0_reg_n_0_[7]\,
+      I2 => \LEDs_out[1]_INST_0_i_39_n_0\,
+      I3 => \slv_reg0_reg_n_0_[6]\,
+      I4 => \LEDs_out[1]_INST_0_i_40_n_0\,
+      O => \LEDs_out[1]_INST_0_i_26_n_0\
+    );
+\LEDs_out[1]_INST_0_i_27\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_41_n_0\,
+      I1 => \slv_reg0_reg_n_0_[7]\,
+      I2 => \LEDs_out[3]_INST_0_i_21_n_0\,
+      I3 => \slv_reg0_reg_n_0_[6]\,
+      I4 => \LEDs_out[3]_INST_0_i_13_n_0\,
+      O => \LEDs_out[1]_INST_0_i_27_n_0\
+    );
+\LEDs_out[1]_INST_0_i_28\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"A2AA0000FFFFFFFF"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[6]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \LEDs_out[2]_INST_0_i_33_n_0\,
+      I3 => \slv_reg0_reg_n_0_[3]\,
+      I4 => \slv_reg0_reg_n_0_[5]\,
+      I5 => \slv_reg0_reg_n_0_[7]\,
+      O => \LEDs_out[1]_INST_0_i_28_n_0\
+    );
+\LEDs_out[1]_INST_0_i_29\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_38_n_0\,
+      I1 => \slv_reg0_reg_n_0_[7]\,
+      I2 => \LEDs_out[3]_INST_0_i_21_n_0\,
+      I3 => \slv_reg0_reg_n_0_[6]\,
+      I4 => \LEDs_out[3]_INST_0_i_13_n_0\,
+      O => \LEDs_out[1]_INST_0_i_29_n_0\
+    );
+\LEDs_out[1]_INST_0_i_3\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_8_n_0\,
+      I1 => \slv_reg0_reg_n_0_[11]\,
+      I2 => \LEDs_out[1]_INST_0_i_9_n_0\,
+      I3 => \slv_reg0_reg_n_0_[10]\,
+      I4 => \LEDs_out[1]_INST_0_i_10_n_0\,
+      O => \LEDs_out[1]_INST_0_i_3_n_0\
+    );
+\LEDs_out[1]_INST_0_i_30\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"8"
+    )
+        port map (
+      I0 => slv_reg0(0),
+      I1 => \slv_reg0_reg_n_0_[1]\,
+      O => \LEDs_out[1]_INST_0_i_30_n_0\
+    );
+\LEDs_out[1]_INST_0_i_31\: unisim.vcomponents.LUT4
+    generic map(
+      INIT => X"2A00"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[3]\,
+      I1 => \slv_reg0_reg_n_0_[2]\,
+      I2 => \slv_reg0_reg_n_0_[1]\,
+      I3 => \slv_reg0_reg_n_0_[4]\,
+      O => \LEDs_out[1]_INST_0_i_31_n_0\
+    );
+\LEDs_out[1]_INST_0_i_32\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"0888000000000000"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[4]\,
+      I1 => \slv_reg0_reg_n_0_[2]\,
+      I2 => \slv_reg0_reg_n_0_[1]\,
+      I3 => slv_reg0(0),
+      I4 => \slv_reg0_reg_n_0_[3]\,
+      I5 => \slv_reg0_reg_n_0_[5]\,
+      O => \LEDs_out[1]_INST_0_i_32_n_0\
+    );
+\LEDs_out[1]_INST_0_i_33\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"D5FF0000"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[4]\,
+      I1 => \slv_reg0_reg_n_0_[2]\,
+      I2 => \slv_reg0_reg_n_0_[1]\,
+      I3 => \slv_reg0_reg_n_0_[3]\,
+      I4 => \slv_reg0_reg_n_0_[5]\,
+      O => \LEDs_out[1]_INST_0_i_33_n_0\
+    );
+\LEDs_out[1]_INST_0_i_34\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"8777B777FFFFFFFF"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \slv_reg0_reg_n_0_[2]\,
+      I3 => \slv_reg0_reg_n_0_[1]\,
+      I4 => slv_reg0(0),
+      I5 => \slv_reg0_reg_n_0_[3]\,
+      O => \LEDs_out[1]_INST_0_i_34_n_0\
+    );
+\LEDs_out[1]_INST_0_i_35\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"8F7F3F7FFFFFFFFF"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \slv_reg0_reg_n_0_[2]\,
+      I3 => \slv_reg0_reg_n_0_[1]\,
+      I4 => slv_reg0(0),
+      I5 => \slv_reg0_reg_n_0_[3]\,
+      O => \LEDs_out[1]_INST_0_i_35_n_0\
+    );
+\LEDs_out[1]_INST_0_i_36\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"0DDD1DDD55555555"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \slv_reg0_reg_n_0_[2]\,
+      I3 => \slv_reg0_reg_n_0_[1]\,
+      I4 => slv_reg0(0),
+      I5 => \slv_reg0_reg_n_0_[3]\,
+      O => \LEDs_out[1]_INST_0_i_36_n_0\
+    );
+\LEDs_out[1]_INST_0_i_37\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"07F7B7F777777777"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \slv_reg0_reg_n_0_[2]\,
+      I3 => \slv_reg0_reg_n_0_[1]\,
+      I4 => slv_reg0(0),
+      I5 => \slv_reg0_reg_n_0_[3]\,
+      O => \LEDs_out[1]_INST_0_i_37_n_0\
+    );
+\LEDs_out[1]_INST_0_i_38\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"A222AAAA00000000"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[4]\,
+      I1 => \slv_reg0_reg_n_0_[2]\,
       I2 => slv_reg0(0),
       I3 => \slv_reg0_reg_n_0_[1]\,
-      I4 => \slv_reg0_reg_n_0_[2]\,
-      I5 => \slv_reg0_reg_n_0_[4]\,
-      O => \LEDs_out[3]_INST_0_i_26_n_0\
+      I4 => \slv_reg0_reg_n_0_[3]\,
+      I5 => \slv_reg0_reg_n_0_[5]\,
+      O => \LEDs_out[1]_INST_0_i_38_n_0\
     );
-\LEDs_out[3]_INST_0_i_27\: unisim.vcomponents.LUT3
+\LEDs_out[1]_INST_0_i_39\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"17"
+      INIT => X"8F7FBF6A7A6A7A6A"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \slv_reg0_reg_n_0_[3]\,
+      I3 => \slv_reg0_reg_n_0_[2]\,
+      I4 => slv_reg0(0),
+      I5 => \slv_reg0_reg_n_0_[1]\,
+      O => \LEDs_out[1]_INST_0_i_39_n_0\
+    );
+\LEDs_out[1]_INST_0_i_4\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"AFA0CFCFAFA0C0C0"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_11_n_0\,
+      I1 => \LEDs_out[1]_INST_0_i_10_n_0\,
+      I2 => \slv_reg0_reg_n_0_[11]\,
+      I3 => \LEDs_out[1]_INST_0_i_12_n_0\,
+      I4 => \slv_reg0_reg_n_0_[10]\,
+      I5 => \LEDs_out[1]_INST_0_i_13_n_0\,
+      O => \LEDs_out[1]_INST_0_i_4_n_0\
+    );
+\LEDs_out[1]_INST_0_i_40\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"8FFF3FC878C878C8"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \slv_reg0_reg_n_0_[3]\,
+      I3 => \slv_reg0_reg_n_0_[2]\,
+      I4 => slv_reg0(0),
+      I5 => \slv_reg0_reg_n_0_[1]\,
+      O => \LEDs_out[1]_INST_0_i_40_n_0\
+    );
+\LEDs_out[1]_INST_0_i_41\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"5DDD5555FFFFFFFF"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[4]\,
+      I1 => \slv_reg0_reg_n_0_[2]\,
+      I2 => \slv_reg0_reg_n_0_[1]\,
+      I3 => slv_reg0(0),
+      I4 => \slv_reg0_reg_n_0_[3]\,
+      I5 => \slv_reg0_reg_n_0_[5]\,
+      O => \LEDs_out[1]_INST_0_i_41_n_0\
+    );
+\LEDs_out[1]_INST_0_i_5\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_14_n_0\,
+      I1 => \slv_reg0_reg_n_0_[11]\,
+      I2 => \LEDs_out[1]_INST_0_i_12_n_0\,
+      I3 => \slv_reg0_reg_n_0_[10]\,
+      I4 => \LEDs_out[1]_INST_0_i_13_n_0\,
+      O => \LEDs_out[1]_INST_0_i_5_n_0\
+    );
+\LEDs_out[1]_INST_0_i_6\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"AFA0CFCFAFA0C0C0"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_15_n_0\,
+      I1 => \LEDs_out[1]_INST_0_i_16_n_0\,
+      I2 => \slv_reg0_reg_n_0_[11]\,
+      I3 => \LEDs_out[1]_INST_0_i_9_n_0\,
+      I4 => \slv_reg0_reg_n_0_[10]\,
+      I5 => \LEDs_out[1]_INST_0_i_10_n_0\,
+      O => \LEDs_out[1]_INST_0_i_6_n_0\
+    );
+\LEDs_out[1]_INST_0_i_7\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_14_n_0\,
+      I1 => \slv_reg0_reg_n_0_[11]\,
+      I2 => \LEDs_out[1]_INST_0_i_9_n_0\,
+      I3 => \slv_reg0_reg_n_0_[10]\,
+      I4 => \LEDs_out[1]_INST_0_i_10_n_0\,
+      O => \LEDs_out[1]_INST_0_i_7_n_0\
+    );
+\LEDs_out[1]_INST_0_i_8\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"BFB0FFFFBFB00000"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_17_n_0\,
+      I1 => \slv_reg0_reg_n_0_[7]\,
+      I2 => \slv_reg0_reg_n_0_[9]\,
+      I3 => \LEDs_out[1]_INST_0_i_18_n_0\,
+      I4 => \slv_reg0_reg_n_0_[8]\,
+      I5 => \LEDs_out[1]_INST_0_i_19_n_0\,
+      O => \LEDs_out[1]_INST_0_i_8_n_0\
+    );
+\LEDs_out[1]_INST_0_i_9\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[1]_INST_0_i_20_n_0\,
+      I1 => \slv_reg0_reg_n_0_[9]\,
+      I2 => \LEDs_out[1]_INST_0_i_21_n_0\,
+      I3 => \slv_reg0_reg_n_0_[8]\,
+      I4 => \LEDs_out[1]_INST_0_i_22_n_0\,
+      O => \LEDs_out[1]_INST_0_i_9_n_0\
+    );
+\LEDs_out[2]_INST_0\: unisim.vcomponents.MUXF7
+     port map (
+      I0 => \LEDs_out[2]_INST_0_i_1_n_0\,
+      I1 => \LEDs_out[2]_INST_0_i_2_n_0\,
+      O => LEDs_out(2),
+      S => \slv_reg0_reg_n_0_[14]\
+    );
+\LEDs_out[2]_INST_0_i_1\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[2]_INST_0_i_3_n_0\,
+      I1 => \slv_reg0_reg_n_0_[13]\,
+      I2 => \LEDs_out[2]_INST_0_i_4_n_0\,
+      I3 => \slv_reg0_reg_n_0_[12]\,
+      I4 => \LEDs_out[2]_INST_0_i_5_n_0\,
+      O => \LEDs_out[2]_INST_0_i_1_n_0\
+    );
+\LEDs_out[2]_INST_0_i_10\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"AFA0CFCFAFA0C0C0"
+    )
+        port map (
+      I0 => \LEDs_out[2]_INST_0_i_20_n_0\,
+      I1 => \LEDs_out[2]_INST_0_i_14_n_0\,
+      I2 => \slv_reg0_reg_n_0_[9]\,
+      I3 => \LEDs_out[2]_INST_0_i_17_n_0\,
+      I4 => \slv_reg0_reg_n_0_[8]\,
+      I5 => \LEDs_out[2]_INST_0_i_18_n_0\,
+      O => \LEDs_out[2]_INST_0_i_10_n_0\
+    );
+\LEDs_out[2]_INST_0_i_11\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[2]_INST_0_i_21_n_0\,
+      I1 => \slv_reg0_reg_n_0_[9]\,
+      I2 => \LEDs_out[2]_INST_0_i_17_n_0\,
+      I3 => \slv_reg0_reg_n_0_[8]\,
+      I4 => \LEDs_out[2]_INST_0_i_18_n_0\,
+      O => \LEDs_out[2]_INST_0_i_11_n_0\
+    );
+\LEDs_out[2]_INST_0_i_12\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[2]_INST_0_i_22_n_0\,
+      I1 => \slv_reg0_reg_n_0_[10]\,
+      I2 => \LEDs_out[2]_INST_0_i_23_n_0\,
+      I3 => \slv_reg0_reg_n_0_[9]\,
+      I4 => \LEDs_out[2]_INST_0_i_15_n_0\,
+      O => \LEDs_out[2]_INST_0_i_12_n_0\
+    );
+\LEDs_out[2]_INST_0_i_13\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"D5555555FFFFFFFF"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[6]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \slv_reg0_reg_n_0_[2]\,
+      I3 => \slv_reg0_reg_n_0_[3]\,
+      I4 => \slv_reg0_reg_n_0_[5]\,
+      I5 => \slv_reg0_reg_n_0_[7]\,
+      O => \LEDs_out[2]_INST_0_i_13_n_0\
+    );
+\LEDs_out[2]_INST_0_i_14\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"F7FFFFFF"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[6]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \LEDs_out[2]_INST_0_i_24_n_0\,
+      I3 => \slv_reg0_reg_n_0_[5]\,
+      I4 => \slv_reg0_reg_n_0_[7]\,
+      O => \LEDs_out[2]_INST_0_i_14_n_0\
+    );
+\LEDs_out[2]_INST_0_i_15\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"BFFFB0FFFFFFFFFF"
+    )
+        port map (
+      I0 => \LEDs_out[2]_INST_0_i_25_n_0\,
+      I1 => \slv_reg0_reg_n_0_[5]\,
+      I2 => \slv_reg0_reg_n_0_[8]\,
+      I3 => \slv_reg0_reg_n_0_[6]\,
+      I4 => \LEDs_out[2]_INST_0_i_26_n_0\,
+      I5 => \slv_reg0_reg_n_0_[7]\,
+      O => \LEDs_out[2]_INST_0_i_15_n_0\
+    );
+\LEDs_out[2]_INST_0_i_16\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"7F70FFFF7F70F0F0"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \LEDs_out[2]_INST_0_i_27_n_0\,
+      I2 => \slv_reg0_reg_n_0_[7]\,
+      I3 => \LEDs_out[2]_INST_0_i_28_n_0\,
+      I4 => \slv_reg0_reg_n_0_[6]\,
+      I5 => \LEDs_out[2]_INST_0_i_29_n_0\,
+      O => \LEDs_out[2]_INST_0_i_16_n_0\
+    );
+\LEDs_out[2]_INST_0_i_17\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[2]_INST_0_i_30_n_0\,
+      I1 => \slv_reg0_reg_n_0_[7]\,
+      I2 => \LEDs_out[2]_INST_0_i_28_n_0\,
+      I3 => \slv_reg0_reg_n_0_[6]\,
+      I4 => \LEDs_out[2]_INST_0_i_29_n_0\,
+      O => \LEDs_out[2]_INST_0_i_17_n_0\
+    );
+\LEDs_out[2]_INST_0_i_18\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[2]_INST_0_i_31_n_0\,
+      I1 => \slv_reg0_reg_n_0_[7]\,
+      I2 => \LEDs_out[2]_INST_0_i_28_n_0\,
+      I3 => \slv_reg0_reg_n_0_[6]\,
+      I4 => \LEDs_out[2]_INST_0_i_29_n_0\,
+      O => \LEDs_out[2]_INST_0_i_18_n_0\
+    );
+\LEDs_out[2]_INST_0_i_19\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[2]_INST_0_i_32_n_0\,
+      I1 => \slv_reg0_reg_n_0_[7]\,
+      I2 => \LEDs_out[2]_INST_0_i_28_n_0\,
+      I3 => \slv_reg0_reg_n_0_[6]\,
+      I4 => \LEDs_out[2]_INST_0_i_29_n_0\,
+      O => \LEDs_out[2]_INST_0_i_19_n_0\
+    );
+\LEDs_out[2]_INST_0_i_2\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[2]_INST_0_i_6_n_0\,
+      I1 => \slv_reg0_reg_n_0_[13]\,
+      I2 => \LEDs_out[2]_INST_0_i_4_n_0\,
+      I3 => \slv_reg0_reg_n_0_[12]\,
+      I4 => \LEDs_out[2]_INST_0_i_5_n_0\,
+      O => \LEDs_out[2]_INST_0_i_2_n_0\
+    );
+\LEDs_out[2]_INST_0_i_20\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"D555FFFFFFFFFFFF"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[6]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \LEDs_out[2]_INST_0_i_33_n_0\,
+      I3 => \slv_reg0_reg_n_0_[3]\,
+      I4 => \slv_reg0_reg_n_0_[5]\,
+      I5 => \slv_reg0_reg_n_0_[7]\,
+      O => \LEDs_out[2]_INST_0_i_20_n_0\
+    );
+\LEDs_out[2]_INST_0_i_21\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"F7FFFFFF"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[6]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \LEDs_out[2]_INST_0_i_34_n_0\,
+      I3 => \slv_reg0_reg_n_0_[5]\,
+      I4 => \slv_reg0_reg_n_0_[7]\,
+      O => \LEDs_out[2]_INST_0_i_21_n_0\
+    );
+\LEDs_out[2]_INST_0_i_22\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"BB8BFFFF"
+    )
+        port map (
+      I0 => \LEDs_out[3]_INST_0_i_22_n_0\,
+      I1 => \slv_reg0_reg_n_0_[8]\,
+      I2 => \slv_reg0_reg_n_0_[6]\,
+      I3 => \LEDs_out[2]_INST_0_i_26_n_0\,
+      I4 => \slv_reg0_reg_n_0_[7]\,
+      O => \LEDs_out[2]_INST_0_i_22_n_0\
+    );
+\LEDs_out[2]_INST_0_i_23\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"BF8FFFFF"
+    )
+        port map (
+      I0 => \LEDs_out[2]_INST_0_i_32_n_0\,
+      I1 => \slv_reg0_reg_n_0_[8]\,
+      I2 => \slv_reg0_reg_n_0_[6]\,
+      I3 => \LEDs_out[2]_INST_0_i_26_n_0\,
+      I4 => \slv_reg0_reg_n_0_[7]\,
+      O => \LEDs_out[2]_INST_0_i_23_n_0\
+    );
+\LEDs_out[2]_INST_0_i_24\: unisim.vcomponents.LUT4
+    generic map(
+      INIT => X"7FFF"
     )
         port map (
       I0 => \slv_reg0_reg_n_0_[2]\,
       I1 => \slv_reg0_reg_n_0_[1]\,
       I2 => slv_reg0(0),
-      O => \LEDs_out[3]_INST_0_i_27_n_0\
+      I3 => \slv_reg0_reg_n_0_[3]\,
+      O => \LEDs_out[2]_INST_0_i_24_n_0\
     );
-\LEDs_out[3]_INST_0_i_28\: unisim.vcomponents.LUT3
+\LEDs_out[2]_INST_0_i_25\: unisim.vcomponents.LUT4
     generic map(
-      INIT => X"69"
+      INIT => X"7FFF"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[3]\,
+      I1 => \slv_reg0_reg_n_0_[2]\,
+      I2 => \slv_reg0_reg_n_0_[1]\,
+      I3 => \slv_reg0_reg_n_0_[4]\,
+      O => \LEDs_out[2]_INST_0_i_25_n_0\
+    );
+\LEDs_out[2]_INST_0_i_26\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"7FFFFFFFFFFFFFFF"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[4]\,
+      I1 => \slv_reg0_reg_n_0_[2]\,
+      I2 => \slv_reg0_reg_n_0_[1]\,
+      I3 => slv_reg0(0),
+      I4 => \slv_reg0_reg_n_0_[3]\,
+      I5 => \slv_reg0_reg_n_0_[5]\,
+      O => \LEDs_out[2]_INST_0_i_26_n_0\
+    );
+\LEDs_out[2]_INST_0_i_27\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"8"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[3]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      O => \LEDs_out[2]_INST_0_i_27_n_0\
+    );
+\LEDs_out[2]_INST_0_i_28\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"F8C8888800000000"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \slv_reg0_reg_n_0_[2]\,
+      I3 => slv_reg0(0),
+      I4 => \slv_reg0_reg_n_0_[1]\,
+      I5 => \slv_reg0_reg_n_0_[3]\,
+      O => \LEDs_out[2]_INST_0_i_28_n_0\
+    );
+\LEDs_out[2]_INST_0_i_29\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"F0C0808000000000"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \slv_reg0_reg_n_0_[2]\,
+      I3 => slv_reg0(0),
+      I4 => \slv_reg0_reg_n_0_[1]\,
+      I5 => \slv_reg0_reg_n_0_[3]\,
+      O => \LEDs_out[2]_INST_0_i_29_n_0\
+    );
+\LEDs_out[2]_INST_0_i_3\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[2]_INST_0_i_7_n_0\,
+      I1 => \slv_reg0_reg_n_0_[11]\,
+      I2 => \LEDs_out[2]_INST_0_i_8_n_0\,
+      I3 => \slv_reg0_reg_n_0_[10]\,
+      I4 => \LEDs_out[2]_INST_0_i_9_n_0\,
+      O => \LEDs_out[2]_INST_0_i_3_n_0\
+    );
+\LEDs_out[2]_INST_0_i_30\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"7A6AAAAAAAAAAAAA"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \slv_reg0_reg_n_0_[2]\,
+      I3 => slv_reg0(0),
+      I4 => \slv_reg0_reg_n_0_[1]\,
+      I5 => \slv_reg0_reg_n_0_[3]\,
+      O => \LEDs_out[2]_INST_0_i_30_n_0\
+    );
+\LEDs_out[2]_INST_0_i_31\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"78C8888888888888"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \slv_reg0_reg_n_0_[2]\,
+      I3 => slv_reg0(0),
+      I4 => \slv_reg0_reg_n_0_[1]\,
+      I5 => \slv_reg0_reg_n_0_[3]\,
+      O => \LEDs_out[2]_INST_0_i_31_n_0\
+    );
+\LEDs_out[2]_INST_0_i_32\: unisim.vcomponents.LUT4
+    generic map(
+      INIT => X"7FFF"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[4]\,
+      I1 => \slv_reg0_reg_n_0_[3]\,
+      I2 => \slv_reg0_reg_n_0_[2]\,
+      I3 => \slv_reg0_reg_n_0_[5]\,
+      O => \LEDs_out[2]_INST_0_i_32_n_0\
+    );
+\LEDs_out[2]_INST_0_i_33\: unisim.vcomponents.LUT2
+    generic map(
+      INIT => X"8"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[1]\,
+      I1 => \slv_reg0_reg_n_0_[2]\,
+      O => \LEDs_out[2]_INST_0_i_33_n_0\
+    );
+\LEDs_out[2]_INST_0_i_34\: unisim.vcomponents.LUT4
+    generic map(
+      INIT => X"8000"
     )
         port map (
       I0 => \slv_reg0_reg_n_0_[2]\,
-      I1 => \slv_reg0_reg_n_0_[1]\,
-      I2 => slv_reg0(0),
-      O => \LEDs_out[3]_INST_0_i_28_n_0\
+      I1 => slv_reg0(0),
+      I2 => \slv_reg0_reg_n_0_[1]\,
+      I3 => \slv_reg0_reg_n_0_[3]\,
+      O => \LEDs_out[2]_INST_0_i_34_n_0\
     );
-\LEDs_out[3]_INST_0_i_3\: unisim.vcomponents.LUT6
+\LEDs_out[2]_INST_0_i_4\: unisim.vcomponents.LUT5
     generic map(
-      INIT => X"FFFFFFFF0F080808"
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[2]_INST_0_i_10_n_0\,
+      I1 => \slv_reg0_reg_n_0_[11]\,
+      I2 => \LEDs_out[2]_INST_0_i_8_n_0\,
+      I3 => \slv_reg0_reg_n_0_[10]\,
+      I4 => \LEDs_out[2]_INST_0_i_9_n_0\,
+      O => \LEDs_out[2]_INST_0_i_4_n_0\
+    );
+\LEDs_out[2]_INST_0_i_5\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[2]_INST_0_i_11_n_0\,
+      I1 => \slv_reg0_reg_n_0_[11]\,
+      I2 => \LEDs_out[2]_INST_0_i_8_n_0\,
+      I3 => \slv_reg0_reg_n_0_[10]\,
+      I4 => \LEDs_out[2]_INST_0_i_9_n_0\,
+      O => \LEDs_out[2]_INST_0_i_5_n_0\
+    );
+\LEDs_out[2]_INST_0_i_6\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8BBB888"
+    )
+        port map (
+      I0 => \LEDs_out[2]_INST_0_i_12_n_0\,
+      I1 => \slv_reg0_reg_n_0_[11]\,
+      I2 => \LEDs_out[2]_INST_0_i_8_n_0\,
+      I3 => \slv_reg0_reg_n_0_[10]\,
+      I4 => \LEDs_out[2]_INST_0_i_9_n_0\,
+      O => \LEDs_out[2]_INST_0_i_6_n_0\
+    );
+\LEDs_out[2]_INST_0_i_7\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[2]_INST_0_i_13_n_0\,
+      I1 => \slv_reg0_reg_n_0_[8]\,
+      I2 => \LEDs_out[2]_INST_0_i_14_n_0\,
+      I3 => \slv_reg0_reg_n_0_[9]\,
+      I4 => \LEDs_out[2]_INST_0_i_15_n_0\,
+      O => \LEDs_out[2]_INST_0_i_7_n_0\
+    );
+\LEDs_out[2]_INST_0_i_8\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[2]_INST_0_i_16_n_0\,
+      I1 => \slv_reg0_reg_n_0_[9]\,
+      I2 => \LEDs_out[2]_INST_0_i_17_n_0\,
+      I3 => \slv_reg0_reg_n_0_[8]\,
+      I4 => \LEDs_out[2]_INST_0_i_18_n_0\,
+      O => \LEDs_out[2]_INST_0_i_8_n_0\
+    );
+\LEDs_out[2]_INST_0_i_9\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[2]_INST_0_i_19_n_0\,
+      I1 => \slv_reg0_reg_n_0_[9]\,
+      I2 => \LEDs_out[2]_INST_0_i_17_n_0\,
+      I3 => \slv_reg0_reg_n_0_[8]\,
+      I4 => \LEDs_out[2]_INST_0_i_18_n_0\,
+      O => \LEDs_out[2]_INST_0_i_9_n_0\
+    );
+\LEDs_out[3]_INST_0\: unisim.vcomponents.MUXF7
+     port map (
+      I0 => \LEDs_out[3]_INST_0_i_1_n_0\,
+      I1 => \LEDs_out[3]_INST_0_i_2_n_0\,
+      O => LEDs_out(3),
+      S => \slv_reg0_reg_n_0_[14]\
+    );
+\LEDs_out[3]_INST_0_i_1\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[3]_INST_0_i_3_n_0\,
+      I1 => \slv_reg0_reg_n_0_[13]\,
+      I2 => \LEDs_out[3]_INST_0_i_4_n_0\,
+      I3 => \slv_reg0_reg_n_0_[12]\,
+      I4 => \LEDs_out[3]_INST_0_i_5_n_0\,
+      O => \LEDs_out[3]_INST_0_i_1_n_0\
+    );
+\LEDs_out[3]_INST_0_i_10\: unisim.vcomponents.LUT3
+    generic map(
+      INIT => X"B8"
+    )
+        port map (
+      I0 => \LEDs_out[3]_INST_0_i_19_n_0\,
+      I1 => \slv_reg0_reg_n_0_[9]\,
+      I2 => \LEDs_out[3]_INST_0_i_14_n_0\,
+      O => \LEDs_out[3]_INST_0_i_10_n_0\
+    );
+\LEDs_out[3]_INST_0_i_11\: unisim.vcomponents.LUT3
+    generic map(
+      INIT => X"B8"
+    )
+        port map (
+      I0 => \LEDs_out[3]_INST_0_i_20_n_0\,
+      I1 => \slv_reg0_reg_n_0_[9]\,
+      I2 => \LEDs_out[3]_INST_0_i_14_n_0\,
+      O => \LEDs_out[3]_INST_0_i_11_n_0\
+    );
+\LEDs_out[3]_INST_0_i_12\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"EA00FFFFEA000000"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[8]\,
+      I1 => \slv_reg0_reg_n_0_[6]\,
+      I2 => \LEDs_out[3]_INST_0_i_13_n_0\,
+      I3 => \slv_reg0_reg_n_0_[7]\,
+      I4 => \slv_reg0_reg_n_0_[9]\,
+      I5 => \LEDs_out[3]_INST_0_i_14_n_0\,
+      O => \LEDs_out[3]_INST_0_i_12_n_0\
+    );
+\LEDs_out[3]_INST_0_i_13\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"8000000000000000"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[4]\,
+      I1 => \slv_reg0_reg_n_0_[2]\,
+      I2 => slv_reg0(0),
+      I3 => \slv_reg0_reg_n_0_[1]\,
+      I4 => \slv_reg0_reg_n_0_[3]\,
+      I5 => \slv_reg0_reg_n_0_[5]\,
+      O => \LEDs_out[3]_INST_0_i_13_n_0\
+    );
+\LEDs_out[3]_INST_0_i_14\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B0800000"
+    )
+        port map (
+      I0 => \LEDs_out[3]_INST_0_i_21_n_0\,
+      I1 => \slv_reg0_reg_n_0_[8]\,
+      I2 => \slv_reg0_reg_n_0_[6]\,
+      I3 => \LEDs_out[3]_INST_0_i_13_n_0\,
+      I4 => \slv_reg0_reg_n_0_[7]\,
+      O => \LEDs_out[3]_INST_0_i_14_n_0\
+    );
+\LEDs_out[3]_INST_0_i_15\: unisim.vcomponents.LUT6
+    generic map(
+      INIT => X"8000000000000000"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[6]\,
+      I1 => \slv_reg0_reg_n_0_[4]\,
+      I2 => \slv_reg0_reg_n_0_[2]\,
+      I3 => \slv_reg0_reg_n_0_[3]\,
+      I4 => \slv_reg0_reg_n_0_[5]\,
+      I5 => \slv_reg0_reg_n_0_[7]\,
+      O => \LEDs_out[3]_INST_0_i_15_n_0\
+    );
+\LEDs_out[3]_INST_0_i_16\: unisim.vcomponents.LUT3
+    generic map(
+      INIT => X"80"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[6]\,
+      I1 => \LEDs_out[3]_INST_0_i_13_n_0\,
+      I2 => \slv_reg0_reg_n_0_[7]\,
+      O => \LEDs_out[3]_INST_0_i_16_n_0\
+    );
+\LEDs_out[3]_INST_0_i_17\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8880000"
+    )
+        port map (
+      I0 => \LEDs_out[3]_INST_0_i_22_n_0\,
+      I1 => \slv_reg0_reg_n_0_[8]\,
+      I2 => \slv_reg0_reg_n_0_[6]\,
+      I3 => \LEDs_out[3]_INST_0_i_13_n_0\,
+      I4 => \slv_reg0_reg_n_0_[7]\,
+      O => \LEDs_out[3]_INST_0_i_17_n_0\
+    );
+\LEDs_out[3]_INST_0_i_18\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B0800000"
+    )
+        port map (
+      I0 => \LEDs_out[3]_INST_0_i_23_n_0\,
+      I1 => \slv_reg0_reg_n_0_[8]\,
+      I2 => \slv_reg0_reg_n_0_[6]\,
+      I3 => \LEDs_out[3]_INST_0_i_13_n_0\,
+      I4 => \slv_reg0_reg_n_0_[7]\,
+      O => \LEDs_out[3]_INST_0_i_18_n_0\
+    );
+\LEDs_out[3]_INST_0_i_19\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B0800000"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \slv_reg0_reg_n_0_[8]\,
+      I2 => \slv_reg0_reg_n_0_[6]\,
+      I3 => \LEDs_out[3]_INST_0_i_13_n_0\,
+      I4 => \slv_reg0_reg_n_0_[7]\,
+      O => \LEDs_out[3]_INST_0_i_19_n_0\
+    );
+\LEDs_out[3]_INST_0_i_2\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
     )
         port map (
       I0 => \LEDs_out[3]_INST_0_i_6_n_0\,
       I1 => \slv_reg0_reg_n_0_[13]\,
-      I2 => \LEDs_out[3]_INST_0_i_5_n_0\,
-      I3 => \LEDs_out[3]_INST_0_i_7_n_0\,
-      I4 => \slv_reg0_reg_n_0_[12]\,
-      I5 => \LEDs_out[3]_INST_0_i_8_n_0\,
-      O => \LEDs_out[3]_INST_0_i_3_n_0\
+      I2 => \LEDs_out[3]_INST_0_i_4_n_0\,
+      I3 => \slv_reg0_reg_n_0_[12]\,
+      I4 => \LEDs_out[3]_INST_0_i_5_n_0\,
+      O => \LEDs_out[3]_INST_0_i_2_n_0\
     );
-\LEDs_out[3]_INST_0_i_4\: unisim.vcomponents.LUT6
+\LEDs_out[3]_INST_0_i_20\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"17711871D77DE88E"
+      INIT => X"8F00800000000000"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[10]\,
-      I1 => \slv_reg0_reg_n_0_[9]\,
-      I2 => \LEDs_out[3]_INST_0_i_9_n_0\,
-      I3 => \slv_reg0_reg_n_0_[8]\,
-      I4 => \LEDs_out[3]_INST_0_i_10_n_0\,
-      I5 => \LEDs_out[3]_INST_0_i_11_n_0\,
+      I0 => \slv_reg0_reg_n_0_[4]\,
+      I1 => \slv_reg0_reg_n_0_[5]\,
+      I2 => \slv_reg0_reg_n_0_[8]\,
+      I3 => \slv_reg0_reg_n_0_[6]\,
+      I4 => \LEDs_out[3]_INST_0_i_13_n_0\,
+      I5 => \slv_reg0_reg_n_0_[7]\,
+      O => \LEDs_out[3]_INST_0_i_20_n_0\
+    );
+\LEDs_out[3]_INST_0_i_21\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"80000000"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[4]\,
+      I1 => \slv_reg0_reg_n_0_[2]\,
+      I2 => \slv_reg0_reg_n_0_[1]\,
+      I3 => \slv_reg0_reg_n_0_[3]\,
+      I4 => \slv_reg0_reg_n_0_[5]\,
+      O => \LEDs_out[3]_INST_0_i_21_n_0\
+    );
+\LEDs_out[3]_INST_0_i_22\: unisim.vcomponents.LUT4
+    generic map(
+      INIT => X"8000"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[5]\,
+      I1 => \slv_reg0_reg_n_0_[3]\,
+      I2 => \slv_reg0_reg_n_0_[4]\,
+      I3 => \slv_reg0_reg_n_0_[6]\,
+      O => \LEDs_out[3]_INST_0_i_22_n_0\
+    );
+\LEDs_out[3]_INST_0_i_23\: unisim.vcomponents.LUT4
+    generic map(
+      INIT => X"8000"
+    )
+        port map (
+      I0 => \slv_reg0_reg_n_0_[4]\,
+      I1 => \slv_reg0_reg_n_0_[2]\,
+      I2 => \slv_reg0_reg_n_0_[3]\,
+      I3 => \slv_reg0_reg_n_0_[5]\,
+      O => \LEDs_out[3]_INST_0_i_23_n_0\
+    );
+\LEDs_out[3]_INST_0_i_3\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[3]_INST_0_i_7_n_0\,
+      I1 => \slv_reg0_reg_n_0_[10]\,
+      I2 => \LEDs_out[3]_INST_0_i_8_n_0\,
+      I3 => \slv_reg0_reg_n_0_[11]\,
+      I4 => \LEDs_out[3]_INST_0_i_9_n_0\,
+      O => \LEDs_out[3]_INST_0_i_3_n_0\
+    );
+\LEDs_out[3]_INST_0_i_4\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[3]_INST_0_i_10_n_0\,
+      I1 => \slv_reg0_reg_n_0_[10]\,
+      I2 => \LEDs_out[3]_INST_0_i_8_n_0\,
+      I3 => \slv_reg0_reg_n_0_[11]\,
+      I4 => \LEDs_out[3]_INST_0_i_9_n_0\,
       O => \LEDs_out[3]_INST_0_i_4_n_0\
     );
-\LEDs_out[3]_INST_0_i_5\: unisim.vcomponents.LUT6
+\LEDs_out[3]_INST_0_i_5\: unisim.vcomponents.LUT5
     generic map(
-      INIT => X"F0BBBBFF0F444400"
+      INIT => X"B8FFB800"
+    )
+        port map (
+      I0 => \LEDs_out[3]_INST_0_i_11_n_0\,
+      I1 => \slv_reg0_reg_n_0_[10]\,
+      I2 => \LEDs_out[3]_INST_0_i_8_n_0\,
+      I3 => \slv_reg0_reg_n_0_[11]\,
+      I4 => \LEDs_out[3]_INST_0_i_9_n_0\,
+      O => \LEDs_out[3]_INST_0_i_5_n_0\
+    );
+\LEDs_out[3]_INST_0_i_6\: unisim.vcomponents.LUT5
+    generic map(
+      INIT => X"B8FFB800"
     )
         port map (
       I0 => \LEDs_out[3]_INST_0_i_12_n_0\,
-      I1 => \slv_reg0_reg_n_0_[11]\,
-      I2 => \LEDs_out[3]_INST_0_i_13_n_0\,
-      I3 => \LEDs_out[3]_INST_0_i_14_n_0\,
-      I4 => \slv_reg0_reg_n_0_[10]\,
-      I5 => \LEDs_out[3]_INST_0_i_15_n_0\,
-      O => \LEDs_out[3]_INST_0_i_5_n_0\
-    );
-\LEDs_out[3]_INST_0_i_6\: unisim.vcomponents.LUT4
-    generic map(
-      INIT => X"1281"
-    )
-        port map (
-      I0 => \slv_reg0_reg_n_0_[12]\,
-      I1 => \LEDs_out[3]_INST_0_i_4_n_0\,
-      I2 => \slv_reg0_reg_n_0_[11]\,
-      I3 => \LEDs_out[0]_INST_0_i_1_n_0\,
+      I1 => \slv_reg0_reg_n_0_[10]\,
+      I2 => \LEDs_out[3]_INST_0_i_8_n_0\,
+      I3 => \slv_reg0_reg_n_0_[11]\,
+      I4 => \LEDs_out[3]_INST_0_i_9_n_0\,
       O => \LEDs_out[3]_INST_0_i_6_n_0\
     );
-\LEDs_out[3]_INST_0_i_7\: unisim.vcomponents.LUT2
+\LEDs_out[3]_INST_0_i_7\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"1"
+      INIT => X"C800FFFFC8000000"
     )
         port map (
-      I0 => \LEDs_out[1]_INST_0_i_1_n_0\,
-      I1 => \LEDs_out[3]_INST_0_i_4_n_0\,
+      I0 => \slv_reg0_reg_n_0_[8]\,
+      I1 => \slv_reg0_reg_n_0_[6]\,
+      I2 => \LEDs_out[3]_INST_0_i_13_n_0\,
+      I3 => \slv_reg0_reg_n_0_[7]\,
+      I4 => \slv_reg0_reg_n_0_[9]\,
+      I5 => \LEDs_out[3]_INST_0_i_14_n_0\,
       O => \LEDs_out[3]_INST_0_i_7_n_0\
     );
-\LEDs_out[3]_INST_0_i_8\: unisim.vcomponents.LUT6
+\LEDs_out[3]_INST_0_i_8\: unisim.vcomponents.LUT5
     generic map(
-      INIT => X"FFFFFFFF80F80088"
+      INIT => X"B8FFB800"
     )
         port map (
-      I0 => \LEDs_out[3]_INST_0_i_16_n_0\,
-      I1 => \slv_reg0_reg_n_0_[11]\,
-      I2 => \LEDs_out[3]_INST_0_i_17_n_0\,
-      I3 => \LEDs_out[3]_INST_0_i_15_n_0\,
-      I4 => \slv_reg0_reg_n_0_[10]\,
-      I5 => \LEDs_out[3]_INST_0_i_18_n_0\,
+      I0 => \LEDs_out[3]_INST_0_i_15_n_0\,
+      I1 => \slv_reg0_reg_n_0_[8]\,
+      I2 => \LEDs_out[3]_INST_0_i_16_n_0\,
+      I3 => \slv_reg0_reg_n_0_[9]\,
+      I4 => \LEDs_out[3]_INST_0_i_14_n_0\,
       O => \LEDs_out[3]_INST_0_i_8_n_0\
     );
-\LEDs_out[3]_INST_0_i_9\: unisim.vcomponents.LUT3
+\LEDs_out[3]_INST_0_i_9\: unisim.vcomponents.LUT5
     generic map(
-      INIT => X"69"
+      INIT => X"B8FFB800"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[7]\,
-      I1 => \LEDs_out[0]_INST_0_i_2_n_0\,
-      I2 => \slv_reg0_reg_n_0_[6]\,
+      I0 => \LEDs_out[3]_INST_0_i_17_n_0\,
+      I1 => \slv_reg0_reg_n_0_[10]\,
+      I2 => \LEDs_out[3]_INST_0_i_18_n_0\,
+      I3 => \slv_reg0_reg_n_0_[9]\,
+      I4 => \LEDs_out[3]_INST_0_i_14_n_0\,
       O => \LEDs_out[3]_INST_0_i_9_n_0\
     );
 aw_en_i_1: unisim.vcomponents.LUT6
@@ -778,418 +2467,418 @@ axi_bvalid_reg: unisim.vcomponents.FDRE
     );
 \axi_rdata[0]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"F0FFCCAAF000CCAA"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => slv_reg0(0),
-      I1 => slv_reg1(0),
-      I2 => slv_reg3(0),
-      I3 => axi_araddr(2),
-      I4 => axi_araddr(3),
-      I5 => slv_reg2(0),
+      I0 => slv_reg3(0),
+      I1 => slv_reg2(0),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(0),
+      I4 => axi_araddr(2),
+      I5 => slv_reg0(0),
       O => reg_data_out(0)
     );
 \axi_rdata[10]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FFCCAAF000CCAAF0"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => slv_reg1(10),
+      I0 => slv_reg3(10),
       I1 => slv_reg2(10),
-      I2 => \slv_reg0_reg_n_0_[10]\,
-      I3 => axi_araddr(2),
-      I4 => axi_araddr(3),
-      I5 => slv_reg3(10),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(10),
+      I4 => axi_araddr(2),
+      I5 => \slv_reg0_reg_n_0_[10]\,
       O => reg_data_out(10)
     );
 \axi_rdata[11]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"F0FFCCAAF000CCAA"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[11]\,
-      I1 => slv_reg1(11),
-      I2 => slv_reg3(11),
-      I3 => axi_araddr(2),
-      I4 => axi_araddr(3),
-      I5 => slv_reg2(11),
+      I0 => slv_reg3(11),
+      I1 => slv_reg2(11),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(11),
+      I4 => axi_araddr(2),
+      I5 => \slv_reg0_reg_n_0_[11]\,
       O => reg_data_out(11)
     );
 \axi_rdata[12]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"F0FFCCAAF000CCAA"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[12]\,
-      I1 => slv_reg1(12),
-      I2 => slv_reg3(12),
-      I3 => axi_araddr(2),
-      I4 => axi_araddr(3),
-      I5 => slv_reg2(12),
+      I0 => slv_reg3(12),
+      I1 => slv_reg2(12),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(12),
+      I4 => axi_araddr(2),
+      I5 => \slv_reg0_reg_n_0_[12]\,
       O => reg_data_out(12)
     );
 \axi_rdata[13]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FFCCF0AA00CCF0AA"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[13]\,
-      I1 => slv_reg1(13),
-      I2 => slv_reg2(13),
-      I3 => axi_araddr(3),
+      I0 => slv_reg3(13),
+      I1 => slv_reg2(13),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(13),
       I4 => axi_araddr(2),
-      I5 => slv_reg3(13),
+      I5 => \slv_reg0_reg_n_0_[13]\,
       O => reg_data_out(13)
     );
 \axi_rdata[14]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FFCCF0AA00CCF0AA"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[14]\,
-      I1 => slv_reg1(14),
-      I2 => slv_reg2(14),
-      I3 => axi_araddr(3),
+      I0 => slv_reg3(14),
+      I1 => slv_reg2(14),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(14),
       I4 => axi_araddr(2),
-      I5 => slv_reg3(14),
+      I5 => \slv_reg0_reg_n_0_[14]\,
       O => reg_data_out(14)
     );
 \axi_rdata[15]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"F0FFCCAAF000CCAA"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[15]\,
-      I1 => slv_reg1(15),
-      I2 => slv_reg3(15),
-      I3 => axi_araddr(2),
-      I4 => axi_araddr(3),
-      I5 => slv_reg2(15),
+      I0 => slv_reg3(15),
+      I1 => slv_reg2(15),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(15),
+      I4 => axi_araddr(2),
+      I5 => \slv_reg0_reg_n_0_[15]\,
       O => reg_data_out(15)
     );
 \axi_rdata[16]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"F0FFCCAAF000CCAA"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[16]\,
-      I1 => slv_reg1(16),
-      I2 => slv_reg3(16),
-      I3 => axi_araddr(2),
-      I4 => axi_araddr(3),
-      I5 => slv_reg2(16),
+      I0 => slv_reg3(16),
+      I1 => slv_reg2(16),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(16),
+      I4 => axi_araddr(2),
+      I5 => \slv_reg0_reg_n_0_[16]\,
       O => reg_data_out(16)
     );
 \axi_rdata[17]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FFCCAAF000CCAAF0"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => slv_reg1(17),
+      I0 => slv_reg3(17),
       I1 => slv_reg2(17),
-      I2 => \slv_reg0_reg_n_0_[17]\,
-      I3 => axi_araddr(2),
-      I4 => axi_araddr(3),
-      I5 => slv_reg3(17),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(17),
+      I4 => axi_araddr(2),
+      I5 => \slv_reg0_reg_n_0_[17]\,
       O => reg_data_out(17)
     );
 \axi_rdata[18]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FFCCF0AA00CCF0AA"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[18]\,
-      I1 => slv_reg1(18),
-      I2 => slv_reg2(18),
-      I3 => axi_araddr(3),
+      I0 => slv_reg3(18),
+      I1 => slv_reg2(18),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(18),
       I4 => axi_araddr(2),
-      I5 => slv_reg3(18),
+      I5 => \slv_reg0_reg_n_0_[18]\,
       O => reg_data_out(18)
     );
 \axi_rdata[19]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FFCCAAF000CCAAF0"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => slv_reg1(19),
+      I0 => slv_reg3(19),
       I1 => slv_reg2(19),
-      I2 => \slv_reg0_reg_n_0_[19]\,
-      I3 => axi_araddr(2),
-      I4 => axi_araddr(3),
-      I5 => slv_reg3(19),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(19),
+      I4 => axi_araddr(2),
+      I5 => \slv_reg0_reg_n_0_[19]\,
       O => reg_data_out(19)
     );
 \axi_rdata[1]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FFCCF0AA00CCF0AA"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[1]\,
-      I1 => slv_reg1(1),
-      I2 => slv_reg2(1),
-      I3 => axi_araddr(3),
+      I0 => slv_reg3(1),
+      I1 => slv_reg2(1),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(1),
       I4 => axi_araddr(2),
-      I5 => slv_reg3(1),
+      I5 => \slv_reg0_reg_n_0_[1]\,
       O => reg_data_out(1)
     );
 \axi_rdata[20]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FFCCAAF000CCAAF0"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => slv_reg1(20),
+      I0 => slv_reg3(20),
       I1 => slv_reg2(20),
-      I2 => \slv_reg0_reg_n_0_[20]\,
-      I3 => axi_araddr(2),
-      I4 => axi_araddr(3),
-      I5 => slv_reg3(20),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(20),
+      I4 => axi_araddr(2),
+      I5 => \slv_reg0_reg_n_0_[20]\,
       O => reg_data_out(20)
     );
 \axi_rdata[21]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"F0FFCCAAF000CCAA"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[21]\,
-      I1 => slv_reg1(21),
-      I2 => slv_reg3(21),
-      I3 => axi_araddr(2),
-      I4 => axi_araddr(3),
-      I5 => slv_reg2(21),
+      I0 => slv_reg3(21),
+      I1 => slv_reg2(21),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(21),
+      I4 => axi_araddr(2),
+      I5 => \slv_reg0_reg_n_0_[21]\,
       O => reg_data_out(21)
     );
 \axi_rdata[22]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FFCCF0AA00CCF0AA"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[22]\,
-      I1 => slv_reg1(22),
-      I2 => slv_reg2(22),
-      I3 => axi_araddr(3),
+      I0 => slv_reg3(22),
+      I1 => slv_reg2(22),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(22),
       I4 => axi_araddr(2),
-      I5 => slv_reg3(22),
+      I5 => \slv_reg0_reg_n_0_[22]\,
       O => reg_data_out(22)
     );
 \axi_rdata[23]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"F0FFCCAAF000CCAA"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[23]\,
-      I1 => slv_reg1(23),
-      I2 => slv_reg3(23),
-      I3 => axi_araddr(2),
-      I4 => axi_araddr(3),
-      I5 => slv_reg2(23),
+      I0 => slv_reg3(23),
+      I1 => slv_reg2(23),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(23),
+      I4 => axi_araddr(2),
+      I5 => \slv_reg0_reg_n_0_[23]\,
       O => reg_data_out(23)
     );
 \axi_rdata[24]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"F0FFCCAAF000CCAA"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[24]\,
-      I1 => slv_reg1(24),
-      I2 => slv_reg3(24),
-      I3 => axi_araddr(2),
-      I4 => axi_araddr(3),
-      I5 => slv_reg2(24),
+      I0 => slv_reg3(24),
+      I1 => slv_reg2(24),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(24),
+      I4 => axi_araddr(2),
+      I5 => \slv_reg0_reg_n_0_[24]\,
       O => reg_data_out(24)
     );
 \axi_rdata[25]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FFCCAAF000CCAAF0"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => slv_reg1(25),
+      I0 => slv_reg3(25),
       I1 => slv_reg2(25),
-      I2 => \slv_reg0_reg_n_0_[25]\,
-      I3 => axi_araddr(2),
-      I4 => axi_araddr(3),
-      I5 => slv_reg3(25),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(25),
+      I4 => axi_araddr(2),
+      I5 => \slv_reg0_reg_n_0_[25]\,
       O => reg_data_out(25)
     );
 \axi_rdata[26]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FFCCF0AA00CCF0AA"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[26]\,
-      I1 => slv_reg1(26),
-      I2 => slv_reg2(26),
-      I3 => axi_araddr(3),
+      I0 => slv_reg3(26),
+      I1 => slv_reg2(26),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(26),
       I4 => axi_araddr(2),
-      I5 => slv_reg3(26),
+      I5 => \slv_reg0_reg_n_0_[26]\,
       O => reg_data_out(26)
     );
 \axi_rdata[27]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FFCCAAF000CCAAF0"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => slv_reg1(27),
+      I0 => slv_reg3(27),
       I1 => slv_reg2(27),
-      I2 => \slv_reg0_reg_n_0_[27]\,
-      I3 => axi_araddr(2),
-      I4 => axi_araddr(3),
-      I5 => slv_reg3(27),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(27),
+      I4 => axi_araddr(2),
+      I5 => \slv_reg0_reg_n_0_[27]\,
       O => reg_data_out(27)
     );
 \axi_rdata[28]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FFCCAAF000CCAAF0"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => slv_reg1(28),
+      I0 => slv_reg3(28),
       I1 => slv_reg2(28),
-      I2 => \slv_reg0_reg_n_0_[28]\,
-      I3 => axi_araddr(2),
-      I4 => axi_araddr(3),
-      I5 => slv_reg3(28),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(28),
+      I4 => axi_araddr(2),
+      I5 => \slv_reg0_reg_n_0_[28]\,
       O => reg_data_out(28)
     );
 \axi_rdata[29]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"F0FFCCAAF000CCAA"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[29]\,
-      I1 => slv_reg1(29),
-      I2 => slv_reg3(29),
-      I3 => axi_araddr(2),
-      I4 => axi_araddr(3),
-      I5 => slv_reg2(29),
+      I0 => slv_reg3(29),
+      I1 => slv_reg2(29),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(29),
+      I4 => axi_araddr(2),
+      I5 => \slv_reg0_reg_n_0_[29]\,
       O => reg_data_out(29)
     );
 \axi_rdata[2]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"CCFFAAF0CC00AAF0"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => slv_reg1(2),
-      I1 => slv_reg3(2),
-      I2 => \slv_reg0_reg_n_0_[2]\,
-      I3 => axi_araddr(2),
-      I4 => axi_araddr(3),
-      I5 => slv_reg2(2),
+      I0 => slv_reg3(2),
+      I1 => slv_reg2(2),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(2),
+      I4 => axi_araddr(2),
+      I5 => \slv_reg0_reg_n_0_[2]\,
       O => reg_data_out(2)
     );
 \axi_rdata[30]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FFCCF0AA00CCF0AA"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[30]\,
-      I1 => slv_reg1(30),
-      I2 => slv_reg2(30),
-      I3 => axi_araddr(3),
+      I0 => slv_reg3(30),
+      I1 => slv_reg2(30),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(30),
       I4 => axi_araddr(2),
-      I5 => slv_reg3(30),
+      I5 => \slv_reg0_reg_n_0_[30]\,
       O => reg_data_out(30)
     );
 \axi_rdata[31]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FFCCF0AA00CCF0AA"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[31]\,
-      I1 => slv_reg1(31),
-      I2 => slv_reg2(31),
-      I3 => axi_araddr(3),
+      I0 => slv_reg3(31),
+      I1 => slv_reg2(31),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(31),
       I4 => axi_araddr(2),
-      I5 => slv_reg3(31),
+      I5 => \slv_reg0_reg_n_0_[31]\,
       O => reg_data_out(31)
     );
 \axi_rdata[3]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"F0FFCCAAF000CCAA"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[3]\,
-      I1 => slv_reg1(3),
-      I2 => slv_reg3(3),
-      I3 => axi_araddr(2),
-      I4 => axi_araddr(3),
-      I5 => slv_reg2(3),
+      I0 => slv_reg3(3),
+      I1 => slv_reg2(3),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(3),
+      I4 => axi_araddr(2),
+      I5 => \slv_reg0_reg_n_0_[3]\,
       O => reg_data_out(3)
     );
 \axi_rdata[4]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"F0FFCCAAF000CCAA"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[4]\,
-      I1 => slv_reg1(4),
-      I2 => slv_reg3(4),
-      I3 => axi_araddr(2),
-      I4 => axi_araddr(3),
-      I5 => slv_reg2(4),
+      I0 => slv_reg3(4),
+      I1 => slv_reg2(4),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(4),
+      I4 => axi_araddr(2),
+      I5 => \slv_reg0_reg_n_0_[4]\,
       O => reg_data_out(4)
     );
 \axi_rdata[5]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FFCCF0AA00CCF0AA"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[5]\,
-      I1 => slv_reg1(5),
-      I2 => slv_reg2(5),
-      I3 => axi_araddr(3),
+      I0 => slv_reg3(5),
+      I1 => slv_reg2(5),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(5),
       I4 => axi_araddr(2),
-      I5 => slv_reg3(5),
+      I5 => \slv_reg0_reg_n_0_[5]\,
       O => reg_data_out(5)
     );
 \axi_rdata[6]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"FFCCF0AA00CCF0AA"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[6]\,
-      I1 => slv_reg1(6),
-      I2 => slv_reg2(6),
-      I3 => axi_araddr(3),
+      I0 => slv_reg3(6),
+      I1 => slv_reg2(6),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(6),
       I4 => axi_araddr(2),
-      I5 => slv_reg3(6),
+      I5 => \slv_reg0_reg_n_0_[6]\,
       O => reg_data_out(6)
     );
 \axi_rdata[7]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"CCFFAAF0CC00AAF0"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => slv_reg1(7),
-      I1 => slv_reg3(7),
-      I2 => \slv_reg0_reg_n_0_[7]\,
-      I3 => axi_araddr(2),
-      I4 => axi_araddr(3),
-      I5 => slv_reg2(7),
+      I0 => slv_reg3(7),
+      I1 => slv_reg2(7),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(7),
+      I4 => axi_araddr(2),
+      I5 => \slv_reg0_reg_n_0_[7]\,
       O => reg_data_out(7)
     );
 \axi_rdata[8]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"F0FFCCAAF000CCAA"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[8]\,
-      I1 => slv_reg1(8),
-      I2 => slv_reg3(8),
-      I3 => axi_araddr(2),
-      I4 => axi_araddr(3),
-      I5 => slv_reg2(8),
+      I0 => slv_reg3(8),
+      I1 => slv_reg2(8),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(8),
+      I4 => axi_araddr(2),
+      I5 => \slv_reg0_reg_n_0_[8]\,
       O => reg_data_out(8)
     );
 \axi_rdata[9]_i_1\: unisim.vcomponents.LUT6
     generic map(
-      INIT => X"F0FFCCAAF000CCAA"
+      INIT => X"AFA0CFCFAFA0C0C0"
     )
         port map (
-      I0 => \slv_reg0_reg_n_0_[9]\,
-      I1 => slv_reg1(9),
-      I2 => slv_reg3(9),
-      I3 => axi_araddr(2),
-      I4 => axi_araddr(3),
-      I5 => slv_reg2(9),
+      I0 => slv_reg3(9),
+      I1 => slv_reg2(9),
+      I2 => axi_araddr(3),
+      I3 => slv_reg1(9),
+      I4 => axi_araddr(2),
+      I5 => \slv_reg0_reg_n_0_[9]\,
       O => reg_data_out(9)
     );
 \axi_rdata_reg[0]\: unisim.vcomponents.FDRE
@@ -2714,11 +4403,11 @@ library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
 entity led_test_system_led_controller_0_0_led_controller_v1_0 is
   port (
-    LEDs_out : out STD_LOGIC_VECTOR ( 3 downto 0 );
     S_AXI_AWREADY : out STD_LOGIC;
     S_AXI_WREADY : out STD_LOGIC;
     S_AXI_ARREADY : out STD_LOGIC;
     s00_axi_rdata : out STD_LOGIC_VECTOR ( 31 downto 0 );
+    LEDs_out : out STD_LOGIC_VECTOR ( 3 downto 0 );
     s00_axi_rvalid : out STD_LOGIC;
     s00_axi_bvalid : out STD_LOGIC;
     s00_axi_aclk : in STD_LOGIC;

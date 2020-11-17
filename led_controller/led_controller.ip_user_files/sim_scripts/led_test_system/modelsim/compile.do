@@ -48,8 +48,8 @@ vcom -work xpm -64 -93 \
 "C:/Xilinx/Vivado/2019.1/data/ip/xpm/xpm_VCOMP.vhd" \
 
 vlog -work xil_defaultlib -64 -incr "+incdir+../../../../led_controller.srcs/sources_1/bd/led_test_system/ipshared/ec67/hdl" "+incdir+../../../../led_controller.srcs/sources_1/bd/led_test_system/ipshared/8c62/hdl" "+incdir+../../../../led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0" "+incdir+C:/Xilinx/Vivado/2019.1/data/xilinx_vip/include" \
-"../../../bd/led_test_system/ipshared/7066/hdl/led_controller_v1_0_S00_AXI.v" \
-"../../../bd/led_test_system/ipshared/7066/hdl/led_controller_v1_0.v" \
+"../../../bd/led_test_system/ipshared/629c/hdl/led_controller_v1_0_S00_AXI.v" \
+"../../../bd/led_test_system/ipshared/629c/hdl/led_controller_v1_0.v" \
 "../../../bd/led_test_system/ip/led_test_system_led_controller_0_0/sim/led_test_system_led_controller_0_0.v" \
 
 vlog -work axi_infrastructure_v1_1_0 -64 -incr "+incdir+../../../../led_controller.srcs/sources_1/bd/led_test_system/ipshared/ec67/hdl" "+incdir+../../../../led_controller.srcs/sources_1/bd/led_test_system/ipshared/8c62/hdl" "+incdir+../../../../led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_processing_system7_0_0" "+incdir+C:/Xilinx/Vivado/2019.1/data/xilinx_vip/include" \

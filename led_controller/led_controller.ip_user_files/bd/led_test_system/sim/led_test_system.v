@@ -1,7 +1,7 @@
 //Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-//Date        : Tue Nov 17 15:19:39 2020
+//Date        : Tue Nov 17 16:18:18 2020
 //Host        : DESKTOP-7QAIPHN running 64-bit major release  (build 9200)
 //Command     : generate_target led_test_system.bd
 //Design      : led_test_system

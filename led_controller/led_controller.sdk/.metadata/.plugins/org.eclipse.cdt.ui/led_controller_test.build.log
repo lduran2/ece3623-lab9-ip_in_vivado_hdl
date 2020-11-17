@@ -1,8 +1,8 @@
-16:03:30 **** Incremental Build of configuration Debug for project led_controller_test ****
+16:36:12 **** Incremental Build of configuration Debug for project led_controller_test ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for 'main-build'.
 
-16:03:31 Build Finished (took 468ms)
+16:36:12 Build Finished (took 549ms)
 

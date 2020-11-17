@@ -477,3 +477,3803 @@ Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-4
 
 !ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:03:39.338
 !MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-4
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:11:07.858
+!MESSAGE XSCT Command: [disconnect tcfchan#13], Thread: Thread-1106
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:11:07.939
+!MESSAGE XSCT command with result: [disconnect tcfchan#13], Result: [null, ]. Thread: Thread-1106
+!SESSION 2020-11-17 16:33:59.450 -----------------------------------------------
+eclipse.buildId=2019.1
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/Zynq_Book/led_controller/led_controller.sdk
+
+!ENTRY org.eclipse.ui 2 0 2020-11-17 16:34:03.650
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-11-17 16:34:03.651
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2020-11-17 16:34:04.947
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-11-17 16:34:04.948
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:20.854
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:20.857
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:21.600
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:21.601
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:21.602
+!MESSAGE XSCT Command: [setws C:/Zynq_Book/led_controller/led_controller.sdk], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:21.605
+!MESSAGE XSCT command with result: [setws C:/Zynq_Book/led_controller/led_controller.sdk], Result: [null, ]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:21.615
+!MESSAGE XSCT Command: [::hsi::utils::add_repo "C:/Zynq_Book/ip_repo/led_controller_1.0"], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:21.705
+!MESSAGE XSCT command with result: [::hsi::utils::add_repo "C:/Zynq_Book/ip_repo/led_controller_1.0"], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:21.729
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:28.047
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:28.058
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:28.065
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:28.066
+!MESSAGE XSCT Command: [hsi get_hw_files -of_object [openhw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ; hsi current_hw_design]], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:28.070
+!MESSAGE XSCT command with result: [hsi get_hw_files -of_object [openhw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ; hsi current_hw_design]], Result: [null, led_test_system.hwh led_test_system_bd.tcl ps7_init.c ps7_init.h ps7_init_gpl.c ps7_init_gpl.h ps7_init.html ps7_init.tcl led_test_system_wrapper.bit]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:28.128
+!MESSAGE XSCT Command: [::hsi::utils::closehw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:28.167
+!MESSAGE XSCT command with result: [::hsi::utils::closehw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:28.167
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:30.267
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:30.277
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/LEODUR~1/AppData/Local/Temp/system6300960501844080598.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:32.690
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/LEODUR~1/AppData/Local/Temp/system6300960501844080598.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:32.700
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:32.721
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf], Result: [null, {"led_controller_0": {"hier_name": "led_controller_0",
+"type": "led_controller",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_0_axi_periph": {"hier_name": "ps7_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"rst_ps7_0_100M": {"hier_name": "rst_ps7_0_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_1": {"hier_name": "ps7_uart_1",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ttc_0": {"hier_name": "ps7_ttc_0",
+"type": "ps7_ttc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:32.728
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/LEODUR~1/AppData/Local/Temp/system6300960501844080598.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:32.750
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/LEODUR~1/AppData/Local/Temp/system6300960501844080598.hdf], Result: [null, {"led_controller_0": {"hier_name": "led_controller_0",
+"type": "led_controller",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_0_axi_periph": {"hier_name": "ps7_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"rst_ps7_0_100M": {"hier_name": "rst_ps7_0_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_1": {"hier_name": "ps7_uart_1",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ttc_0": {"hier_name": "ps7_ttc_0",
+"type": "ps7_ttc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:33.554
+!MESSAGE XSCT Command: [::hsi::utils::sync_sw_with_hw_changes -newhw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf -oldhw C:/Users/LEODUR~1/AppData/Local/Temp/system6300960501844080598.hdf -sw C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss -dir C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:35.655
+!MESSAGE XSCT command with result: [::hsi::utils::sync_sw_with_hw_changes -newhw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf -oldhw C:/Users/LEODUR~1/AppData/Local/Temp/system6300960501844080598.hdf -sw C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss -dir C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:44.873
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:44.877
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:44.878
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:44.888
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:44.889
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:44.914
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf], Result: [null, {"ps7_cortexa9_0": {"freertos10_xilinx_v1_3": {"name": "freertos10_xilinx",
+"version": "1.3",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.1.1",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_3",
+},
+"standalone_v7_0": {"name": "standalone",
+"version": "7.0",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/lib/bsp/standalone_v7_0",
+},
+},
+"ps7_cortexa9_1": {"freertos10_xilinx_v1_3": {"name": "freertos10_xilinx",
+"version": "1.3",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.1.1",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_3",
+},
+"standalone_v7_0": {"name": "standalone",
+"version": "7.0",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/lib/bsp/standalone_v7_0",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:44.939
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:44.943
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, led_controller_0 ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_ethernet_0 ps7_globaltimer_0 ps7_gpio_0 ps7_gpv_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_qspi_0 ps7_qspi_linear_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_sd_0 ps7_slcr_0 ps7_ttc_0 ps7_uart_1 ps7_usb_0 ps7_xadc_0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:44.944
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:44.957
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss], Result: [null, {"led_controller_0": {"name": "led_controller",
+"ver": "1.0",
+},
+"ps7_afi_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_afi_1": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_afi_2": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_afi_3": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_coresight_comp_0": {"name": "coresightps_dcc",
+"ver": "1.5",
+},
+"ps7_ddr_0": {"name": "ddrps",
+"ver": "1.0",
+},
+"ps7_ddrc_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_dev_cfg_0": {"name": "devcfg",
+"ver": "3.5",
+},
+"ps7_dma_ns": {"name": "dmaps",
+"ver": "2.4",
+},
+"ps7_dma_s": {"name": "dmaps",
+"ver": "2.4",
+},
+"ps7_ethernet_0": {"name": "emacps",
+"ver": "3.9",
+},
+"ps7_globaltimer_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_gpio_0": {"name": "gpiops",
+"ver": "3.5",
+},
+"ps7_gpv_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_intc_dist_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_iop_bus_config_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_l2cachec_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ocmc_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_pl310_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_pmu_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_qspi_0": {"name": "qspips",
+"ver": "3.6",
+},
+"ps7_qspi_linear_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ram_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ram_1": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_scuc_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_scugic_0": {"name": "scugic",
+"ver": "4.0",
+},
+"ps7_scutimer_0": {"name": "scutimer",
+"ver": "2.1",
+},
+"ps7_scuwdt_0": {"name": "scuwdt",
+"ver": "2.1",
+},
+"ps7_sd_0": {"name": "sdps",
+"ver": "3.7",
+},
+"ps7_slcr_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ttc_0": {"name": "ttcps",
+"ver": "3.9",
+},
+"ps7_uart_1": {"name": "uartps",
+"ver": "3.7",
+},
+"ps7_usb_0": {"name": "usbps",
+"ver": "2.4",
+},
+"ps7_xadc_0": {"name": "xadcps",
+"ver": "2.3",
+},
+"ps7_cortexa9_0": {"name": "cpu_cortexa9",
+"ver": "2.7",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:44.970
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:45.124
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf], Result: [null, {"led_controller_0": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"led_controller_v1_0": {"name": "led_controller",
+"version": "1.0",
+"repo": "C:/Zynq_Book/ip_repo/led_controller_1.0/drivers/led_controller_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"processing_system7_0": {"version": "5.5",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_0_axi_periph": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"rst_ps7_0_100M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_clockc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_uart_1": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"uartps_v3_7": {"name": "uartps",
+"version": "3.7",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/uartps_v3_7",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_pl310_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_pmu_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_qspi_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"qspips_v3_6": {"name": "qspips",
+"version": "3.6",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/qspips_v3_6",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_qspi_linear_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_axi_interconnect_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_cortexa9_0": {"version": "5.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"cpu_cortexa9_v2_7": {"name": "cpu_cortexa9",
+"version": "2.7",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_cortexa9_v2_7",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_cortexa9_1": {"version": "5.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"cpu_cortexa9_v2_7": {"name": "cpu_cortexa9",
+"version": "2.7",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_cortexa9_v2_7",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ddr_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"ddrps_v1_0": {"name": "ddrps",
+"version": "1.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/ddrps_v1_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ethernet_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"emacps_v3_9": {"name": "emacps",
+"version": "3.9",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/emacps_v3_9",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_usb_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"usbps_v2_4": {"name": "usbps",
+"version": "2.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/usbps_v2_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_sd_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"sdps_v3_7": {"name": "sdps",
+"version": "3.7",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/sdps_v3_7",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ttc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"ttcps_v3_9": {"name": "ttcps",
+"version": "3.9",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/ttcps_v3_9",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_gpio_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpiops_v3_5": {"name": "gpiops",
+"version": "3.5",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpiops_v3_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ddrc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_dev_cfg_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"devcfg_v3_5": {"name": "devcfg",
+"version": "3.5",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/devcfg_v3_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_xadc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"xadcps_v2_3": {"name": "xadcps",
+"version": "2.3",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/xadcps_v2_3",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_ocmc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_coresight_comp_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"coresightps_dcc_v1_5": {"name": "coresightps_dcc",
+"version": "1.5",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/coresightps_dcc_v1_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_gpv_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_scuc_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_globaltimer_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_intc_dist_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_l2cachec_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_dma_s": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"dmaps_v2_4": {"name": "dmaps",
+"version": "2.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/dmaps_v2_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_iop_bus_config_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_ram_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_ram_1": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_scugic_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"scugic_v4_0": {"name": "scugic",
+"version": "4.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/scugic_v4_0",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_scutimer_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"scutimer_v2_1": {"name": "scutimer",
+"version": "2.1",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/scutimer_v2_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_scuwdt_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"scuwdt_v2_1": {"name": "scuwdt",
+"version": "2.1",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/scuwdt_v2_1",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_slcr_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_dma_ns": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"dmaps_v2_4": {"name": "dmaps",
+"version": "2.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/dmaps_v2_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"ps7_afi_0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_afi_1": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_afi_2": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_afi_3": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"ps7_m_axi_gp0": {"version": "1.00.a",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:45.361
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:45.365
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:45.366
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:45.375
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:45.388
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:45.393
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:45.688
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:45.691
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:53.384
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:53.391
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss ], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:53.392
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:53.397
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.0",
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:53.513
+!MESSAGE XSCT Command: [::hsi::utils::generate_bsp_sources C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:55.246
+!MESSAGE XSCT command with result: [::hsi::utils::generate_bsp_sources C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:55.468
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:55.488
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:55.489
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:55.620
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:55.759
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:55.833
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:56.045
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:34:56.048
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:56.195
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.core.CommandLauncher.printCommandLine(CommandLauncher.java:287)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:250)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:56.368
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:56.382
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:56.549
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:56.563
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:56.739
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:56.753
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:56.940
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:56.962
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:57.209
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:57.223
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:57.442
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:57.459
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:57.677
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:57.689
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:57.839
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:57.851
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:58.004
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:58.019
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:58.160
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:58.170
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:58.302
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:58.315
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:58.454
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:58.465
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:58.602
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:58.612
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:58.751
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:58.763
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:59.142
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:59.154
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:59.291
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:59.300
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:59.440
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:59.450
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:59.590
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:59.603
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:59.742
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:59.750
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:34:59.850
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:00.221
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:00.322
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:00.334
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:00.434
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:00.491
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:00.503
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:00.600
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:00.730
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:00.743
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:00.847
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:02.692
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:02.703
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:02.801
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:04.578
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:04.589
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:04.684
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:07.169
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:07.178
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:07.299
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:09.351
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:09.361
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:09.467
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:09.745
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:09.754
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:09.756
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:09.757
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:09.759
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:09.761
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:09.762
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:10.043
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:10.052
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:10.152
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:12.186
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:12.197
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:12.298
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:14.334
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:14.343
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:14.451
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:15.493
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:15.504
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:15.603
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:16.650
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:16.659
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:16.766
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:18.933
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:18.942
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:19.105
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:19.241
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:19.246
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:19.247
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:19.249
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:23.413
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:23.415
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:23.417
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:23.418
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:24.108
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:24.110
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:24.111
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:24.112
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:25.409
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:25.411
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:25.412
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:25.413
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:27.708
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:27.718
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:27.812
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:29.266
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:29.276
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:29.417
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:31.571
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:31.582
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:31.679
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:33.909
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:33.917
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:34.022
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:36.229
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-11-17 16:35:36.279
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.closeConsoleOutputStream(ConsoleOutputSniffer.java:160)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.close(ConsoleOutputSniffer.java:68)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.close(ProcessClosure.java:98)
+	at org.eclipse.cdt.internal.core.ProcessClosure.isAlive(ProcessClosure.java:193)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:259)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:35:59.198
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_tag_info -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:35:59.203
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_tag_info -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ], Result: [null, {"ps7_cortexa9_0": "",
+"ps7_cortexa9_1": "",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:35:59.206
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:35:59.214
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf], Result: [null, {"device": "7z010",
+"family": "zynq",
+"timestamp": "Tue Nov 17 16:25:13 2020",
+"vivado_version": "2019.1",
+"part": "xc7z010clg400-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:00.883
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:00.894
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:00.897
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:03.214
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:03.219
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:04.898
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279759083A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:04.903
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:04.922
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279759083A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:04.923
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:04.970
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:04.973
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:05.910
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:05.912
+!MESSAGE XSCT Command: [fpga -file C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/led_test_system_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:07.158
+!MESSAGE XSCT command with result: [fpga -file C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/led_test_system_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:07.964
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:07.977
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-11-17 16:36:13.725
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.744
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.764
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf], Result: [null, {"PCW_APU_PERIPHERAL_FREQMHZ": "650",
+"PCW_DDR_HPRLPR_QUEUE_PARTITION": "HPR(0)/LPR(32)",
+"PCW_DDR_HPR_TO_CRITICAL_PRIORITY_LEVEL": "15",
+"PCW_DDR_LPR_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_DDR_PORT0_HPR_ENABLE": "0",
+"PCW_DDR_PORT1_HPR_ENABLE": "0",
+"PCW_DDR_PORT2_HPR_ENABLE": "0",
+"PCW_DDR_PORT3_HPR_ENABLE": "0",
+"PCW_DDR_WRITE_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_FPGA0_PERIPHERAL_FREQMHZ": "100",
+"PCW_UIPARAM_DDR_BUS_WIDTH": "32 Bit",
+"PCW_UIPARAM_DDR_FREQ_MHZ": "525",
+}]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.764
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.779
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, {"led_controller_0": {},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_ttc_0": {},
+"ps7_uart_1": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.781
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.816
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, {"led_controller_0_S00_AXI": {"name": "led_controller_0",
+"base": "0x43C00000",
+"high": "0x43C0FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ttc_0": {"name": "ps7_ttc_0",
+"base": "0xF8001000",
+"high": "0xF8001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.819
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_ENABLED], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.822
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.823
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.826
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.827
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.847
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.848
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.852
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.853
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_FREQ], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.856
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_FREQ], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.856
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.859
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.859
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.866
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
+"index": "0",
+},
+"ps7_cortexa9_1": {"bscan": "",
+"index": "1",
+},
+}]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.866
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.909
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Result: [null, {"led_controller_0": {},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_ttc_0": {},
+"ps7_uart_1": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.910
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.937
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Result: [null, {"led_controller_0_S00_AXI": {"name": "led_controller_0",
+"base": "0x43C00000",
+"high": "0x43C0FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ttc_0": {"name": "ps7_ttc_0",
+"base": "0xF8001000",
+"high": "0xF8001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.938
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.947
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.948
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.954
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.954
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.959
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.960
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.986
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.987
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_FREQ], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.992
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.993
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:13.997
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:14.039
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf bit], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:14.044
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf bit], Result: [null, led_test_system_wrapper.bit]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:14.045
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:14.094
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:14.095
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:14.119
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279759083A]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:14.120
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:14.142
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279759083A]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:14.143
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==1}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:14.184
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:14.184
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==0} -index 1], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.059
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==0} -index 1], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.060
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.071
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.074
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.082
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.083
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.099
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279759083A]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.101
+!MESSAGE XSCT Command: [version -server], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.104
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.105
+!MESSAGE XSCT Command: [version], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.107
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.1
+SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.109
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.139
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279759083A]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.140
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==1}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.186
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.187
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.198
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279759083A]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.198
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==1}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.252
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.255
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.270
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279759083A]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.270
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==1}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.312
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.313
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.326
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279759083A]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.327
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==1}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.368
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.369
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.380
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279759083A]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.381
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==1}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.418
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.419
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.429
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo 210279759083A]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.430
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==1}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.459
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279759083A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.460
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo 210279759083A" && level == 0}], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.488
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo 210279759083A" && level == 0}], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.489
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.492
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.493
+!MESSAGE XSCT Command: [source C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/ps7_init.tcl], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.496
+!MESSAGE XSCT command with result: [source C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/ps7_init.tcl], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.497
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.536
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.537
+!MESSAGE XSCT Command: [loadhw -hw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.600
+!MESSAGE XSCT command with result: [loadhw -hw C:/Zynq_Book/led_controller/led_controller.sdk/led_test_system_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, led_test_system_wrapper_0]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.601
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.610
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.610
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.653
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.654
+!MESSAGE XSCT Command: [stop], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.763
+!MESSAGE XSCT command with result: [stop], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:15.764
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:17.549
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:17.551
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:17.579
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:17.580
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:17.629
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:17.631
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:17.708
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:17.710
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:17.792
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:17.793
+!MESSAGE XSCT Command: [dow C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test/Debug/led_controller_test.elf], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:17.994
+!MESSAGE XSCT command with result: [dow C:/Zynq_Book/led_controller/led_controller.sdk/led_controller_test/Debug/led_controller_test.elf], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:17.995
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:18.001
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:18.234
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:18.410
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zybo 210279759083A"} -index 0], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:18.411
+!MESSAGE XSCT Command: [con], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-11-17 16:36:18.499
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-3

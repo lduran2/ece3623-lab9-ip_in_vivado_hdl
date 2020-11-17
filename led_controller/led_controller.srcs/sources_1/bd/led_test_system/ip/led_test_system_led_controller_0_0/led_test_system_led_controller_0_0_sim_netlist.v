@@ -1,7 +1,7 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-// Date        : Tue Nov 17 15:20:53 2020
+// Date        : Tue Nov 17 16:19:23 2020
 // Host        : DESKTOP-7QAIPHN running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
 //               C:/Zynq_Book/led_controller/led_controller.srcs/sources_1/bd/led_test_system/ip/led_test_system_led_controller_0_0/led_test_system_led_controller_0_0_sim_netlist.v
@@ -109,11 +109,11 @@ endmodule
 
 (* ORIG_REF_NAME = "led_controller_v1_0" *) 
 module led_test_system_led_controller_0_0_led_controller_v1_0
-   (LEDs_out,
-    S_AXI_AWREADY,
+   (S_AXI_AWREADY,
     S_AXI_WREADY,
     S_AXI_ARREADY,
     s00_axi_rdata,
+    LEDs_out,
     s00_axi_rvalid,
     s00_axi_bvalid,
     s00_axi_aclk,
@@ -127,11 +127,11 @@ module led_test_system_led_controller_0_0_led_controller_v1_0
     s00_axi_aresetn,
     s00_axi_bready,
     s00_axi_rready);
-  output [3:0]LEDs_out;
   output S_AXI_AWREADY;
   output S_AXI_WREADY;
   output S_AXI_ARREADY;
   output [31:0]s00_axi_rdata;
+  output [3:0]LEDs_out;
   output s00_axi_rvalid;
   output s00_axi_bvalid;
   input s00_axi_aclk;
@@ -188,11 +188,11 @@ endmodule
 
 (* ORIG_REF_NAME = "led_controller_v1_0_S00_AXI" *) 
 module led_test_system_led_controller_0_0_led_controller_v1_0_S00_AXI
-   (LEDs_out,
-    S_AXI_AWREADY,
+   (S_AXI_AWREADY,
     S_AXI_WREADY,
     S_AXI_ARREADY,
     s00_axi_rdata,
+    LEDs_out,
     s00_axi_rvalid,
     s00_axi_bvalid,
     s00_axi_aclk,
@@ -206,11 +206,11 @@ module led_test_system_led_controller_0_0_led_controller_v1_0_S00_AXI
     s00_axi_aresetn,
     s00_axi_bready,
     s00_axi_rready);
-  output [3:0]LEDs_out;
   output S_AXI_AWREADY;
   output S_AXI_WREADY;
   output S_AXI_ARREADY;
   output [31:0]s00_axi_rdata;
+  output [3:0]LEDs_out;
   output s00_axi_rvalid;
   output s00_axi_bvalid;
   input s00_axi_aclk;
@@ -226,11 +226,143 @@ module led_test_system_led_controller_0_0_led_controller_v1_0_S00_AXI
   input s00_axi_rready;
 
   wire [3:0]LEDs_out;
+  wire \LEDs_out[0]_INST_0_i_10_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_11_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_12_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_13_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_14_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_15_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_16_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_17_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_18_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_19_n_0 ;
   wire \LEDs_out[0]_INST_0_i_1_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_20_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_21_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_22_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_23_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_24_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_25_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_26_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_27_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_28_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_29_n_0 ;
   wire \LEDs_out[0]_INST_0_i_2_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_30_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_31_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_32_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_33_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_34_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_35_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_36_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_37_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_38_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_39_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_3_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_40_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_41_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_42_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_43_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_44_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_45_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_46_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_47_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_48_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_49_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_4_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_50_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_51_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_52_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_53_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_54_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_55_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_56_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_57_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_58_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_59_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_5_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_60_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_61_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_62_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_6_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_7_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_8_n_0 ;
+  wire \LEDs_out[0]_INST_0_i_9_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_10_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_11_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_12_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_13_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_14_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_15_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_16_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_17_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_18_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_19_n_0 ;
   wire \LEDs_out[1]_INST_0_i_1_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_20_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_21_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_22_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_23_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_24_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_25_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_26_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_27_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_28_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_29_n_0 ;
   wire \LEDs_out[1]_INST_0_i_2_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_30_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_31_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_32_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_33_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_34_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_35_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_36_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_37_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_38_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_39_n_0 ;
   wire \LEDs_out[1]_INST_0_i_3_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_40_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_41_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_4_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_5_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_6_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_7_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_8_n_0 ;
+  wire \LEDs_out[1]_INST_0_i_9_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_10_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_11_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_12_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_13_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_14_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_15_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_16_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_17_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_18_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_19_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_1_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_20_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_21_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_22_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_23_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_24_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_25_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_26_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_27_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_28_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_29_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_2_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_30_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_31_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_32_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_33_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_34_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_3_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_4_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_5_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_6_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_7_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_8_n_0 ;
+  wire \LEDs_out[2]_INST_0_i_9_n_0 ;
   wire \LEDs_out[3]_INST_0_i_10_n_0 ;
   wire \LEDs_out[3]_INST_0_i_11_n_0 ;
   wire \LEDs_out[3]_INST_0_i_12_n_0 ;
@@ -246,11 +378,6 @@ module led_test_system_led_controller_0_0_led_controller_v1_0_S00_AXI
   wire \LEDs_out[3]_INST_0_i_21_n_0 ;
   wire \LEDs_out[3]_INST_0_i_22_n_0 ;
   wire \LEDs_out[3]_INST_0_i_23_n_0 ;
-  wire \LEDs_out[3]_INST_0_i_24_n_0 ;
-  wire \LEDs_out[3]_INST_0_i_25_n_0 ;
-  wire \LEDs_out[3]_INST_0_i_26_n_0 ;
-  wire \LEDs_out[3]_INST_0_i_27_n_0 ;
-  wire \LEDs_out[3]_INST_0_i_28_n_0 ;
   wire \LEDs_out[3]_INST_0_i_2_n_0 ;
   wire \LEDs_out[3]_INST_0_i_3_n_0 ;
   wire \LEDs_out[3]_INST_0_i_4_n_0 ;
@@ -342,350 +469,1535 @@ module led_test_system_led_controller_0_0_led_controller_v1_0_S00_AXI
   wire slv_reg_rden__0;
   wire slv_reg_wren__0;
 
-  (* SOFT_HLUTNM = "soft_lutpair3" *) 
-  LUT5 #(
-    .INIT(32'h69969669)) 
-    \LEDs_out[0]_INST_0 
-       (.I0(\slv_reg0_reg_n_0_[14] ),
-        .I1(\slv_reg0_reg_n_0_[12] ),
-        .I2(\LEDs_out[0]_INST_0_i_1_n_0 ),
-        .I3(\slv_reg0_reg_n_0_[11] ),
-        .I4(\slv_reg0_reg_n_0_[13] ),
-        .O(LEDs_out[0]));
+  MUXF7 \LEDs_out[0]_INST_0 
+       (.I0(\LEDs_out[0]_INST_0_i_1_n_0 ),
+        .I1(\LEDs_out[0]_INST_0_i_2_n_0 ),
+        .O(LEDs_out[0]),
+        .S(\slv_reg0_reg_n_0_[14] ));
   LUT6 #(
-    .INIT(64'h9669699669969669)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \LEDs_out[0]_INST_0_i_1 
-       (.I0(\slv_reg0_reg_n_0_[10] ),
-        .I1(\slv_reg0_reg_n_0_[8] ),
-        .I2(\slv_reg0_reg_n_0_[6] ),
-        .I3(\LEDs_out[0]_INST_0_i_2_n_0 ),
-        .I4(\slv_reg0_reg_n_0_[7] ),
-        .I5(\slv_reg0_reg_n_0_[9] ),
+       (.I0(\LEDs_out[0]_INST_0_i_3_n_0 ),
+        .I1(\LEDs_out[0]_INST_0_i_4_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[13] ),
+        .I3(\LEDs_out[0]_INST_0_i_5_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[12] ),
+        .I5(\LEDs_out[0]_INST_0_i_6_n_0 ),
         .O(\LEDs_out[0]_INST_0_i_1_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[0]_INST_0_i_10 
+       (.I0(\LEDs_out[0]_INST_0_i_25_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[9] ),
+        .I2(\LEDs_out[0]_INST_0_i_26_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[8] ),
+        .I4(\LEDs_out[0]_INST_0_i_27_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_10_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[0]_INST_0_i_11 
+       (.I0(\LEDs_out[0]_INST_0_i_28_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[9] ),
+        .I2(\LEDs_out[0]_INST_0_i_29_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[8] ),
+        .I4(\LEDs_out[0]_INST_0_i_30_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_11_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[0]_INST_0_i_12 
+       (.I0(\LEDs_out[0]_INST_0_i_31_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[9] ),
+        .I2(\LEDs_out[0]_INST_0_i_29_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[8] ),
+        .I4(\LEDs_out[0]_INST_0_i_30_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_12_n_0 ));
   LUT6 #(
-    .INIT(64'h6996966996696996)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
+    \LEDs_out[0]_INST_0_i_13 
+       (.I0(\LEDs_out[0]_INST_0_i_32_n_0 ),
+        .I1(\LEDs_out[0]_INST_0_i_27_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[9] ),
+        .I3(\LEDs_out[0]_INST_0_i_29_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[8] ),
+        .I5(\LEDs_out[0]_INST_0_i_30_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_13_n_0 ));
+  LUT6 #(
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
+    \LEDs_out[0]_INST_0_i_14 
+       (.I0(\LEDs_out[0]_INST_0_i_28_n_0 ),
+        .I1(\LEDs_out[0]_INST_0_i_30_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[9] ),
+        .I3(\LEDs_out[0]_INST_0_i_33_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[8] ),
+        .I5(\LEDs_out[0]_INST_0_i_34_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_14_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[0]_INST_0_i_15 
+       (.I0(\LEDs_out[0]_INST_0_i_31_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[9] ),
+        .I2(\LEDs_out[0]_INST_0_i_33_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[8] ),
+        .I4(\LEDs_out[0]_INST_0_i_34_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_15_n_0 ));
+  LUT6 #(
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
+    \LEDs_out[0]_INST_0_i_16 
+       (.I0(\LEDs_out[0]_INST_0_i_35_n_0 ),
+        .I1(\LEDs_out[0]_INST_0_i_24_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[9] ),
+        .I3(\LEDs_out[0]_INST_0_i_26_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[8] ),
+        .I5(\LEDs_out[0]_INST_0_i_27_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_16_n_0 ));
+  LUT6 #(
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
+    \LEDs_out[0]_INST_0_i_17 
+       (.I0(\LEDs_out[0]_INST_0_i_31_n_0 ),
+        .I1(\LEDs_out[0]_INST_0_i_34_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[9] ),
+        .I3(\LEDs_out[0]_INST_0_i_33_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[8] ),
+        .I5(\LEDs_out[0]_INST_0_i_36_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_17_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8BBB888)) 
+    \LEDs_out[0]_INST_0_i_18 
+       (.I0(\LEDs_out[0]_INST_0_i_37_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[9] ),
+        .I2(\LEDs_out[0]_INST_0_i_38_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[8] ),
+        .I4(\LEDs_out[0]_INST_0_i_22_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_18_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[0]_INST_0_i_19 
+       (.I0(\LEDs_out[0]_INST_0_i_39_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[9] ),
+        .I2(\LEDs_out[0]_INST_0_i_23_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[8] ),
+        .I4(\LEDs_out[0]_INST_0_i_24_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_19_n_0 ));
+  LUT6 #(
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \LEDs_out[0]_INST_0_i_2 
+       (.I0(\LEDs_out[0]_INST_0_i_7_n_0 ),
+        .I1(\LEDs_out[0]_INST_0_i_8_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[13] ),
+        .I3(\LEDs_out[0]_INST_0_i_5_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[12] ),
+        .I5(\LEDs_out[0]_INST_0_i_4_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_2_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[0]_INST_0_i_20 
+       (.I0(\LEDs_out[0]_INST_0_i_28_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[9] ),
+        .I2(\LEDs_out[0]_INST_0_i_26_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[8] ),
+        .I4(\LEDs_out[0]_INST_0_i_27_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_20_n_0 ));
+  LUT6 #(
+    .INIT(64'h8AFF8A00FF00FF00)) 
+    \LEDs_out[0]_INST_0_i_21 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\LEDs_out[0]_INST_0_i_40_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[4] ),
+        .I3(\slv_reg0_reg_n_0_[7] ),
+        .I4(\LEDs_out[3]_INST_0_i_13_n_0 ),
+        .I5(\slv_reg0_reg_n_0_[6] ),
+        .O(\LEDs_out[0]_INST_0_i_21_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[0]_INST_0_i_22 
+       (.I0(\LEDs_out[0]_INST_0_i_41_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[7] ),
+        .I2(\LEDs_out[0]_INST_0_i_42_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[6] ),
+        .I4(\LEDs_out[2]_INST_0_i_26_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_22_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[0]_INST_0_i_23 
+       (.I0(\LEDs_out[0]_INST_0_i_43_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[7] ),
+        .I2(\LEDs_out[0]_INST_0_i_44_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[6] ),
+        .I4(\LEDs_out[0]_INST_0_i_45_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_23_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[0]_INST_0_i_24 
+       (.I0(\LEDs_out[0]_INST_0_i_46_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[7] ),
+        .I2(\LEDs_out[0]_INST_0_i_44_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[6] ),
+        .I4(\LEDs_out[0]_INST_0_i_45_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_24_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[0]_INST_0_i_25 
+       (.I0(\LEDs_out[0]_INST_0_i_47_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[7] ),
+        .I2(\LEDs_out[0]_INST_0_i_48_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[6] ),
+        .I4(\LEDs_out[0]_INST_0_i_49_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_25_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[0]_INST_0_i_26 
+       (.I0(\LEDs_out[0]_INST_0_i_50_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[7] ),
+        .I2(\LEDs_out[0]_INST_0_i_48_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[6] ),
+        .I4(\LEDs_out[0]_INST_0_i_49_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_26_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[0]_INST_0_i_27 
+       (.I0(\LEDs_out[0]_INST_0_i_51_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[7] ),
+        .I2(\LEDs_out[0]_INST_0_i_48_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[6] ),
+        .I4(\LEDs_out[0]_INST_0_i_49_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_27_n_0 ));
+  LUT6 #(
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
+    \LEDs_out[0]_INST_0_i_28 
+       (.I0(\LEDs_out[0]_INST_0_i_52_n_0 ),
+        .I1(\LEDs_out[0]_INST_0_i_45_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[7] ),
+        .I3(\LEDs_out[0]_INST_0_i_48_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[6] ),
+        .I5(\LEDs_out[0]_INST_0_i_49_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_28_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[0]_INST_0_i_29 
+       (.I0(\LEDs_out[0]_INST_0_i_50_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[7] ),
+        .I2(\LEDs_out[0]_INST_0_i_53_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[6] ),
+        .I4(\LEDs_out[0]_INST_0_i_54_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_29_n_0 ));
+  LUT6 #(
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
+    \LEDs_out[0]_INST_0_i_3 
+       (.I0(\LEDs_out[0]_INST_0_i_9_n_0 ),
+        .I1(\LEDs_out[0]_INST_0_i_10_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[11] ),
+        .I3(\LEDs_out[0]_INST_0_i_11_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[10] ),
+        .I5(\LEDs_out[0]_INST_0_i_12_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_3_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[0]_INST_0_i_30 
+       (.I0(\LEDs_out[0]_INST_0_i_55_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[7] ),
+        .I2(\LEDs_out[0]_INST_0_i_53_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[6] ),
+        .I4(\LEDs_out[0]_INST_0_i_54_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_30_n_0 ));
+  LUT6 #(
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
+    \LEDs_out[0]_INST_0_i_31 
+       (.I0(\LEDs_out[0]_INST_0_i_47_n_0 ),
+        .I1(\LEDs_out[0]_INST_0_i_49_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[7] ),
+        .I3(\LEDs_out[0]_INST_0_i_53_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[6] ),
+        .I5(\LEDs_out[0]_INST_0_i_54_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_31_n_0 ));
+  LUT6 #(
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
+    \LEDs_out[0]_INST_0_i_32 
+       (.I0(\LEDs_out[0]_INST_0_i_56_n_0 ),
+        .I1(\LEDs_out[2]_INST_0_i_26_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[7] ),
+        .I3(\LEDs_out[0]_INST_0_i_44_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[6] ),
+        .I5(\LEDs_out[0]_INST_0_i_45_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_32_n_0 ));
+  LUT6 #(
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
+    \LEDs_out[0]_INST_0_i_33 
+       (.I0(\LEDs_out[0]_INST_0_i_50_n_0 ),
+        .I1(\LEDs_out[0]_INST_0_i_54_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[7] ),
+        .I3(\LEDs_out[0]_INST_0_i_57_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[6] ),
+        .I5(\LEDs_out[0]_INST_0_i_58_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_33_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[0]_INST_0_i_34 
+       (.I0(\LEDs_out[0]_INST_0_i_55_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[7] ),
+        .I2(\LEDs_out[0]_INST_0_i_57_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[6] ),
+        .I4(\LEDs_out[0]_INST_0_i_58_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_34_n_0 ));
+  LUT6 #(
+    .INIT(64'hDFD00F0FDFD00000)) 
+    \LEDs_out[0]_INST_0_i_35 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\LEDs_out[0]_INST_0_i_59_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[7] ),
+        .I3(\LEDs_out[0]_INST_0_i_42_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[6] ),
+        .I5(\LEDs_out[2]_INST_0_i_26_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_35_n_0 ));
+  LUT6 #(
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
+    \LEDs_out[0]_INST_0_i_36 
+       (.I0(\LEDs_out[0]_INST_0_i_55_n_0 ),
+        .I1(\LEDs_out[0]_INST_0_i_58_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[7] ),
+        .I3(\LEDs_out[0]_INST_0_i_57_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[6] ),
+        .I5(\LEDs_out[0]_INST_0_i_60_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_36_n_0 ));
+  LUT6 #(
+    .INIT(64'hB8FFB8CC00CC00CC)) 
+    \LEDs_out[0]_INST_0_i_37 
+       (.I0(\LEDs_out[0]_INST_0_i_52_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[8] ),
+        .I2(\LEDs_out[0]_INST_0_i_61_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[7] ),
+        .I4(\LEDs_out[3]_INST_0_i_13_n_0 ),
+        .I5(\slv_reg0_reg_n_0_[6] ),
+        .O(\LEDs_out[0]_INST_0_i_37_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[0]_INST_0_i_38 
+       (.I0(\LEDs_out[0]_INST_0_i_62_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[7] ),
+        .I2(\LEDs_out[0]_INST_0_i_42_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[6] ),
+        .I4(\LEDs_out[2]_INST_0_i_26_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_38_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[0]_INST_0_i_39 
+       (.I0(\LEDs_out[0]_INST_0_i_47_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[7] ),
+        .I2(\LEDs_out[0]_INST_0_i_44_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[6] ),
+        .I4(\LEDs_out[0]_INST_0_i_45_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_39_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[0]_INST_0_i_4 
+       (.I0(\LEDs_out[0]_INST_0_i_13_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[11] ),
+        .I2(\LEDs_out[0]_INST_0_i_14_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[10] ),
+        .I4(\LEDs_out[0]_INST_0_i_15_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_4_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair3" *) 
+  LUT4 #(
+    .INIT(16'h5D00)) 
+    \LEDs_out[0]_INST_0_i_40 
+       (.I0(\slv_reg0_reg_n_0_[2] ),
+        .I1(\slv_reg0_reg_n_0_[1] ),
+        .I2(slv_reg0),
+        .I3(\slv_reg0_reg_n_0_[3] ),
+        .O(\LEDs_out[0]_INST_0_i_40_n_0 ));
+  LUT6 #(
+    .INIT(64'h77F7FFFFFFFFFFFF)) 
+    \LEDs_out[0]_INST_0_i_41 
+       (.I0(\slv_reg0_reg_n_0_[4] ),
+        .I1(\slv_reg0_reg_n_0_[2] ),
+        .I2(\slv_reg0_reg_n_0_[1] ),
+        .I3(slv_reg0),
+        .I4(\slv_reg0_reg_n_0_[3] ),
+        .I5(\slv_reg0_reg_n_0_[5] ),
+        .O(\LEDs_out[0]_INST_0_i_41_n_0 ));
+  LUT6 #(
+    .INIT(64'hF7FFFFFFFFFFFFFF)) 
+    \LEDs_out[0]_INST_0_i_42 
+       (.I0(\slv_reg0_reg_n_0_[4] ),
+        .I1(\slv_reg0_reg_n_0_[2] ),
+        .I2(slv_reg0),
+        .I3(\slv_reg0_reg_n_0_[1] ),
+        .I4(\slv_reg0_reg_n_0_[3] ),
+        .I5(\slv_reg0_reg_n_0_[5] ),
+        .O(\LEDs_out[0]_INST_0_i_42_n_0 ));
+  LUT6 #(
+    .INIT(64'hEA2A222200000000)) 
+    \LEDs_out[0]_INST_0_i_43 
        (.I0(\slv_reg0_reg_n_0_[5] ),
         .I1(\slv_reg0_reg_n_0_[3] ),
+        .I2(\slv_reg0_reg_n_0_[1] ),
+        .I3(slv_reg0),
+        .I4(\slv_reg0_reg_n_0_[2] ),
+        .I5(\slv_reg0_reg_n_0_[4] ),
+        .O(\LEDs_out[0]_INST_0_i_43_n_0 ));
+  LUT6 #(
+    .INIT(64'hC808000000000000)) 
+    \LEDs_out[0]_INST_0_i_44 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\slv_reg0_reg_n_0_[3] ),
+        .I2(\slv_reg0_reg_n_0_[1] ),
+        .I3(slv_reg0),
+        .I4(\slv_reg0_reg_n_0_[2] ),
+        .I5(\slv_reg0_reg_n_0_[4] ),
+        .O(\LEDs_out[0]_INST_0_i_44_n_0 ));
+  LUT6 #(
+    .INIT(64'h4080000000000000)) 
+    \LEDs_out[0]_INST_0_i_45 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\slv_reg0_reg_n_0_[3] ),
+        .I2(\slv_reg0_reg_n_0_[1] ),
+        .I3(slv_reg0),
+        .I4(\slv_reg0_reg_n_0_[2] ),
+        .I5(\slv_reg0_reg_n_0_[4] ),
+        .O(\LEDs_out[0]_INST_0_i_45_n_0 ));
+  LUT6 #(
+    .INIT(64'h4080888800000000)) 
+    \LEDs_out[0]_INST_0_i_46 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\slv_reg0_reg_n_0_[3] ),
+        .I2(\slv_reg0_reg_n_0_[1] ),
+        .I3(slv_reg0),
+        .I4(\slv_reg0_reg_n_0_[2] ),
+        .I5(\slv_reg0_reg_n_0_[4] ),
+        .O(\LEDs_out[0]_INST_0_i_46_n_0 ));
+  LUT6 #(
+    .INIT(64'h40808888AAAAAAAA)) 
+    \LEDs_out[0]_INST_0_i_47 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\slv_reg0_reg_n_0_[3] ),
+        .I2(\slv_reg0_reg_n_0_[1] ),
+        .I3(slv_reg0),
+        .I4(\slv_reg0_reg_n_0_[2] ),
+        .I5(\slv_reg0_reg_n_0_[4] ),
+        .O(\LEDs_out[0]_INST_0_i_47_n_0 ));
+  LUT6 #(
+    .INIT(64'hC7F737F7FFFFFFFF)) 
+    \LEDs_out[0]_INST_0_i_48 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
         .I2(\slv_reg0_reg_n_0_[2] ),
         .I3(\slv_reg0_reg_n_0_[1] ),
         .I4(slv_reg0),
-        .I5(\slv_reg0_reg_n_0_[4] ),
-        .O(\LEDs_out[0]_INST_0_i_2_n_0 ));
+        .I5(\slv_reg0_reg_n_0_[3] ),
+        .O(\LEDs_out[0]_INST_0_i_48_n_0 ));
   LUT6 #(
-    .INIT(64'h9C9C9C639C636363)) 
-    \LEDs_out[1]_INST_0 
-       (.I0(\LEDs_out[1]_INST_0_i_1_n_0 ),
-        .I1(\LEDs_out[1]_INST_0_i_2_n_0 ),
-        .I2(\slv_reg0_reg_n_0_[12] ),
-        .I3(\slv_reg0_reg_n_0_[14] ),
-        .I4(\LEDs_out[1]_INST_0_i_3_n_0 ),
-        .I5(\slv_reg0_reg_n_0_[13] ),
-        .O(LEDs_out[1]));
-  LUT2 #(
-    .INIT(4'h6)) 
-    \LEDs_out[1]_INST_0_i_1 
-       (.I0(\slv_reg0_reg_n_0_[11] ),
-        .I1(\LEDs_out[0]_INST_0_i_1_n_0 ),
-        .O(\LEDs_out[1]_INST_0_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair6" *) 
-  LUT3 #(
-    .INIT(8'hB4)) 
-    \LEDs_out[1]_INST_0_i_2 
-       (.I0(\LEDs_out[0]_INST_0_i_1_n_0 ),
-        .I1(\slv_reg0_reg_n_0_[11] ),
-        .I2(\LEDs_out[3]_INST_0_i_4_n_0 ),
-        .O(\LEDs_out[1]_INST_0_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair3" *) 
-  LUT3 #(
-    .INIT(8'h69)) 
-    \LEDs_out[1]_INST_0_i_3 
-       (.I0(\slv_reg0_reg_n_0_[12] ),
-        .I1(\LEDs_out[0]_INST_0_i_1_n_0 ),
-        .I2(\slv_reg0_reg_n_0_[11] ),
-        .O(\LEDs_out[1]_INST_0_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair8" *) 
-  LUT3 #(
-    .INIT(8'h87)) 
-    \LEDs_out[2]_INST_0 
-       (.I0(\LEDs_out[3]_INST_0_i_1_n_0 ),
-        .I1(\slv_reg0_reg_n_0_[14] ),
-        .I2(\LEDs_out[3]_INST_0_i_2_n_0 ),
-        .O(LEDs_out[2]));
-  (* SOFT_HLUTNM = "soft_lutpair8" *) 
-  LUT4 #(
-    .INIT(16'hF2F0)) 
-    \LEDs_out[3]_INST_0 
-       (.I0(\LEDs_out[3]_INST_0_i_1_n_0 ),
-        .I1(\LEDs_out[3]_INST_0_i_2_n_0 ),
-        .I2(\LEDs_out[3]_INST_0_i_3_n_0 ),
-        .I3(\slv_reg0_reg_n_0_[14] ),
-        .O(LEDs_out[3]));
-  (* SOFT_HLUTNM = "soft_lutpair7" *) 
-  LUT4 #(
-    .INIT(16'h1841)) 
-    \LEDs_out[3]_INST_0_i_1 
-       (.I0(\LEDs_out[1]_INST_0_i_2_n_0 ),
-        .I1(\slv_reg0_reg_n_0_[12] ),
-        .I2(\LEDs_out[1]_INST_0_i_1_n_0 ),
-        .I3(\slv_reg0_reg_n_0_[13] ),
-        .O(\LEDs_out[3]_INST_0_i_1_n_0 ));
-  LUT6 #(
-    .INIT(64'h0004040888040408)) 
-    \LEDs_out[3]_INST_0_i_10 
-       (.I0(\slv_reg0_reg_n_0_[7] ),
-        .I1(\slv_reg0_reg_n_0_[8] ),
-        .I2(\LEDs_out[3]_INST_0_i_19_n_0 ),
-        .I3(\slv_reg0_reg_n_0_[6] ),
-        .I4(\LEDs_out[0]_INST_0_i_2_n_0 ),
-        .I5(\LEDs_out[3]_INST_0_i_20_n_0 ),
-        .O(\LEDs_out[3]_INST_0_i_10_n_0 ));
-  LUT6 #(
-    .INIT(64'h7FFF899F76608000)) 
-    \LEDs_out[3]_INST_0_i_11 
+    .INIT(64'h4F7FBF7FFFFFFFFF)) 
+    \LEDs_out[0]_INST_0_i_49 
        (.I0(\slv_reg0_reg_n_0_[5] ),
-        .I1(\LEDs_out[3]_INST_0_i_21_n_0 ),
-        .I2(\slv_reg0_reg_n_0_[6] ),
-        .I3(\slv_reg0_reg_n_0_[7] ),
-        .I4(\LEDs_out[3]_INST_0_i_20_n_0 ),
-        .I5(\LEDs_out[3]_INST_0_i_19_n_0 ),
-        .O(\LEDs_out[3]_INST_0_i_11_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair1" *) 
-  LUT5 #(
-    .INIT(32'h7D4DFF82)) 
-    \LEDs_out[3]_INST_0_i_12 
-       (.I0(\slv_reg0_reg_n_0_[9] ),
-        .I1(\LEDs_out[3]_INST_0_i_9_n_0 ),
-        .I2(\slv_reg0_reg_n_0_[8] ),
-        .I3(\LEDs_out[3]_INST_0_i_10_n_0 ),
-        .I4(\LEDs_out[3]_INST_0_i_11_n_0 ),
-        .O(\LEDs_out[3]_INST_0_i_12_n_0 ));
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .I2(\slv_reg0_reg_n_0_[2] ),
+        .I3(\slv_reg0_reg_n_0_[1] ),
+        .I4(slv_reg0),
+        .I5(\slv_reg0_reg_n_0_[3] ),
+        .O(\LEDs_out[0]_INST_0_i_49_n_0 ));
   LUT6 #(
-    .INIT(64'hBFFBFBBFAAAAAAAA)) 
-    \LEDs_out[3]_INST_0_i_13 
-       (.I0(\LEDs_out[3]_INST_0_i_10_n_0 ),
-        .I1(\slv_reg0_reg_n_0_[8] ),
-        .I2(\slv_reg0_reg_n_0_[6] ),
-        .I3(\LEDs_out[0]_INST_0_i_2_n_0 ),
-        .I4(\slv_reg0_reg_n_0_[7] ),
-        .I5(\LEDs_out[3]_INST_0_i_11_n_0 ),
-        .O(\LEDs_out[3]_INST_0_i_13_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair0" *) 
-  LUT5 #(
-    .INIT(32'h96696996)) 
-    \LEDs_out[3]_INST_0_i_14 
-       (.I0(\slv_reg0_reg_n_0_[9] ),
-        .I1(\slv_reg0_reg_n_0_[7] ),
-        .I2(\LEDs_out[0]_INST_0_i_2_n_0 ),
-        .I3(\slv_reg0_reg_n_0_[6] ),
-        .I4(\slv_reg0_reg_n_0_[8] ),
-        .O(\LEDs_out[3]_INST_0_i_14_n_0 ));
-  LUT5 #(
-    .INIT(32'h10EFEF10)) 
-    \LEDs_out[3]_INST_0_i_15 
-       (.I0(\LEDs_out[3]_INST_0_i_22_n_0 ),
-        .I1(\LEDs_out[3]_INST_0_i_11_n_0 ),
-        .I2(\slv_reg0_reg_n_0_[9] ),
-        .I3(\LEDs_out[3]_INST_0_i_10_n_0 ),
-        .I4(\LEDs_out[3]_INST_0_i_23_n_0 ),
-        .O(\LEDs_out[3]_INST_0_i_15_n_0 ));
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
+    \LEDs_out[0]_INST_0_i_5 
+       (.I0(\LEDs_out[0]_INST_0_i_16_n_0 ),
+        .I1(\LEDs_out[0]_INST_0_i_12_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[11] ),
+        .I3(\LEDs_out[0]_INST_0_i_14_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[10] ),
+        .I5(\LEDs_out[0]_INST_0_i_15_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_5_n_0 ));
   LUT6 #(
-    .INIT(64'h8801058801020A01)) 
-    \LEDs_out[3]_INST_0_i_16 
-       (.I0(\slv_reg0_reg_n_0_[10] ),
-        .I1(\LEDs_out[3]_INST_0_i_11_n_0 ),
-        .I2(\LEDs_out[3]_INST_0_i_10_n_0 ),
-        .I3(\slv_reg0_reg_n_0_[8] ),
-        .I4(\LEDs_out[3]_INST_0_i_9_n_0 ),
-        .I5(\slv_reg0_reg_n_0_[9] ),
-        .O(\LEDs_out[3]_INST_0_i_16_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair1" *) 
-  LUT5 #(
-    .INIT(32'h00001A21)) 
-    \LEDs_out[3]_INST_0_i_17 
-       (.I0(\slv_reg0_reg_n_0_[9] ),
-        .I1(\LEDs_out[3]_INST_0_i_11_n_0 ),
-        .I2(\LEDs_out[3]_INST_0_i_9_n_0 ),
-        .I3(\slv_reg0_reg_n_0_[8] ),
-        .I4(\LEDs_out[3]_INST_0_i_10_n_0 ),
-        .O(\LEDs_out[3]_INST_0_i_17_n_0 ));
+    .INIT(64'hC5D515D5DDDDDDDD)) 
+    \LEDs_out[0]_INST_0_i_50 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .I2(\slv_reg0_reg_n_0_[2] ),
+        .I3(\slv_reg0_reg_n_0_[1] ),
+        .I4(slv_reg0),
+        .I5(\slv_reg0_reg_n_0_[3] ),
+        .O(\LEDs_out[0]_INST_0_i_50_n_0 ));
   LUT6 #(
-    .INIT(64'hFF00FFFF1000FF10)) 
-    \LEDs_out[3]_INST_0_i_18 
-       (.I0(\LEDs_out[3]_INST_0_i_22_n_0 ),
-        .I1(\LEDs_out[3]_INST_0_i_11_n_0 ),
-        .I2(\slv_reg0_reg_n_0_[9] ),
-        .I3(\LEDs_out[3]_INST_0_i_24_n_0 ),
-        .I4(\LEDs_out[3]_INST_0_i_25_n_0 ),
-        .I5(\LEDs_out[3]_INST_0_i_10_n_0 ),
-        .O(\LEDs_out[3]_INST_0_i_18_n_0 ));
+    .INIT(64'h4F7FBF7F77777777)) 
+    \LEDs_out[0]_INST_0_i_51 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .I2(\slv_reg0_reg_n_0_[2] ),
+        .I3(\slv_reg0_reg_n_0_[1] ),
+        .I4(slv_reg0),
+        .I5(\slv_reg0_reg_n_0_[3] ),
+        .O(\LEDs_out[0]_INST_0_i_51_n_0 ));
   LUT6 #(
-    .INIT(64'h7EE8E881E8818117)) 
-    \LEDs_out[3]_INST_0_i_19 
+    .INIT(64'h8088AAAAFFFFFFFF)) 
+    \LEDs_out[0]_INST_0_i_52 
+       (.I0(\slv_reg0_reg_n_0_[4] ),
+        .I1(\slv_reg0_reg_n_0_[2] ),
+        .I2(slv_reg0),
+        .I3(\slv_reg0_reg_n_0_[1] ),
+        .I4(\slv_reg0_reg_n_0_[3] ),
+        .I5(\slv_reg0_reg_n_0_[5] ),
+        .O(\LEDs_out[0]_INST_0_i_52_n_0 ));
+  LUT6 #(
+    .INIT(64'hCFC838C808080808)) 
+    \LEDs_out[0]_INST_0_i_53 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .I2(\slv_reg0_reg_n_0_[3] ),
+        .I3(\slv_reg0_reg_n_0_[1] ),
+        .I4(slv_reg0),
+        .I5(\slv_reg0_reg_n_0_[2] ),
+        .O(\LEDs_out[0]_INST_0_i_53_n_0 ));
+  LUT6 #(
+    .INIT(64'h4F40B04080808080)) 
+    \LEDs_out[0]_INST_0_i_54 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .I2(\slv_reg0_reg_n_0_[3] ),
+        .I3(\slv_reg0_reg_n_0_[1] ),
+        .I4(slv_reg0),
+        .I5(\slv_reg0_reg_n_0_[2] ),
+        .O(\LEDs_out[0]_INST_0_i_54_n_0 ));
+  LUT6 #(
+    .INIT(64'h4762B262A2A2A2A2)) 
+    \LEDs_out[0]_INST_0_i_55 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .I2(\slv_reg0_reg_n_0_[3] ),
+        .I3(\slv_reg0_reg_n_0_[1] ),
+        .I4(slv_reg0),
+        .I5(\slv_reg0_reg_n_0_[2] ),
+        .O(\LEDs_out[0]_INST_0_i_55_n_0 ));
+  LUT6 #(
+    .INIT(64'h77F7555500000000)) 
+    \LEDs_out[0]_INST_0_i_56 
+       (.I0(\slv_reg0_reg_n_0_[4] ),
+        .I1(\slv_reg0_reg_n_0_[2] ),
+        .I2(\slv_reg0_reg_n_0_[1] ),
+        .I3(slv_reg0),
+        .I4(\slv_reg0_reg_n_0_[3] ),
+        .I5(\slv_reg0_reg_n_0_[5] ),
+        .O(\LEDs_out[0]_INST_0_i_56_n_0 ));
+  LUT6 #(
+    .INIT(64'hCF08CD1D381DCD1D)) 
+    \LEDs_out[0]_INST_0_i_57 
        (.I0(\slv_reg0_reg_n_0_[5] ),
         .I1(\slv_reg0_reg_n_0_[4] ),
         .I2(\slv_reg0_reg_n_0_[3] ),
         .I3(\slv_reg0_reg_n_0_[2] ),
         .I4(\slv_reg0_reg_n_0_[1] ),
         .I5(slv_reg0),
-        .O(\LEDs_out[3]_INST_0_i_19_n_0 ));
+        .O(\LEDs_out[0]_INST_0_i_57_n_0 ));
   LUT6 #(
-    .INIT(64'hCD7CDFFD32832002)) 
-    \LEDs_out[3]_INST_0_i_2 
-       (.I0(\slv_reg0_reg_n_0_[13] ),
-        .I1(\LEDs_out[3]_INST_0_i_4_n_0 ),
-        .I2(\slv_reg0_reg_n_0_[11] ),
-        .I3(\LEDs_out[0]_INST_0_i_1_n_0 ),
-        .I4(\slv_reg0_reg_n_0_[12] ),
-        .I5(\LEDs_out[3]_INST_0_i_5_n_0 ),
-        .O(\LEDs_out[3]_INST_0_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair2" *) 
-  LUT5 #(
-    .INIT(32'h177E7EE8)) 
-    \LEDs_out[3]_INST_0_i_20 
-       (.I0(slv_reg0),
-        .I1(\slv_reg0_reg_n_0_[1] ),
-        .I2(\slv_reg0_reg_n_0_[2] ),
-        .I3(\slv_reg0_reg_n_0_[3] ),
-        .I4(\slv_reg0_reg_n_0_[4] ),
-        .O(\LEDs_out[3]_INST_0_i_20_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair2" *) 
-  LUT5 #(
-    .INIT(32'h96696996)) 
-    \LEDs_out[3]_INST_0_i_21 
-       (.I0(\slv_reg0_reg_n_0_[4] ),
-        .I1(slv_reg0),
-        .I2(\slv_reg0_reg_n_0_[1] ),
-        .I3(\slv_reg0_reg_n_0_[2] ),
-        .I4(\slv_reg0_reg_n_0_[3] ),
-        .O(\LEDs_out[3]_INST_0_i_21_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair0" *) 
-  LUT4 #(
-    .INIT(16'h9669)) 
-    \LEDs_out[3]_INST_0_i_22 
-       (.I0(\slv_reg0_reg_n_0_[8] ),
-        .I1(\slv_reg0_reg_n_0_[6] ),
-        .I2(\LEDs_out[0]_INST_0_i_2_n_0 ),
-        .I3(\slv_reg0_reg_n_0_[7] ),
-        .O(\LEDs_out[3]_INST_0_i_22_n_0 ));
-  LUT6 #(
-    .INIT(64'h004B4B0F0F4B4B0F)) 
-    \LEDs_out[3]_INST_0_i_23 
-       (.I0(\LEDs_out[3]_INST_0_i_19_n_0 ),
-        .I1(\slv_reg0_reg_n_0_[7] ),
-        .I2(\LEDs_out[3]_INST_0_i_26_n_0 ),
-        .I3(\slv_reg0_reg_n_0_[6] ),
-        .I4(\LEDs_out[0]_INST_0_i_2_n_0 ),
-        .I5(\LEDs_out[3]_INST_0_i_20_n_0 ),
-        .O(\LEDs_out[3]_INST_0_i_23_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair4" *) 
-  LUT4 #(
-    .INIT(16'h0028)) 
-    \LEDs_out[3]_INST_0_i_24 
-       (.I0(\slv_reg0_reg_n_0_[7] ),
-        .I1(\slv_reg0_reg_n_0_[6] ),
-        .I2(\LEDs_out[0]_INST_0_i_2_n_0 ),
-        .I3(\LEDs_out[3]_INST_0_i_19_n_0 ),
-        .O(\LEDs_out[3]_INST_0_i_24_n_0 ));
-  LUT6 #(
-    .INIT(64'h70F11070F1F770F1)) 
-    \LEDs_out[3]_INST_0_i_25 
-       (.I0(\slv_reg0_reg_n_0_[6] ),
-        .I1(\slv_reg0_reg_n_0_[4] ),
-        .I2(\LEDs_out[3]_INST_0_i_27_n_0 ),
-        .I3(\slv_reg0_reg_n_0_[3] ),
-        .I4(\LEDs_out[3]_INST_0_i_28_n_0 ),
-        .I5(\slv_reg0_reg_n_0_[5] ),
-        .O(\LEDs_out[3]_INST_0_i_25_n_0 ));
-  LUT6 #(
-    .INIT(64'hFEE8E880E8808000)) 
-    \LEDs_out[3]_INST_0_i_26 
+    .INIT(64'h4F8047B7B0B747B7)) 
+    \LEDs_out[0]_INST_0_i_58 
        (.I0(\slv_reg0_reg_n_0_[5] ),
-        .I1(\slv_reg0_reg_n_0_[3] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .I2(\slv_reg0_reg_n_0_[3] ),
+        .I3(\slv_reg0_reg_n_0_[2] ),
+        .I4(\slv_reg0_reg_n_0_[1] ),
+        .I5(slv_reg0),
+        .O(\LEDs_out[0]_INST_0_i_58_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair2" *) 
+  LUT5 #(
+    .INIT(32'hF7550000)) 
+    \LEDs_out[0]_INST_0_i_59 
+       (.I0(\slv_reg0_reg_n_0_[3] ),
+        .I1(\slv_reg0_reg_n_0_[1] ),
+        .I2(slv_reg0),
+        .I3(\slv_reg0_reg_n_0_[2] ),
+        .I4(\slv_reg0_reg_n_0_[4] ),
+        .O(\LEDs_out[0]_INST_0_i_59_n_0 ));
+  LUT6 #(
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
+    \LEDs_out[0]_INST_0_i_6 
+       (.I0(\LEDs_out[0]_INST_0_i_13_n_0 ),
+        .I1(\LEDs_out[0]_INST_0_i_15_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[11] ),
+        .I3(\LEDs_out[0]_INST_0_i_14_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[10] ),
+        .I5(\LEDs_out[0]_INST_0_i_17_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_6_n_0 ));
+  LUT6 #(
+    .INIT(64'h4F8047B7B0B747B6)) 
+    \LEDs_out[0]_INST_0_i_60 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .I2(\slv_reg0_reg_n_0_[3] ),
+        .I3(\slv_reg0_reg_n_0_[2] ),
+        .I4(\slv_reg0_reg_n_0_[1] ),
+        .I5(slv_reg0),
+        .O(\LEDs_out[0]_INST_0_i_60_n_0 ));
+  LUT6 #(
+    .INIT(64'h0080000000000000)) 
+    \LEDs_out[0]_INST_0_i_61 
+       (.I0(\slv_reg0_reg_n_0_[4] ),
+        .I1(\slv_reg0_reg_n_0_[2] ),
+        .I2(\slv_reg0_reg_n_0_[1] ),
+        .I3(slv_reg0),
+        .I4(\slv_reg0_reg_n_0_[3] ),
+        .I5(\slv_reg0_reg_n_0_[5] ),
+        .O(\LEDs_out[0]_INST_0_i_61_n_0 ));
+  LUT6 #(
+    .INIT(64'hD5DDFFFFFFFFFFFF)) 
+    \LEDs_out[0]_INST_0_i_62 
+       (.I0(\slv_reg0_reg_n_0_[4] ),
+        .I1(\slv_reg0_reg_n_0_[2] ),
         .I2(slv_reg0),
         .I3(\slv_reg0_reg_n_0_[1] ),
-        .I4(\slv_reg0_reg_n_0_[2] ),
-        .I5(\slv_reg0_reg_n_0_[4] ),
-        .O(\LEDs_out[3]_INST_0_i_26_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair10" *) 
-  LUT3 #(
-    .INIT(8'h17)) 
-    \LEDs_out[3]_INST_0_i_27 
-       (.I0(\slv_reg0_reg_n_0_[2] ),
-        .I1(\slv_reg0_reg_n_0_[1] ),
-        .I2(slv_reg0),
-        .O(\LEDs_out[3]_INST_0_i_27_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair10" *) 
-  LUT3 #(
-    .INIT(8'h69)) 
-    \LEDs_out[3]_INST_0_i_28 
-       (.I0(\slv_reg0_reg_n_0_[2] ),
-        .I1(\slv_reg0_reg_n_0_[1] ),
-        .I2(slv_reg0),
-        .O(\LEDs_out[3]_INST_0_i_28_n_0 ));
+        .I4(\slv_reg0_reg_n_0_[3] ),
+        .I5(\slv_reg0_reg_n_0_[5] ),
+        .O(\LEDs_out[0]_INST_0_i_62_n_0 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFF0F080808)) 
-    \LEDs_out[3]_INST_0_i_3 
-       (.I0(\LEDs_out[3]_INST_0_i_6_n_0 ),
-        .I1(\slv_reg0_reg_n_0_[13] ),
-        .I2(\LEDs_out[3]_INST_0_i_5_n_0 ),
-        .I3(\LEDs_out[3]_INST_0_i_7_n_0 ),
-        .I4(\slv_reg0_reg_n_0_[12] ),
-        .I5(\LEDs_out[3]_INST_0_i_8_n_0 ),
-        .O(\LEDs_out[3]_INST_0_i_3_n_0 ));
-  LUT6 #(
-    .INIT(64'h17711871D77DE88E)) 
-    \LEDs_out[3]_INST_0_i_4 
-       (.I0(\slv_reg0_reg_n_0_[10] ),
-        .I1(\slv_reg0_reg_n_0_[9] ),
-        .I2(\LEDs_out[3]_INST_0_i_9_n_0 ),
-        .I3(\slv_reg0_reg_n_0_[8] ),
-        .I4(\LEDs_out[3]_INST_0_i_10_n_0 ),
-        .I5(\LEDs_out[3]_INST_0_i_11_n_0 ),
-        .O(\LEDs_out[3]_INST_0_i_4_n_0 ));
-  LUT6 #(
-    .INIT(64'hF0BBBBFF0F444400)) 
-    \LEDs_out[3]_INST_0_i_5 
-       (.I0(\LEDs_out[3]_INST_0_i_12_n_0 ),
-        .I1(\slv_reg0_reg_n_0_[11] ),
-        .I2(\LEDs_out[3]_INST_0_i_13_n_0 ),
-        .I3(\LEDs_out[3]_INST_0_i_14_n_0 ),
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
+    \LEDs_out[0]_INST_0_i_7 
+       (.I0(\LEDs_out[0]_INST_0_i_18_n_0 ),
+        .I1(\LEDs_out[0]_INST_0_i_19_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[11] ),
+        .I3(\LEDs_out[0]_INST_0_i_20_n_0 ),
         .I4(\slv_reg0_reg_n_0_[10] ),
-        .I5(\LEDs_out[3]_INST_0_i_15_n_0 ),
-        .O(\LEDs_out[3]_INST_0_i_5_n_0 ));
+        .I5(\LEDs_out[0]_INST_0_i_10_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_7_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[0]_INST_0_i_8 
+       (.I0(\LEDs_out[0]_INST_0_i_13_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[11] ),
+        .I2(\LEDs_out[0]_INST_0_i_11_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[10] ),
+        .I4(\LEDs_out[0]_INST_0_i_12_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_8_n_0 ));
+  LUT6 #(
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
+    \LEDs_out[0]_INST_0_i_9 
+       (.I0(\LEDs_out[0]_INST_0_i_21_n_0 ),
+        .I1(\LEDs_out[0]_INST_0_i_22_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[9] ),
+        .I3(\LEDs_out[0]_INST_0_i_23_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[8] ),
+        .I5(\LEDs_out[0]_INST_0_i_24_n_0 ),
+        .O(\LEDs_out[0]_INST_0_i_9_n_0 ));
+  MUXF7 \LEDs_out[1]_INST_0 
+       (.I0(\LEDs_out[1]_INST_0_i_1_n_0 ),
+        .I1(\LEDs_out[1]_INST_0_i_2_n_0 ),
+        .O(LEDs_out[1]),
+        .S(\slv_reg0_reg_n_0_[14] ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[1]_INST_0_i_1 
+       (.I0(\LEDs_out[1]_INST_0_i_3_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[13] ),
+        .I2(\LEDs_out[1]_INST_0_i_4_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[12] ),
+        .I4(\LEDs_out[1]_INST_0_i_5_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_1_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[1]_INST_0_i_10 
+       (.I0(\LEDs_out[1]_INST_0_i_23_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[9] ),
+        .I2(\LEDs_out[1]_INST_0_i_21_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[8] ),
+        .I4(\LEDs_out[1]_INST_0_i_22_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_10_n_0 ));
+  LUT6 #(
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
+    \LEDs_out[1]_INST_0_i_11 
+       (.I0(\LEDs_out[1]_INST_0_i_24_n_0 ),
+        .I1(\LEDs_out[1]_INST_0_i_19_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[9] ),
+        .I3(\LEDs_out[1]_INST_0_i_21_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[8] ),
+        .I5(\LEDs_out[1]_INST_0_i_22_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_11_n_0 ));
+  LUT6 #(
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
+    \LEDs_out[1]_INST_0_i_12 
+       (.I0(\LEDs_out[1]_INST_0_i_20_n_0 ),
+        .I1(\LEDs_out[1]_INST_0_i_22_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[9] ),
+        .I3(\LEDs_out[1]_INST_0_i_25_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[8] ),
+        .I5(\LEDs_out[1]_INST_0_i_26_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_12_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[1]_INST_0_i_13 
+       (.I0(\LEDs_out[1]_INST_0_i_23_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[9] ),
+        .I2(\LEDs_out[1]_INST_0_i_25_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[8] ),
+        .I4(\LEDs_out[1]_INST_0_i_26_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_13_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[1]_INST_0_i_14 
+       (.I0(\LEDs_out[1]_INST_0_i_27_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[9] ),
+        .I2(\LEDs_out[1]_INST_0_i_21_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[8] ),
+        .I4(\LEDs_out[1]_INST_0_i_22_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_14_n_0 ));
+  LUT6 #(
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
+    \LEDs_out[1]_INST_0_i_15 
+       (.I0(\LEDs_out[1]_INST_0_i_28_n_0 ),
+        .I1(\LEDs_out[2]_INST_0_i_14_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[9] ),
+        .I3(\LEDs_out[1]_INST_0_i_18_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[8] ),
+        .I5(\LEDs_out[1]_INST_0_i_19_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_15_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[1]_INST_0_i_16 
+       (.I0(\LEDs_out[1]_INST_0_i_29_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[9] ),
+        .I2(\LEDs_out[1]_INST_0_i_18_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[8] ),
+        .I4(\LEDs_out[1]_INST_0_i_19_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_16_n_0 ));
+  LUT6 #(
+    .INIT(64'hA2AA0000FFFFFFFF)) 
+    \LEDs_out[1]_INST_0_i_17 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\slv_reg0_reg_n_0_[3] ),
+        .I2(\LEDs_out[1]_INST_0_i_30_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[2] ),
+        .I4(\slv_reg0_reg_n_0_[4] ),
+        .I5(\slv_reg0_reg_n_0_[6] ),
+        .O(\LEDs_out[1]_INST_0_i_17_n_0 ));
+  LUT6 #(
+    .INIT(64'h8F80FFFF8F800000)) 
+    \LEDs_out[1]_INST_0_i_18 
+       (.I0(\LEDs_out[1]_INST_0_i_31_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[5] ),
+        .I2(\slv_reg0_reg_n_0_[7] ),
+        .I3(\LEDs_out[3]_INST_0_i_21_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[6] ),
+        .I5(\LEDs_out[3]_INST_0_i_13_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_18_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[1]_INST_0_i_19 
+       (.I0(\LEDs_out[1]_INST_0_i_32_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[7] ),
+        .I2(\LEDs_out[3]_INST_0_i_21_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[6] ),
+        .I4(\LEDs_out[3]_INST_0_i_13_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_19_n_0 ));
+  LUT6 #(
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
+    \LEDs_out[1]_INST_0_i_2 
+       (.I0(\LEDs_out[1]_INST_0_i_6_n_0 ),
+        .I1(\LEDs_out[1]_INST_0_i_7_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[13] ),
+        .I3(\LEDs_out[1]_INST_0_i_4_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[12] ),
+        .I5(\LEDs_out[1]_INST_0_i_5_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_2_n_0 ));
+  LUT6 #(
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
+    \LEDs_out[1]_INST_0_i_20 
+       (.I0(\LEDs_out[1]_INST_0_i_33_n_0 ),
+        .I1(\LEDs_out[3]_INST_0_i_13_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[7] ),
+        .I3(\LEDs_out[1]_INST_0_i_34_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[6] ),
+        .I5(\LEDs_out[1]_INST_0_i_35_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_20_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[1]_INST_0_i_21 
+       (.I0(\LEDs_out[1]_INST_0_i_36_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[7] ),
+        .I2(\LEDs_out[1]_INST_0_i_34_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[6] ),
+        .I4(\LEDs_out[1]_INST_0_i_35_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_21_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[1]_INST_0_i_22 
+       (.I0(\LEDs_out[1]_INST_0_i_37_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[7] ),
+        .I2(\LEDs_out[1]_INST_0_i_34_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[6] ),
+        .I4(\LEDs_out[1]_INST_0_i_35_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_22_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[1]_INST_0_i_23 
+       (.I0(\LEDs_out[1]_INST_0_i_38_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[7] ),
+        .I2(\LEDs_out[1]_INST_0_i_34_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[6] ),
+        .I4(\LEDs_out[1]_INST_0_i_35_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_23_n_0 ));
+  LUT6 #(
+    .INIT(64'hDFD0FFFFDFD0F0F0)) 
+    \LEDs_out[1]_INST_0_i_24 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\LEDs_out[1]_INST_0_i_31_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[7] ),
+        .I3(\LEDs_out[3]_INST_0_i_21_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[6] ),
+        .I5(\LEDs_out[3]_INST_0_i_13_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_24_n_0 ));
+  LUT6 #(
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
+    \LEDs_out[1]_INST_0_i_25 
+       (.I0(\LEDs_out[1]_INST_0_i_36_n_0 ),
+        .I1(\LEDs_out[1]_INST_0_i_35_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[7] ),
+        .I3(\LEDs_out[1]_INST_0_i_39_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[6] ),
+        .I5(\LEDs_out[1]_INST_0_i_40_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_25_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[1]_INST_0_i_26 
+       (.I0(\LEDs_out[1]_INST_0_i_37_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[7] ),
+        .I2(\LEDs_out[1]_INST_0_i_39_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[6] ),
+        .I4(\LEDs_out[1]_INST_0_i_40_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_26_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[1]_INST_0_i_27 
+       (.I0(\LEDs_out[1]_INST_0_i_41_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[7] ),
+        .I2(\LEDs_out[3]_INST_0_i_21_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[6] ),
+        .I4(\LEDs_out[3]_INST_0_i_13_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_27_n_0 ));
+  LUT6 #(
+    .INIT(64'hA2AA0000FFFFFFFF)) 
+    \LEDs_out[1]_INST_0_i_28 
+       (.I0(\slv_reg0_reg_n_0_[6] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .I2(\LEDs_out[2]_INST_0_i_33_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[3] ),
+        .I4(\slv_reg0_reg_n_0_[5] ),
+        .I5(\slv_reg0_reg_n_0_[7] ),
+        .O(\LEDs_out[1]_INST_0_i_28_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[1]_INST_0_i_29 
+       (.I0(\LEDs_out[1]_INST_0_i_38_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[7] ),
+        .I2(\LEDs_out[3]_INST_0_i_21_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[6] ),
+        .I4(\LEDs_out[3]_INST_0_i_13_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_29_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[1]_INST_0_i_3 
+       (.I0(\LEDs_out[1]_INST_0_i_8_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[11] ),
+        .I2(\LEDs_out[1]_INST_0_i_9_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[10] ),
+        .I4(\LEDs_out[1]_INST_0_i_10_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_3_n_0 ));
+  LUT2 #(
+    .INIT(4'h8)) 
+    \LEDs_out[1]_INST_0_i_30 
+       (.I0(slv_reg0),
+        .I1(\slv_reg0_reg_n_0_[1] ),
+        .O(\LEDs_out[1]_INST_0_i_30_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair5" *) 
+  LUT4 #(
+    .INIT(16'h2A00)) 
+    \LEDs_out[1]_INST_0_i_31 
+       (.I0(\slv_reg0_reg_n_0_[3] ),
+        .I1(\slv_reg0_reg_n_0_[2] ),
+        .I2(\slv_reg0_reg_n_0_[1] ),
+        .I3(\slv_reg0_reg_n_0_[4] ),
+        .O(\LEDs_out[1]_INST_0_i_31_n_0 ));
+  LUT6 #(
+    .INIT(64'h0888000000000000)) 
+    \LEDs_out[1]_INST_0_i_32 
+       (.I0(\slv_reg0_reg_n_0_[4] ),
+        .I1(\slv_reg0_reg_n_0_[2] ),
+        .I2(\slv_reg0_reg_n_0_[1] ),
+        .I3(slv_reg0),
+        .I4(\slv_reg0_reg_n_0_[3] ),
+        .I5(\slv_reg0_reg_n_0_[5] ),
+        .O(\LEDs_out[1]_INST_0_i_32_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair1" *) 
+  LUT5 #(
+    .INIT(32'hD5FF0000)) 
+    \LEDs_out[1]_INST_0_i_33 
+       (.I0(\slv_reg0_reg_n_0_[4] ),
+        .I1(\slv_reg0_reg_n_0_[2] ),
+        .I2(\slv_reg0_reg_n_0_[1] ),
+        .I3(\slv_reg0_reg_n_0_[3] ),
+        .I4(\slv_reg0_reg_n_0_[5] ),
+        .O(\LEDs_out[1]_INST_0_i_33_n_0 ));
+  LUT6 #(
+    .INIT(64'h8777B777FFFFFFFF)) 
+    \LEDs_out[1]_INST_0_i_34 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .I2(\slv_reg0_reg_n_0_[2] ),
+        .I3(\slv_reg0_reg_n_0_[1] ),
+        .I4(slv_reg0),
+        .I5(\slv_reg0_reg_n_0_[3] ),
+        .O(\LEDs_out[1]_INST_0_i_34_n_0 ));
+  LUT6 #(
+    .INIT(64'h8F7F3F7FFFFFFFFF)) 
+    \LEDs_out[1]_INST_0_i_35 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .I2(\slv_reg0_reg_n_0_[2] ),
+        .I3(\slv_reg0_reg_n_0_[1] ),
+        .I4(slv_reg0),
+        .I5(\slv_reg0_reg_n_0_[3] ),
+        .O(\LEDs_out[1]_INST_0_i_35_n_0 ));
+  LUT6 #(
+    .INIT(64'h0DDD1DDD55555555)) 
+    \LEDs_out[1]_INST_0_i_36 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .I2(\slv_reg0_reg_n_0_[2] ),
+        .I3(\slv_reg0_reg_n_0_[1] ),
+        .I4(slv_reg0),
+        .I5(\slv_reg0_reg_n_0_[3] ),
+        .O(\LEDs_out[1]_INST_0_i_36_n_0 ));
+  LUT6 #(
+    .INIT(64'h07F7B7F777777777)) 
+    \LEDs_out[1]_INST_0_i_37 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .I2(\slv_reg0_reg_n_0_[2] ),
+        .I3(\slv_reg0_reg_n_0_[1] ),
+        .I4(slv_reg0),
+        .I5(\slv_reg0_reg_n_0_[3] ),
+        .O(\LEDs_out[1]_INST_0_i_37_n_0 ));
+  LUT6 #(
+    .INIT(64'hA222AAAA00000000)) 
+    \LEDs_out[1]_INST_0_i_38 
+       (.I0(\slv_reg0_reg_n_0_[4] ),
+        .I1(\slv_reg0_reg_n_0_[2] ),
+        .I2(slv_reg0),
+        .I3(\slv_reg0_reg_n_0_[1] ),
+        .I4(\slv_reg0_reg_n_0_[3] ),
+        .I5(\slv_reg0_reg_n_0_[5] ),
+        .O(\LEDs_out[1]_INST_0_i_38_n_0 ));
+  LUT6 #(
+    .INIT(64'h8F7FBF6A7A6A7A6A)) 
+    \LEDs_out[1]_INST_0_i_39 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .I2(\slv_reg0_reg_n_0_[3] ),
+        .I3(\slv_reg0_reg_n_0_[2] ),
+        .I4(slv_reg0),
+        .I5(\slv_reg0_reg_n_0_[1] ),
+        .O(\LEDs_out[1]_INST_0_i_39_n_0 ));
+  LUT6 #(
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
+    \LEDs_out[1]_INST_0_i_4 
+       (.I0(\LEDs_out[1]_INST_0_i_11_n_0 ),
+        .I1(\LEDs_out[1]_INST_0_i_10_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[11] ),
+        .I3(\LEDs_out[1]_INST_0_i_12_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[10] ),
+        .I5(\LEDs_out[1]_INST_0_i_13_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_4_n_0 ));
+  LUT6 #(
+    .INIT(64'h8FFF3FC878C878C8)) 
+    \LEDs_out[1]_INST_0_i_40 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .I2(\slv_reg0_reg_n_0_[3] ),
+        .I3(\slv_reg0_reg_n_0_[2] ),
+        .I4(slv_reg0),
+        .I5(\slv_reg0_reg_n_0_[1] ),
+        .O(\LEDs_out[1]_INST_0_i_40_n_0 ));
+  LUT6 #(
+    .INIT(64'h5DDD5555FFFFFFFF)) 
+    \LEDs_out[1]_INST_0_i_41 
+       (.I0(\slv_reg0_reg_n_0_[4] ),
+        .I1(\slv_reg0_reg_n_0_[2] ),
+        .I2(\slv_reg0_reg_n_0_[1] ),
+        .I3(slv_reg0),
+        .I4(\slv_reg0_reg_n_0_[3] ),
+        .I5(\slv_reg0_reg_n_0_[5] ),
+        .O(\LEDs_out[1]_INST_0_i_41_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[1]_INST_0_i_5 
+       (.I0(\LEDs_out[1]_INST_0_i_14_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[11] ),
+        .I2(\LEDs_out[1]_INST_0_i_12_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[10] ),
+        .I4(\LEDs_out[1]_INST_0_i_13_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_5_n_0 ));
+  LUT6 #(
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
+    \LEDs_out[1]_INST_0_i_6 
+       (.I0(\LEDs_out[1]_INST_0_i_15_n_0 ),
+        .I1(\LEDs_out[1]_INST_0_i_16_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[11] ),
+        .I3(\LEDs_out[1]_INST_0_i_9_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[10] ),
+        .I5(\LEDs_out[1]_INST_0_i_10_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_6_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[1]_INST_0_i_7 
+       (.I0(\LEDs_out[1]_INST_0_i_14_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[11] ),
+        .I2(\LEDs_out[1]_INST_0_i_9_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[10] ),
+        .I4(\LEDs_out[1]_INST_0_i_10_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_7_n_0 ));
+  LUT6 #(
+    .INIT(64'hBFB0FFFFBFB00000)) 
+    \LEDs_out[1]_INST_0_i_8 
+       (.I0(\LEDs_out[1]_INST_0_i_17_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[7] ),
+        .I2(\slv_reg0_reg_n_0_[9] ),
+        .I3(\LEDs_out[1]_INST_0_i_18_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[8] ),
+        .I5(\LEDs_out[1]_INST_0_i_19_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_8_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[1]_INST_0_i_9 
+       (.I0(\LEDs_out[1]_INST_0_i_20_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[9] ),
+        .I2(\LEDs_out[1]_INST_0_i_21_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[8] ),
+        .I4(\LEDs_out[1]_INST_0_i_22_n_0 ),
+        .O(\LEDs_out[1]_INST_0_i_9_n_0 ));
+  MUXF7 \LEDs_out[2]_INST_0 
+       (.I0(\LEDs_out[2]_INST_0_i_1_n_0 ),
+        .I1(\LEDs_out[2]_INST_0_i_2_n_0 ),
+        .O(LEDs_out[2]),
+        .S(\slv_reg0_reg_n_0_[14] ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[2]_INST_0_i_1 
+       (.I0(\LEDs_out[2]_INST_0_i_3_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[13] ),
+        .I2(\LEDs_out[2]_INST_0_i_4_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[12] ),
+        .I4(\LEDs_out[2]_INST_0_i_5_n_0 ),
+        .O(\LEDs_out[2]_INST_0_i_1_n_0 ));
+  LUT6 #(
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
+    \LEDs_out[2]_INST_0_i_10 
+       (.I0(\LEDs_out[2]_INST_0_i_20_n_0 ),
+        .I1(\LEDs_out[2]_INST_0_i_14_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[9] ),
+        .I3(\LEDs_out[2]_INST_0_i_17_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[8] ),
+        .I5(\LEDs_out[2]_INST_0_i_18_n_0 ),
+        .O(\LEDs_out[2]_INST_0_i_10_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[2]_INST_0_i_11 
+       (.I0(\LEDs_out[2]_INST_0_i_21_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[9] ),
+        .I2(\LEDs_out[2]_INST_0_i_17_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[8] ),
+        .I4(\LEDs_out[2]_INST_0_i_18_n_0 ),
+        .O(\LEDs_out[2]_INST_0_i_11_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[2]_INST_0_i_12 
+       (.I0(\LEDs_out[2]_INST_0_i_22_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[10] ),
+        .I2(\LEDs_out[2]_INST_0_i_23_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[9] ),
+        .I4(\LEDs_out[2]_INST_0_i_15_n_0 ),
+        .O(\LEDs_out[2]_INST_0_i_12_n_0 ));
+  LUT6 #(
+    .INIT(64'hD5555555FFFFFFFF)) 
+    \LEDs_out[2]_INST_0_i_13 
+       (.I0(\slv_reg0_reg_n_0_[6] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .I2(\slv_reg0_reg_n_0_[2] ),
+        .I3(\slv_reg0_reg_n_0_[3] ),
+        .I4(\slv_reg0_reg_n_0_[5] ),
+        .I5(\slv_reg0_reg_n_0_[7] ),
+        .O(\LEDs_out[2]_INST_0_i_13_n_0 ));
+  LUT5 #(
+    .INIT(32'hF7FFFFFF)) 
+    \LEDs_out[2]_INST_0_i_14 
+       (.I0(\slv_reg0_reg_n_0_[6] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .I2(\LEDs_out[2]_INST_0_i_24_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[5] ),
+        .I4(\slv_reg0_reg_n_0_[7] ),
+        .O(\LEDs_out[2]_INST_0_i_14_n_0 ));
+  LUT6 #(
+    .INIT(64'hBFFFB0FFFFFFFFFF)) 
+    \LEDs_out[2]_INST_0_i_15 
+       (.I0(\LEDs_out[2]_INST_0_i_25_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[5] ),
+        .I2(\slv_reg0_reg_n_0_[8] ),
+        .I3(\slv_reg0_reg_n_0_[6] ),
+        .I4(\LEDs_out[2]_INST_0_i_26_n_0 ),
+        .I5(\slv_reg0_reg_n_0_[7] ),
+        .O(\LEDs_out[2]_INST_0_i_15_n_0 ));
+  LUT6 #(
+    .INIT(64'h7F70FFFF7F70F0F0)) 
+    \LEDs_out[2]_INST_0_i_16 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\LEDs_out[2]_INST_0_i_27_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[7] ),
+        .I3(\LEDs_out[2]_INST_0_i_28_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[6] ),
+        .I5(\LEDs_out[2]_INST_0_i_29_n_0 ),
+        .O(\LEDs_out[2]_INST_0_i_16_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[2]_INST_0_i_17 
+       (.I0(\LEDs_out[2]_INST_0_i_30_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[7] ),
+        .I2(\LEDs_out[2]_INST_0_i_28_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[6] ),
+        .I4(\LEDs_out[2]_INST_0_i_29_n_0 ),
+        .O(\LEDs_out[2]_INST_0_i_17_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[2]_INST_0_i_18 
+       (.I0(\LEDs_out[2]_INST_0_i_31_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[7] ),
+        .I2(\LEDs_out[2]_INST_0_i_28_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[6] ),
+        .I4(\LEDs_out[2]_INST_0_i_29_n_0 ),
+        .O(\LEDs_out[2]_INST_0_i_18_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[2]_INST_0_i_19 
+       (.I0(\LEDs_out[2]_INST_0_i_32_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[7] ),
+        .I2(\LEDs_out[2]_INST_0_i_28_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[6] ),
+        .I4(\LEDs_out[2]_INST_0_i_29_n_0 ),
+        .O(\LEDs_out[2]_INST_0_i_19_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[2]_INST_0_i_2 
+       (.I0(\LEDs_out[2]_INST_0_i_6_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[13] ),
+        .I2(\LEDs_out[2]_INST_0_i_4_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[12] ),
+        .I4(\LEDs_out[2]_INST_0_i_5_n_0 ),
+        .O(\LEDs_out[2]_INST_0_i_2_n_0 ));
+  LUT6 #(
+    .INIT(64'hD555FFFFFFFFFFFF)) 
+    \LEDs_out[2]_INST_0_i_20 
+       (.I0(\slv_reg0_reg_n_0_[6] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .I2(\LEDs_out[2]_INST_0_i_33_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[3] ),
+        .I4(\slv_reg0_reg_n_0_[5] ),
+        .I5(\slv_reg0_reg_n_0_[7] ),
+        .O(\LEDs_out[2]_INST_0_i_20_n_0 ));
+  LUT5 #(
+    .INIT(32'hF7FFFFFF)) 
+    \LEDs_out[2]_INST_0_i_21 
+       (.I0(\slv_reg0_reg_n_0_[6] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .I2(\LEDs_out[2]_INST_0_i_34_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[5] ),
+        .I4(\slv_reg0_reg_n_0_[7] ),
+        .O(\LEDs_out[2]_INST_0_i_21_n_0 ));
+  LUT5 #(
+    .INIT(32'hBB8BFFFF)) 
+    \LEDs_out[2]_INST_0_i_22 
+       (.I0(\LEDs_out[3]_INST_0_i_22_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[8] ),
+        .I2(\slv_reg0_reg_n_0_[6] ),
+        .I3(\LEDs_out[2]_INST_0_i_26_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[7] ),
+        .O(\LEDs_out[2]_INST_0_i_22_n_0 ));
+  LUT5 #(
+    .INIT(32'hBF8FFFFF)) 
+    \LEDs_out[2]_INST_0_i_23 
+       (.I0(\LEDs_out[2]_INST_0_i_32_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[8] ),
+        .I2(\slv_reg0_reg_n_0_[6] ),
+        .I3(\LEDs_out[2]_INST_0_i_26_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[7] ),
+        .O(\LEDs_out[2]_INST_0_i_23_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair2" *) 
+  LUT4 #(
+    .INIT(16'h7FFF)) 
+    \LEDs_out[2]_INST_0_i_24 
+       (.I0(\slv_reg0_reg_n_0_[2] ),
+        .I1(\slv_reg0_reg_n_0_[1] ),
+        .I2(slv_reg0),
+        .I3(\slv_reg0_reg_n_0_[3] ),
+        .O(\LEDs_out[2]_INST_0_i_24_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair6" *) 
   LUT4 #(
-    .INIT(16'h1281)) 
-    \LEDs_out[3]_INST_0_i_6 
-       (.I0(\slv_reg0_reg_n_0_[12] ),
-        .I1(\LEDs_out[3]_INST_0_i_4_n_0 ),
-        .I2(\slv_reg0_reg_n_0_[11] ),
-        .I3(\LEDs_out[0]_INST_0_i_1_n_0 ),
-        .O(\LEDs_out[3]_INST_0_i_6_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair7" *) 
-  LUT2 #(
-    .INIT(4'h1)) 
-    \LEDs_out[3]_INST_0_i_7 
-       (.I0(\LEDs_out[1]_INST_0_i_1_n_0 ),
-        .I1(\LEDs_out[3]_INST_0_i_4_n_0 ),
-        .O(\LEDs_out[3]_INST_0_i_7_n_0 ));
+    .INIT(16'h7FFF)) 
+    \LEDs_out[2]_INST_0_i_25 
+       (.I0(\slv_reg0_reg_n_0_[3] ),
+        .I1(\slv_reg0_reg_n_0_[2] ),
+        .I2(\slv_reg0_reg_n_0_[1] ),
+        .I3(\slv_reg0_reg_n_0_[4] ),
+        .O(\LEDs_out[2]_INST_0_i_25_n_0 ));
   LUT6 #(
-    .INIT(64'hFFFFFFFF80F80088)) 
-    \LEDs_out[3]_INST_0_i_8 
-       (.I0(\LEDs_out[3]_INST_0_i_16_n_0 ),
+    .INIT(64'h7FFFFFFFFFFFFFFF)) 
+    \LEDs_out[2]_INST_0_i_26 
+       (.I0(\slv_reg0_reg_n_0_[4] ),
+        .I1(\slv_reg0_reg_n_0_[2] ),
+        .I2(\slv_reg0_reg_n_0_[1] ),
+        .I3(slv_reg0),
+        .I4(\slv_reg0_reg_n_0_[3] ),
+        .I5(\slv_reg0_reg_n_0_[5] ),
+        .O(\LEDs_out[2]_INST_0_i_26_n_0 ));
+  LUT2 #(
+    .INIT(4'h8)) 
+    \LEDs_out[2]_INST_0_i_27 
+       (.I0(\slv_reg0_reg_n_0_[3] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .O(\LEDs_out[2]_INST_0_i_27_n_0 ));
+  LUT6 #(
+    .INIT(64'hF8C8888800000000)) 
+    \LEDs_out[2]_INST_0_i_28 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .I2(\slv_reg0_reg_n_0_[2] ),
+        .I3(slv_reg0),
+        .I4(\slv_reg0_reg_n_0_[1] ),
+        .I5(\slv_reg0_reg_n_0_[3] ),
+        .O(\LEDs_out[2]_INST_0_i_28_n_0 ));
+  LUT6 #(
+    .INIT(64'hF0C0808000000000)) 
+    \LEDs_out[2]_INST_0_i_29 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .I2(\slv_reg0_reg_n_0_[2] ),
+        .I3(slv_reg0),
+        .I4(\slv_reg0_reg_n_0_[1] ),
+        .I5(\slv_reg0_reg_n_0_[3] ),
+        .O(\LEDs_out[2]_INST_0_i_29_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[2]_INST_0_i_3 
+       (.I0(\LEDs_out[2]_INST_0_i_7_n_0 ),
         .I1(\slv_reg0_reg_n_0_[11] ),
-        .I2(\LEDs_out[3]_INST_0_i_17_n_0 ),
-        .I3(\LEDs_out[3]_INST_0_i_15_n_0 ),
-        .I4(\slv_reg0_reg_n_0_[10] ),
-        .I5(\LEDs_out[3]_INST_0_i_18_n_0 ),
-        .O(\LEDs_out[3]_INST_0_i_8_n_0 ));
+        .I2(\LEDs_out[2]_INST_0_i_8_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[10] ),
+        .I4(\LEDs_out[2]_INST_0_i_9_n_0 ),
+        .O(\LEDs_out[2]_INST_0_i_3_n_0 ));
+  LUT6 #(
+    .INIT(64'h7A6AAAAAAAAAAAAA)) 
+    \LEDs_out[2]_INST_0_i_30 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .I2(\slv_reg0_reg_n_0_[2] ),
+        .I3(slv_reg0),
+        .I4(\slv_reg0_reg_n_0_[1] ),
+        .I5(\slv_reg0_reg_n_0_[3] ),
+        .O(\LEDs_out[2]_INST_0_i_30_n_0 ));
+  LUT6 #(
+    .INIT(64'h78C8888888888888)) 
+    \LEDs_out[2]_INST_0_i_31 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .I2(\slv_reg0_reg_n_0_[2] ),
+        .I3(slv_reg0),
+        .I4(\slv_reg0_reg_n_0_[1] ),
+        .I5(\slv_reg0_reg_n_0_[3] ),
+        .O(\LEDs_out[2]_INST_0_i_31_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair4" *) 
+  LUT4 #(
+    .INIT(16'h7FFF)) 
+    \LEDs_out[2]_INST_0_i_32 
+       (.I0(\slv_reg0_reg_n_0_[4] ),
+        .I1(\slv_reg0_reg_n_0_[3] ),
+        .I2(\slv_reg0_reg_n_0_[2] ),
+        .I3(\slv_reg0_reg_n_0_[5] ),
+        .O(\LEDs_out[2]_INST_0_i_32_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair6" *) 
+  LUT2 #(
+    .INIT(4'h8)) 
+    \LEDs_out[2]_INST_0_i_33 
+       (.I0(\slv_reg0_reg_n_0_[1] ),
+        .I1(\slv_reg0_reg_n_0_[2] ),
+        .O(\LEDs_out[2]_INST_0_i_33_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair3" *) 
+  LUT4 #(
+    .INIT(16'h8000)) 
+    \LEDs_out[2]_INST_0_i_34 
+       (.I0(\slv_reg0_reg_n_0_[2] ),
+        .I1(slv_reg0),
+        .I2(\slv_reg0_reg_n_0_[1] ),
+        .I3(\slv_reg0_reg_n_0_[3] ),
+        .O(\LEDs_out[2]_INST_0_i_34_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[2]_INST_0_i_4 
+       (.I0(\LEDs_out[2]_INST_0_i_10_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[11] ),
+        .I2(\LEDs_out[2]_INST_0_i_8_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[10] ),
+        .I4(\LEDs_out[2]_INST_0_i_9_n_0 ),
+        .O(\LEDs_out[2]_INST_0_i_4_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[2]_INST_0_i_5 
+       (.I0(\LEDs_out[2]_INST_0_i_11_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[11] ),
+        .I2(\LEDs_out[2]_INST_0_i_8_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[10] ),
+        .I4(\LEDs_out[2]_INST_0_i_9_n_0 ),
+        .O(\LEDs_out[2]_INST_0_i_5_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8BBB888)) 
+    \LEDs_out[2]_INST_0_i_6 
+       (.I0(\LEDs_out[2]_INST_0_i_12_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[11] ),
+        .I2(\LEDs_out[2]_INST_0_i_8_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[10] ),
+        .I4(\LEDs_out[2]_INST_0_i_9_n_0 ),
+        .O(\LEDs_out[2]_INST_0_i_6_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[2]_INST_0_i_7 
+       (.I0(\LEDs_out[2]_INST_0_i_13_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[8] ),
+        .I2(\LEDs_out[2]_INST_0_i_14_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[9] ),
+        .I4(\LEDs_out[2]_INST_0_i_15_n_0 ),
+        .O(\LEDs_out[2]_INST_0_i_7_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[2]_INST_0_i_8 
+       (.I0(\LEDs_out[2]_INST_0_i_16_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[9] ),
+        .I2(\LEDs_out[2]_INST_0_i_17_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[8] ),
+        .I4(\LEDs_out[2]_INST_0_i_18_n_0 ),
+        .O(\LEDs_out[2]_INST_0_i_8_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[2]_INST_0_i_9 
+       (.I0(\LEDs_out[2]_INST_0_i_19_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[9] ),
+        .I2(\LEDs_out[2]_INST_0_i_17_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[8] ),
+        .I4(\LEDs_out[2]_INST_0_i_18_n_0 ),
+        .O(\LEDs_out[2]_INST_0_i_9_n_0 ));
+  MUXF7 \LEDs_out[3]_INST_0 
+       (.I0(\LEDs_out[3]_INST_0_i_1_n_0 ),
+        .I1(\LEDs_out[3]_INST_0_i_2_n_0 ),
+        .O(LEDs_out[3]),
+        .S(\slv_reg0_reg_n_0_[14] ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[3]_INST_0_i_1 
+       (.I0(\LEDs_out[3]_INST_0_i_3_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[13] ),
+        .I2(\LEDs_out[3]_INST_0_i_4_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[12] ),
+        .I4(\LEDs_out[3]_INST_0_i_5_n_0 ),
+        .O(\LEDs_out[3]_INST_0_i_1_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair9" *) 
   LUT3 #(
-    .INIT(8'h69)) 
-    \LEDs_out[3]_INST_0_i_9 
-       (.I0(\slv_reg0_reg_n_0_[7] ),
-        .I1(\LEDs_out[0]_INST_0_i_2_n_0 ),
+    .INIT(8'hB8)) 
+    \LEDs_out[3]_INST_0_i_10 
+       (.I0(\LEDs_out[3]_INST_0_i_19_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[9] ),
+        .I2(\LEDs_out[3]_INST_0_i_14_n_0 ),
+        .O(\LEDs_out[3]_INST_0_i_10_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair9" *) 
+  LUT3 #(
+    .INIT(8'hB8)) 
+    \LEDs_out[3]_INST_0_i_11 
+       (.I0(\LEDs_out[3]_INST_0_i_20_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[9] ),
+        .I2(\LEDs_out[3]_INST_0_i_14_n_0 ),
+        .O(\LEDs_out[3]_INST_0_i_11_n_0 ));
+  LUT6 #(
+    .INIT(64'hEA00FFFFEA000000)) 
+    \LEDs_out[3]_INST_0_i_12 
+       (.I0(\slv_reg0_reg_n_0_[8] ),
+        .I1(\slv_reg0_reg_n_0_[6] ),
+        .I2(\LEDs_out[3]_INST_0_i_13_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[7] ),
+        .I4(\slv_reg0_reg_n_0_[9] ),
+        .I5(\LEDs_out[3]_INST_0_i_14_n_0 ),
+        .O(\LEDs_out[3]_INST_0_i_12_n_0 ));
+  LUT6 #(
+    .INIT(64'h8000000000000000)) 
+    \LEDs_out[3]_INST_0_i_13 
+       (.I0(\slv_reg0_reg_n_0_[4] ),
+        .I1(\slv_reg0_reg_n_0_[2] ),
+        .I2(slv_reg0),
+        .I3(\slv_reg0_reg_n_0_[1] ),
+        .I4(\slv_reg0_reg_n_0_[3] ),
+        .I5(\slv_reg0_reg_n_0_[5] ),
+        .O(\LEDs_out[3]_INST_0_i_13_n_0 ));
+  LUT5 #(
+    .INIT(32'hB0800000)) 
+    \LEDs_out[3]_INST_0_i_14 
+       (.I0(\LEDs_out[3]_INST_0_i_21_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[8] ),
         .I2(\slv_reg0_reg_n_0_[6] ),
+        .I3(\LEDs_out[3]_INST_0_i_13_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[7] ),
+        .O(\LEDs_out[3]_INST_0_i_14_n_0 ));
+  LUT6 #(
+    .INIT(64'h8000000000000000)) 
+    \LEDs_out[3]_INST_0_i_15 
+       (.I0(\slv_reg0_reg_n_0_[6] ),
+        .I1(\slv_reg0_reg_n_0_[4] ),
+        .I2(\slv_reg0_reg_n_0_[2] ),
+        .I3(\slv_reg0_reg_n_0_[3] ),
+        .I4(\slv_reg0_reg_n_0_[5] ),
+        .I5(\slv_reg0_reg_n_0_[7] ),
+        .O(\LEDs_out[3]_INST_0_i_15_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair0" *) 
+  LUT3 #(
+    .INIT(8'h80)) 
+    \LEDs_out[3]_INST_0_i_16 
+       (.I0(\slv_reg0_reg_n_0_[6] ),
+        .I1(\LEDs_out[3]_INST_0_i_13_n_0 ),
+        .I2(\slv_reg0_reg_n_0_[7] ),
+        .O(\LEDs_out[3]_INST_0_i_16_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8880000)) 
+    \LEDs_out[3]_INST_0_i_17 
+       (.I0(\LEDs_out[3]_INST_0_i_22_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[8] ),
+        .I2(\slv_reg0_reg_n_0_[6] ),
+        .I3(\LEDs_out[3]_INST_0_i_13_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[7] ),
+        .O(\LEDs_out[3]_INST_0_i_17_n_0 ));
+  LUT5 #(
+    .INIT(32'hB0800000)) 
+    \LEDs_out[3]_INST_0_i_18 
+       (.I0(\LEDs_out[3]_INST_0_i_23_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[8] ),
+        .I2(\slv_reg0_reg_n_0_[6] ),
+        .I3(\LEDs_out[3]_INST_0_i_13_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[7] ),
+        .O(\LEDs_out[3]_INST_0_i_18_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair0" *) 
+  LUT5 #(
+    .INIT(32'hB0800000)) 
+    \LEDs_out[3]_INST_0_i_19 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\slv_reg0_reg_n_0_[8] ),
+        .I2(\slv_reg0_reg_n_0_[6] ),
+        .I3(\LEDs_out[3]_INST_0_i_13_n_0 ),
+        .I4(\slv_reg0_reg_n_0_[7] ),
+        .O(\LEDs_out[3]_INST_0_i_19_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[3]_INST_0_i_2 
+       (.I0(\LEDs_out[3]_INST_0_i_6_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[13] ),
+        .I2(\LEDs_out[3]_INST_0_i_4_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[12] ),
+        .I4(\LEDs_out[3]_INST_0_i_5_n_0 ),
+        .O(\LEDs_out[3]_INST_0_i_2_n_0 ));
+  LUT6 #(
+    .INIT(64'h8F00800000000000)) 
+    \LEDs_out[3]_INST_0_i_20 
+       (.I0(\slv_reg0_reg_n_0_[4] ),
+        .I1(\slv_reg0_reg_n_0_[5] ),
+        .I2(\slv_reg0_reg_n_0_[8] ),
+        .I3(\slv_reg0_reg_n_0_[6] ),
+        .I4(\LEDs_out[3]_INST_0_i_13_n_0 ),
+        .I5(\slv_reg0_reg_n_0_[7] ),
+        .O(\LEDs_out[3]_INST_0_i_20_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair1" *) 
+  LUT5 #(
+    .INIT(32'h80000000)) 
+    \LEDs_out[3]_INST_0_i_21 
+       (.I0(\slv_reg0_reg_n_0_[4] ),
+        .I1(\slv_reg0_reg_n_0_[2] ),
+        .I2(\slv_reg0_reg_n_0_[1] ),
+        .I3(\slv_reg0_reg_n_0_[3] ),
+        .I4(\slv_reg0_reg_n_0_[5] ),
+        .O(\LEDs_out[3]_INST_0_i_21_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair4" *) 
+  LUT4 #(
+    .INIT(16'h8000)) 
+    \LEDs_out[3]_INST_0_i_22 
+       (.I0(\slv_reg0_reg_n_0_[5] ),
+        .I1(\slv_reg0_reg_n_0_[3] ),
+        .I2(\slv_reg0_reg_n_0_[4] ),
+        .I3(\slv_reg0_reg_n_0_[6] ),
+        .O(\LEDs_out[3]_INST_0_i_22_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair5" *) 
+  LUT4 #(
+    .INIT(16'h8000)) 
+    \LEDs_out[3]_INST_0_i_23 
+       (.I0(\slv_reg0_reg_n_0_[4] ),
+        .I1(\slv_reg0_reg_n_0_[2] ),
+        .I2(\slv_reg0_reg_n_0_[3] ),
+        .I3(\slv_reg0_reg_n_0_[5] ),
+        .O(\LEDs_out[3]_INST_0_i_23_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[3]_INST_0_i_3 
+       (.I0(\LEDs_out[3]_INST_0_i_7_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[10] ),
+        .I2(\LEDs_out[3]_INST_0_i_8_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[11] ),
+        .I4(\LEDs_out[3]_INST_0_i_9_n_0 ),
+        .O(\LEDs_out[3]_INST_0_i_3_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[3]_INST_0_i_4 
+       (.I0(\LEDs_out[3]_INST_0_i_10_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[10] ),
+        .I2(\LEDs_out[3]_INST_0_i_8_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[11] ),
+        .I4(\LEDs_out[3]_INST_0_i_9_n_0 ),
+        .O(\LEDs_out[3]_INST_0_i_4_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[3]_INST_0_i_5 
+       (.I0(\LEDs_out[3]_INST_0_i_11_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[10] ),
+        .I2(\LEDs_out[3]_INST_0_i_8_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[11] ),
+        .I4(\LEDs_out[3]_INST_0_i_9_n_0 ),
+        .O(\LEDs_out[3]_INST_0_i_5_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[3]_INST_0_i_6 
+       (.I0(\LEDs_out[3]_INST_0_i_12_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[10] ),
+        .I2(\LEDs_out[3]_INST_0_i_8_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[11] ),
+        .I4(\LEDs_out[3]_INST_0_i_9_n_0 ),
+        .O(\LEDs_out[3]_INST_0_i_6_n_0 ));
+  LUT6 #(
+    .INIT(64'hC800FFFFC8000000)) 
+    \LEDs_out[3]_INST_0_i_7 
+       (.I0(\slv_reg0_reg_n_0_[8] ),
+        .I1(\slv_reg0_reg_n_0_[6] ),
+        .I2(\LEDs_out[3]_INST_0_i_13_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[7] ),
+        .I4(\slv_reg0_reg_n_0_[9] ),
+        .I5(\LEDs_out[3]_INST_0_i_14_n_0 ),
+        .O(\LEDs_out[3]_INST_0_i_7_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[3]_INST_0_i_8 
+       (.I0(\LEDs_out[3]_INST_0_i_15_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[8] ),
+        .I2(\LEDs_out[3]_INST_0_i_16_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[9] ),
+        .I4(\LEDs_out[3]_INST_0_i_14_n_0 ),
+        .O(\LEDs_out[3]_INST_0_i_8_n_0 ));
+  LUT5 #(
+    .INIT(32'hB8FFB800)) 
+    \LEDs_out[3]_INST_0_i_9 
+       (.I0(\LEDs_out[3]_INST_0_i_17_n_0 ),
+        .I1(\slv_reg0_reg_n_0_[10] ),
+        .I2(\LEDs_out[3]_INST_0_i_18_n_0 ),
+        .I3(\slv_reg0_reg_n_0_[9] ),
+        .I4(\LEDs_out[3]_INST_0_i_14_n_0 ),
         .O(\LEDs_out[3]_INST_0_i_9_n_0 ));
   LUT6 #(
     .INIT(64'hF7FFC4CCC4CCC4CC)) 
@@ -703,7 +2015,6 @@ module led_test_system_led_controller_0_0_led_controller_v1_0_S00_AXI
         .D(aw_en_i_1_n_0),
         .Q(aw_en_reg_n_0),
         .S(axi_awready_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair5" *) 
   LUT4 #(
     .INIT(16'hFB08)) 
     \axi_araddr[2]_i_1 
@@ -712,6 +2023,7 @@ module led_test_system_led_controller_0_0_led_controller_v1_0_S00_AXI
         .I2(S_AXI_ARREADY),
         .I3(axi_araddr[2]),
         .O(\axi_araddr[2]_i_1_n_0 ));
+  (* SOFT_HLUTNM = "soft_lutpair7" *) 
   LUT4 #(
     .INIT(16'hFB08)) 
     \axi_araddr[3]_i_1 
@@ -732,7 +2044,7 @@ module led_test_system_led_controller_0_0_led_controller_v1_0_S00_AXI
         .D(\axi_araddr[3]_i_1_n_0 ),
         .Q(axi_araddr[3]),
         .R(axi_awready_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair5" *) 
+  (* SOFT_HLUTNM = "soft_lutpair7" *) 
   LUT2 #(
     .INIT(4'h2)) 
     axi_arready_i_1
@@ -782,7 +2094,7 @@ module led_test_system_led_controller_0_0_led_controller_v1_0_S00_AXI
     axi_awready_i_1
        (.I0(s00_axi_aresetn),
         .O(axi_awready_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair9" *) 
+  (* SOFT_HLUTNM = "soft_lutpair8" *) 
   LUT4 #(
     .INIT(16'h2000)) 
     axi_awready_i_2
@@ -814,324 +2126,324 @@ module led_test_system_led_controller_0_0_led_controller_v1_0_S00_AXI
         .Q(s00_axi_bvalid),
         .R(axi_awready_i_1_n_0));
   LUT6 #(
-    .INIT(64'hF0FFCCAAF000CCAA)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[0]_i_1 
-       (.I0(slv_reg0),
-        .I1(slv_reg1[0]),
-        .I2(slv_reg3[0]),
-        .I3(axi_araddr[2]),
-        .I4(axi_araddr[3]),
-        .I5(slv_reg2[0]),
+       (.I0(slv_reg3[0]),
+        .I1(slv_reg2[0]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[0]),
+        .I4(axi_araddr[2]),
+        .I5(slv_reg0),
         .O(reg_data_out[0]));
   LUT6 #(
-    .INIT(64'hFFCCAAF000CCAAF0)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[10]_i_1 
-       (.I0(slv_reg1[10]),
+       (.I0(slv_reg3[10]),
         .I1(slv_reg2[10]),
-        .I2(\slv_reg0_reg_n_0_[10] ),
-        .I3(axi_araddr[2]),
-        .I4(axi_araddr[3]),
-        .I5(slv_reg3[10]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[10]),
+        .I4(axi_araddr[2]),
+        .I5(\slv_reg0_reg_n_0_[10] ),
         .O(reg_data_out[10]));
   LUT6 #(
-    .INIT(64'hF0FFCCAAF000CCAA)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[11]_i_1 
-       (.I0(\slv_reg0_reg_n_0_[11] ),
-        .I1(slv_reg1[11]),
-        .I2(slv_reg3[11]),
-        .I3(axi_araddr[2]),
-        .I4(axi_araddr[3]),
-        .I5(slv_reg2[11]),
+       (.I0(slv_reg3[11]),
+        .I1(slv_reg2[11]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[11]),
+        .I4(axi_araddr[2]),
+        .I5(\slv_reg0_reg_n_0_[11] ),
         .O(reg_data_out[11]));
   LUT6 #(
-    .INIT(64'hF0FFCCAAF000CCAA)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[12]_i_1 
-       (.I0(\slv_reg0_reg_n_0_[12] ),
-        .I1(slv_reg1[12]),
-        .I2(slv_reg3[12]),
-        .I3(axi_araddr[2]),
-        .I4(axi_araddr[3]),
-        .I5(slv_reg2[12]),
+       (.I0(slv_reg3[12]),
+        .I1(slv_reg2[12]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[12]),
+        .I4(axi_araddr[2]),
+        .I5(\slv_reg0_reg_n_0_[12] ),
         .O(reg_data_out[12]));
   LUT6 #(
-    .INIT(64'hFFCCF0AA00CCF0AA)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[13]_i_1 
-       (.I0(\slv_reg0_reg_n_0_[13] ),
-        .I1(slv_reg1[13]),
-        .I2(slv_reg2[13]),
-        .I3(axi_araddr[3]),
+       (.I0(slv_reg3[13]),
+        .I1(slv_reg2[13]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[13]),
         .I4(axi_araddr[2]),
-        .I5(slv_reg3[13]),
+        .I5(\slv_reg0_reg_n_0_[13] ),
         .O(reg_data_out[13]));
   LUT6 #(
-    .INIT(64'hFFCCF0AA00CCF0AA)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[14]_i_1 
-       (.I0(\slv_reg0_reg_n_0_[14] ),
-        .I1(slv_reg1[14]),
-        .I2(slv_reg2[14]),
-        .I3(axi_araddr[3]),
+       (.I0(slv_reg3[14]),
+        .I1(slv_reg2[14]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[14]),
         .I4(axi_araddr[2]),
-        .I5(slv_reg3[14]),
+        .I5(\slv_reg0_reg_n_0_[14] ),
         .O(reg_data_out[14]));
   LUT6 #(
-    .INIT(64'hF0FFCCAAF000CCAA)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[15]_i_1 
-       (.I0(\slv_reg0_reg_n_0_[15] ),
-        .I1(slv_reg1[15]),
-        .I2(slv_reg3[15]),
-        .I3(axi_araddr[2]),
-        .I4(axi_araddr[3]),
-        .I5(slv_reg2[15]),
+       (.I0(slv_reg3[15]),
+        .I1(slv_reg2[15]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[15]),
+        .I4(axi_araddr[2]),
+        .I5(\slv_reg0_reg_n_0_[15] ),
         .O(reg_data_out[15]));
   LUT6 #(
-    .INIT(64'hF0FFCCAAF000CCAA)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[16]_i_1 
-       (.I0(\slv_reg0_reg_n_0_[16] ),
-        .I1(slv_reg1[16]),
-        .I2(slv_reg3[16]),
-        .I3(axi_araddr[2]),
-        .I4(axi_araddr[3]),
-        .I5(slv_reg2[16]),
+       (.I0(slv_reg3[16]),
+        .I1(slv_reg2[16]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[16]),
+        .I4(axi_araddr[2]),
+        .I5(\slv_reg0_reg_n_0_[16] ),
         .O(reg_data_out[16]));
   LUT6 #(
-    .INIT(64'hFFCCAAF000CCAAF0)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[17]_i_1 
-       (.I0(slv_reg1[17]),
+       (.I0(slv_reg3[17]),
         .I1(slv_reg2[17]),
-        .I2(\slv_reg0_reg_n_0_[17] ),
-        .I3(axi_araddr[2]),
-        .I4(axi_araddr[3]),
-        .I5(slv_reg3[17]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[17]),
+        .I4(axi_araddr[2]),
+        .I5(\slv_reg0_reg_n_0_[17] ),
         .O(reg_data_out[17]));
   LUT6 #(
-    .INIT(64'hFFCCF0AA00CCF0AA)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[18]_i_1 
-       (.I0(\slv_reg0_reg_n_0_[18] ),
-        .I1(slv_reg1[18]),
-        .I2(slv_reg2[18]),
-        .I3(axi_araddr[3]),
+       (.I0(slv_reg3[18]),
+        .I1(slv_reg2[18]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[18]),
         .I4(axi_araddr[2]),
-        .I5(slv_reg3[18]),
+        .I5(\slv_reg0_reg_n_0_[18] ),
         .O(reg_data_out[18]));
   LUT6 #(
-    .INIT(64'hFFCCAAF000CCAAF0)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[19]_i_1 
-       (.I0(slv_reg1[19]),
+       (.I0(slv_reg3[19]),
         .I1(slv_reg2[19]),
-        .I2(\slv_reg0_reg_n_0_[19] ),
-        .I3(axi_araddr[2]),
-        .I4(axi_araddr[3]),
-        .I5(slv_reg3[19]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[19]),
+        .I4(axi_araddr[2]),
+        .I5(\slv_reg0_reg_n_0_[19] ),
         .O(reg_data_out[19]));
   LUT6 #(
-    .INIT(64'hFFCCF0AA00CCF0AA)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[1]_i_1 
-       (.I0(\slv_reg0_reg_n_0_[1] ),
-        .I1(slv_reg1[1]),
-        .I2(slv_reg2[1]),
-        .I3(axi_araddr[3]),
+       (.I0(slv_reg3[1]),
+        .I1(slv_reg2[1]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[1]),
         .I4(axi_araddr[2]),
-        .I5(slv_reg3[1]),
+        .I5(\slv_reg0_reg_n_0_[1] ),
         .O(reg_data_out[1]));
   LUT6 #(
-    .INIT(64'hFFCCAAF000CCAAF0)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[20]_i_1 
-       (.I0(slv_reg1[20]),
+       (.I0(slv_reg3[20]),
         .I1(slv_reg2[20]),
-        .I2(\slv_reg0_reg_n_0_[20] ),
-        .I3(axi_araddr[2]),
-        .I4(axi_araddr[3]),
-        .I5(slv_reg3[20]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[20]),
+        .I4(axi_araddr[2]),
+        .I5(\slv_reg0_reg_n_0_[20] ),
         .O(reg_data_out[20]));
   LUT6 #(
-    .INIT(64'hF0FFCCAAF000CCAA)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[21]_i_1 
-       (.I0(\slv_reg0_reg_n_0_[21] ),
-        .I1(slv_reg1[21]),
-        .I2(slv_reg3[21]),
-        .I3(axi_araddr[2]),
-        .I4(axi_araddr[3]),
-        .I5(slv_reg2[21]),
+       (.I0(slv_reg3[21]),
+        .I1(slv_reg2[21]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[21]),
+        .I4(axi_araddr[2]),
+        .I5(\slv_reg0_reg_n_0_[21] ),
         .O(reg_data_out[21]));
   LUT6 #(
-    .INIT(64'hFFCCF0AA00CCF0AA)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[22]_i_1 
-       (.I0(\slv_reg0_reg_n_0_[22] ),
-        .I1(slv_reg1[22]),
-        .I2(slv_reg2[22]),
-        .I3(axi_araddr[3]),
+       (.I0(slv_reg3[22]),
+        .I1(slv_reg2[22]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[22]),
         .I4(axi_araddr[2]),
-        .I5(slv_reg3[22]),
+        .I5(\slv_reg0_reg_n_0_[22] ),
         .O(reg_data_out[22]));
   LUT6 #(
-    .INIT(64'hF0FFCCAAF000CCAA)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[23]_i_1 
-       (.I0(\slv_reg0_reg_n_0_[23] ),
-        .I1(slv_reg1[23]),
-        .I2(slv_reg3[23]),
-        .I3(axi_araddr[2]),
-        .I4(axi_araddr[3]),
-        .I5(slv_reg2[23]),
+       (.I0(slv_reg3[23]),
+        .I1(slv_reg2[23]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[23]),
+        .I4(axi_araddr[2]),
+        .I5(\slv_reg0_reg_n_0_[23] ),
         .O(reg_data_out[23]));
   LUT6 #(
-    .INIT(64'hF0FFCCAAF000CCAA)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[24]_i_1 
-       (.I0(\slv_reg0_reg_n_0_[24] ),
-        .I1(slv_reg1[24]),
-        .I2(slv_reg3[24]),
-        .I3(axi_araddr[2]),
-        .I4(axi_araddr[3]),
-        .I5(slv_reg2[24]),
+       (.I0(slv_reg3[24]),
+        .I1(slv_reg2[24]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[24]),
+        .I4(axi_araddr[2]),
+        .I5(\slv_reg0_reg_n_0_[24] ),
         .O(reg_data_out[24]));
   LUT6 #(
-    .INIT(64'hFFCCAAF000CCAAF0)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[25]_i_1 
-       (.I0(slv_reg1[25]),
+       (.I0(slv_reg3[25]),
         .I1(slv_reg2[25]),
-        .I2(\slv_reg0_reg_n_0_[25] ),
-        .I3(axi_araddr[2]),
-        .I4(axi_araddr[3]),
-        .I5(slv_reg3[25]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[25]),
+        .I4(axi_araddr[2]),
+        .I5(\slv_reg0_reg_n_0_[25] ),
         .O(reg_data_out[25]));
   LUT6 #(
-    .INIT(64'hFFCCF0AA00CCF0AA)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[26]_i_1 
-       (.I0(\slv_reg0_reg_n_0_[26] ),
-        .I1(slv_reg1[26]),
-        .I2(slv_reg2[26]),
-        .I3(axi_araddr[3]),
+       (.I0(slv_reg3[26]),
+        .I1(slv_reg2[26]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[26]),
         .I4(axi_araddr[2]),
-        .I5(slv_reg3[26]),
+        .I5(\slv_reg0_reg_n_0_[26] ),
         .O(reg_data_out[26]));
   LUT6 #(
-    .INIT(64'hFFCCAAF000CCAAF0)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[27]_i_1 
-       (.I0(slv_reg1[27]),
+       (.I0(slv_reg3[27]),
         .I1(slv_reg2[27]),
-        .I2(\slv_reg0_reg_n_0_[27] ),
-        .I3(axi_araddr[2]),
-        .I4(axi_araddr[3]),
-        .I5(slv_reg3[27]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[27]),
+        .I4(axi_araddr[2]),
+        .I5(\slv_reg0_reg_n_0_[27] ),
         .O(reg_data_out[27]));
   LUT6 #(
-    .INIT(64'hFFCCAAF000CCAAF0)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[28]_i_1 
-       (.I0(slv_reg1[28]),
+       (.I0(slv_reg3[28]),
         .I1(slv_reg2[28]),
-        .I2(\slv_reg0_reg_n_0_[28] ),
-        .I3(axi_araddr[2]),
-        .I4(axi_araddr[3]),
-        .I5(slv_reg3[28]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[28]),
+        .I4(axi_araddr[2]),
+        .I5(\slv_reg0_reg_n_0_[28] ),
         .O(reg_data_out[28]));
   LUT6 #(
-    .INIT(64'hF0FFCCAAF000CCAA)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[29]_i_1 
-       (.I0(\slv_reg0_reg_n_0_[29] ),
-        .I1(slv_reg1[29]),
-        .I2(slv_reg3[29]),
-        .I3(axi_araddr[2]),
-        .I4(axi_araddr[3]),
-        .I5(slv_reg2[29]),
+       (.I0(slv_reg3[29]),
+        .I1(slv_reg2[29]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[29]),
+        .I4(axi_araddr[2]),
+        .I5(\slv_reg0_reg_n_0_[29] ),
         .O(reg_data_out[29]));
   LUT6 #(
-    .INIT(64'hCCFFAAF0CC00AAF0)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[2]_i_1 
-       (.I0(slv_reg1[2]),
-        .I1(slv_reg3[2]),
-        .I2(\slv_reg0_reg_n_0_[2] ),
-        .I3(axi_araddr[2]),
-        .I4(axi_araddr[3]),
-        .I5(slv_reg2[2]),
+       (.I0(slv_reg3[2]),
+        .I1(slv_reg2[2]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[2]),
+        .I4(axi_araddr[2]),
+        .I5(\slv_reg0_reg_n_0_[2] ),
         .O(reg_data_out[2]));
   LUT6 #(
-    .INIT(64'hFFCCF0AA00CCF0AA)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[30]_i_1 
-       (.I0(\slv_reg0_reg_n_0_[30] ),
-        .I1(slv_reg1[30]),
-        .I2(slv_reg2[30]),
-        .I3(axi_araddr[3]),
+       (.I0(slv_reg3[30]),
+        .I1(slv_reg2[30]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[30]),
         .I4(axi_araddr[2]),
-        .I5(slv_reg3[30]),
+        .I5(\slv_reg0_reg_n_0_[30] ),
         .O(reg_data_out[30]));
   LUT6 #(
-    .INIT(64'hFFCCF0AA00CCF0AA)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[31]_i_1 
-       (.I0(\slv_reg0_reg_n_0_[31] ),
-        .I1(slv_reg1[31]),
-        .I2(slv_reg2[31]),
-        .I3(axi_araddr[3]),
+       (.I0(slv_reg3[31]),
+        .I1(slv_reg2[31]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[31]),
         .I4(axi_araddr[2]),
-        .I5(slv_reg3[31]),
+        .I5(\slv_reg0_reg_n_0_[31] ),
         .O(reg_data_out[31]));
   LUT6 #(
-    .INIT(64'hF0FFCCAAF000CCAA)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[3]_i_1 
-       (.I0(\slv_reg0_reg_n_0_[3] ),
-        .I1(slv_reg1[3]),
-        .I2(slv_reg3[3]),
-        .I3(axi_araddr[2]),
-        .I4(axi_araddr[3]),
-        .I5(slv_reg2[3]),
+       (.I0(slv_reg3[3]),
+        .I1(slv_reg2[3]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[3]),
+        .I4(axi_araddr[2]),
+        .I5(\slv_reg0_reg_n_0_[3] ),
         .O(reg_data_out[3]));
   LUT6 #(
-    .INIT(64'hF0FFCCAAF000CCAA)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[4]_i_1 
-       (.I0(\slv_reg0_reg_n_0_[4] ),
-        .I1(slv_reg1[4]),
-        .I2(slv_reg3[4]),
-        .I3(axi_araddr[2]),
-        .I4(axi_araddr[3]),
-        .I5(slv_reg2[4]),
+       (.I0(slv_reg3[4]),
+        .I1(slv_reg2[4]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[4]),
+        .I4(axi_araddr[2]),
+        .I5(\slv_reg0_reg_n_0_[4] ),
         .O(reg_data_out[4]));
   LUT6 #(
-    .INIT(64'hFFCCF0AA00CCF0AA)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[5]_i_1 
-       (.I0(\slv_reg0_reg_n_0_[5] ),
-        .I1(slv_reg1[5]),
-        .I2(slv_reg2[5]),
-        .I3(axi_araddr[3]),
+       (.I0(slv_reg3[5]),
+        .I1(slv_reg2[5]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[5]),
         .I4(axi_araddr[2]),
-        .I5(slv_reg3[5]),
+        .I5(\slv_reg0_reg_n_0_[5] ),
         .O(reg_data_out[5]));
   LUT6 #(
-    .INIT(64'hFFCCF0AA00CCF0AA)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[6]_i_1 
-       (.I0(\slv_reg0_reg_n_0_[6] ),
-        .I1(slv_reg1[6]),
-        .I2(slv_reg2[6]),
-        .I3(axi_araddr[3]),
+       (.I0(slv_reg3[6]),
+        .I1(slv_reg2[6]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[6]),
         .I4(axi_araddr[2]),
-        .I5(slv_reg3[6]),
+        .I5(\slv_reg0_reg_n_0_[6] ),
         .O(reg_data_out[6]));
   LUT6 #(
-    .INIT(64'hCCFFAAF0CC00AAF0)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[7]_i_1 
-       (.I0(slv_reg1[7]),
-        .I1(slv_reg3[7]),
-        .I2(\slv_reg0_reg_n_0_[7] ),
-        .I3(axi_araddr[2]),
-        .I4(axi_araddr[3]),
-        .I5(slv_reg2[7]),
+       (.I0(slv_reg3[7]),
+        .I1(slv_reg2[7]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[7]),
+        .I4(axi_araddr[2]),
+        .I5(\slv_reg0_reg_n_0_[7] ),
         .O(reg_data_out[7]));
   LUT6 #(
-    .INIT(64'hF0FFCCAAF000CCAA)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[8]_i_1 
-       (.I0(\slv_reg0_reg_n_0_[8] ),
-        .I1(slv_reg1[8]),
-        .I2(slv_reg3[8]),
-        .I3(axi_araddr[2]),
-        .I4(axi_araddr[3]),
-        .I5(slv_reg2[8]),
+       (.I0(slv_reg3[8]),
+        .I1(slv_reg2[8]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[8]),
+        .I4(axi_araddr[2]),
+        .I5(\slv_reg0_reg_n_0_[8] ),
         .O(reg_data_out[8]));
   LUT6 #(
-    .INIT(64'hF0FFCCAAF000CCAA)) 
+    .INIT(64'hAFA0CFCFAFA0C0C0)) 
     \axi_rdata[9]_i_1 
-       (.I0(\slv_reg0_reg_n_0_[9] ),
-        .I1(slv_reg1[9]),
-        .I2(slv_reg3[9]),
-        .I3(axi_araddr[2]),
-        .I4(axi_araddr[3]),
-        .I5(slv_reg2[9]),
+       (.I0(slv_reg3[9]),
+        .I1(slv_reg2[9]),
+        .I2(axi_araddr[3]),
+        .I3(slv_reg1[9]),
+        .I4(axi_araddr[2]),
+        .I5(\slv_reg0_reg_n_0_[9] ),
         .O(reg_data_out[9]));
   FDRE \axi_rdata_reg[0] 
        (.C(s00_axi_aclk),
@@ -1339,7 +2651,7 @@ module led_test_system_led_controller_0_0_led_controller_v1_0_S00_AXI
         .D(axi_rvalid_i_1_n_0),
         .Q(s00_axi_rvalid),
         .R(axi_awready_i_1_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair9" *) 
+  (* SOFT_HLUTNM = "soft_lutpair8" *) 
   LUT4 #(
     .INIT(16'h0800)) 
     axi_wready_i_1
