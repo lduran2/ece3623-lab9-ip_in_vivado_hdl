@@ -2886,3 +2886,371 @@ make pre-build main-build
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for 'main-build'.
+16:40:50 **** Auto Build of configuration Debug for project led_controller_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/led_controller_test_tut_4A.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led_controller_test_tut_4A.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../led_controller_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/led_controller_test_tut_4A.d" -MT"src/led_controller_test_tut_4A.o" -o "src/led_controller_test_tut_4A.o" "../src/led_controller_test_tut_4A.c"
+../src/led_controller_test_tut_4A.c:2:1: warning: "/*" within comment [-Wcomment]
+ /*  led_test.c
+  
+'Finished building: ../src/led_controller_test_tut_4A.c'
+' '
+'Building target: led_controller_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../led_controller_test_bsp/ps7_cortexa9_0/lib -o "led_controller_test.elf"  ./src/led_controller_test_tut_4A.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: led_controller_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size led_controller_test.elf  |tee "led_controller_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29728	   1544	  23256	  54528	   d500	led_controller_test.elf
+'Finished building: led_controller_test.elf.size'
+' '
+16:41:10 **** Auto Build of configuration Debug for project led_controller_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/led_controller_test_tut_4A.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led_controller_test_tut_4A.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../led_controller_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/led_controller_test_tut_4A.d" -MT"src/led_controller_test_tut_4A.o" -o "src/led_controller_test_tut_4A.o" "../src/led_controller_test_tut_4A.c"
+../src/led_controller_test_tut_4A.c:2:1: warning: "/*" within comment [-Wcomment]
+ /*  led_test.c
+  
+'Finished building: ../src/led_controller_test_tut_4A.c'
+' '
+'Building target: led_controller_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../led_controller_test_bsp/ps7_cortexa9_0/lib -o "led_controller_test.elf"  ./src/led_controller_test_tut_4A.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: led_controller_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size led_controller_test.elf  |tee "led_controller_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29792	   1544	  23256	  54592	   d540	led_controller_test.elf
+'Finished building: led_controller_test.elf.size'
+' '
+16:43:53 **** Auto Build of configuration Debug for project led_controller_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/led_controller_test_tut_4A.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led_controller_test_tut_4A.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../led_controller_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/led_controller_test_tut_4A.d" -MT"src/led_controller_test_tut_4A.o" -o "src/led_controller_test_tut_4A.o" "../src/led_controller_test_tut_4A.c"
+../src/led_controller_test_tut_4A.c:2:1: warning: "/*" within comment [-Wcomment]
+ /*  led_test.c
+  
+../src/led_controller_test_tut_4A.c: In function 'max_sequence_len':
+../src/led_controller_test_tut_4A.c:81:6: warning: unused variable 'low_bits' [-Wunused-variable]
+  u32 low_bits = i & LOW_MASK;
+      ^~~~~~~~
+../src/led_controller_test_tut_4A.c:82:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/led_controller_test_tut_4A.c'
+' '
+'Building target: led_controller_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../led_controller_test_bsp/ps7_cortexa9_0/lib -o "led_controller_test.elf"  ./src/led_controller_test_tut_4A.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: led_controller_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size led_controller_test.elf  |tee "led_controller_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29856	   1544	  23256	  54656	   d580	led_controller_test.elf
+'Finished building: led_controller_test.elf.size'
+' '
+16:51:27 **** Auto Build of configuration Debug for project led_controller_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/led_controller_test_tut_4A.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led_controller_test_tut_4A.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../led_controller_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/led_controller_test_tut_4A.d" -MT"src/led_controller_test_tut_4A.o" -o "src/led_controller_test_tut_4A.o" "../src/led_controller_test_tut_4A.c"
+../src/led_controller_test_tut_4A.c:2:1: warning: "/*" within comment [-Wcomment]
+ /*  led_test.c
+  
+'Finished building: ../src/led_controller_test_tut_4A.c'
+' '
+'Building target: led_controller_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../led_controller_test_bsp/ps7_cortexa9_0/lib -o "led_controller_test.elf"  ./src/led_controller_test_tut_4A.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: led_controller_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size led_controller_test.elf  |tee "led_controller_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29920	   1544	  23256	  54720	   d5c0	led_controller_test.elf
+'Finished building: led_controller_test.elf.size'
+' '
+16:52:45 **** Auto Build of configuration Debug for project led_controller_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/led_controller_test_tut_4A.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led_controller_test_tut_4A.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../led_controller_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/led_controller_test_tut_4A.d" -MT"src/led_controller_test_tut_4A.o" -o "src/led_controller_test_tut_4A.o" "../src/led_controller_test_tut_4A.c"
+../src/led_controller_test_tut_4A.c:2:1: warning: "/*" within comment [-Wcomment]
+ /*  led_test.c
+  
+'Finished building: ../src/led_controller_test_tut_4A.c'
+' '
+'Building target: led_controller_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../led_controller_test_bsp/ps7_cortexa9_0/lib -o "led_controller_test.elf"  ./src/led_controller_test_tut_4A.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: led_controller_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size led_controller_test.elf  |tee "led_controller_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30000	   1544	  23256	  54800	   d610	led_controller_test.elf
+'Finished building: led_controller_test.elf.size'
+' '
+16:53:17 **** Incremental Build of configuration Debug for project led_controller_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+16:54:17 **** Auto Build of configuration Debug for project led_controller_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/led_controller_test_tut_4A.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led_controller_test_tut_4A.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../led_controller_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/led_controller_test_tut_4A.d" -MT"src/led_controller_test_tut_4A.o" -o "src/led_controller_test_tut_4A.o" "../src/led_controller_test_tut_4A.c"
+../src/led_controller_test_tut_4A.c:2:1: warning: "/*" within comment [-Wcomment]
+ /*  led_test.c
+  
+'Finished building: ../src/led_controller_test_tut_4A.c'
+' '
+'Building target: led_controller_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../led_controller_test_bsp/ps7_cortexa9_0/lib -o "led_controller_test.elf"  ./src/led_controller_test_tut_4A.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: led_controller_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size led_controller_test.elf  |tee "led_controller_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30016	   1544	  23256	  54816	   d620	led_controller_test.elf
+'Finished building: led_controller_test.elf.size'
+' '
+16:54:28 **** Incremental Build of configuration Debug for project led_controller_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+17:00:36 **** Auto Build of configuration Debug for project led_controller_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/led_controller_test_tut_4A.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led_controller_test_tut_4A.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../led_controller_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/led_controller_test_tut_4A.d" -MT"src/led_controller_test_tut_4A.o" -o "src/led_controller_test_tut_4A.o" "../src/led_controller_test_tut_4A.c"
+../src/led_controller_test_tut_4A.c:2:1: warning: "/*" within comment [-Wcomment]
+ /*  led_test.c
+  
+../src/led_controller_test_tut_4A.c: In function 'main':
+../src/led_controller_test_tut_4A.c:45:42: warning: excess elements in array initializer
+    0b011001111001111, 0b011011111001011, 0b000000000000000,
+                                          ^~~~~~~~~~~~~~~~~
+../src/led_controller_test_tut_4A.c:45:42: note: (near initialization for 'ints')
+../src/led_controller_test_tut_4A.c:46:4: warning: excess elements in array initializer
+    0b011111111111111, // test values
+    ^~~~~~~~~~~~~~~~~
+../src/led_controller_test_tut_4A.c:46:4: note: (near initialization for 'ints')
+../src/led_controller_test_tut_4A.c:47:4: warning: excess elements in array initializer
+    5446, 9150, 4889   // randomly generated values
+    ^~~~
+../src/led_controller_test_tut_4A.c:47:4: note: (near initialization for 'ints')
+../src/led_controller_test_tut_4A.c:47:10: warning: excess elements in array initializer
+    5446, 9150, 4889   // randomly generated values
+          ^~~~
+../src/led_controller_test_tut_4A.c:47:10: note: (near initialization for 'ints')
+../src/led_controller_test_tut_4A.c:47:16: warning: excess elements in array initializer
+    5446, 9150, 4889   // randomly generated values
+                ^~~~
+../src/led_controller_test_tut_4A.c:47:16: note: (near initialization for 'ints')
+'Finished building: ../src/led_controller_test_tut_4A.c'
+' '
+'Building target: led_controller_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../led_controller_test_bsp/ps7_cortexa9_0/lib -o "led_controller_test.elf"  ./src/led_controller_test_tut_4A.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: led_controller_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size led_controller_test.elf  |tee "led_controller_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30016	   1544	  23256	  54816	   d620	led_controller_test.elf
+'Finished building: led_controller_test.elf.size'
+' '
+17:02:21 **** Auto Build of configuration Debug for project led_controller_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/led_controller_test_tut_4A.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led_controller_test_tut_4A.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../led_controller_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/led_controller_test_tut_4A.d" -MT"src/led_controller_test_tut_4A.o" -o "src/led_controller_test_tut_4A.o" "../src/led_controller_test_tut_4A.c"
+../src/led_controller_test_tut_4A.c:2:1: warning: "/*" within comment [-Wcomment]
+ /*  led_test.c
+  
+../src/led_controller_test_tut_4A.c: In function 'main':
+../src/led_controller_test_tut_4A.c:45:42: warning: excess elements in array initializer
+    0b011001111001111, 0b011011111001011, 0b000000000000000,
+                                          ^~~~~~~~~~~~~~~~~
+../src/led_controller_test_tut_4A.c:45:42: note: (near initialization for 'ints')
+../src/led_controller_test_tut_4A.c:46:4: warning: excess elements in array initializer
+    0b011111111111111, // 7 test values
+    ^~~~~~~~~~~~~~~~~
+../src/led_controller_test_tut_4A.c:46:4: note: (near initialization for 'ints')
+../src/led_controller_test_tut_4A.c:47:4: warning: excess elements in array initializer
+    5446, 9150, 4889   // 3 randomly generated values
+    ^~~~
+../src/led_controller_test_tut_4A.c:47:4: note: (near initialization for 'ints')
+../src/led_controller_test_tut_4A.c:47:10: warning: excess elements in array initializer
+    5446, 9150, 4889   // 3 randomly generated values
+          ^~~~
+../src/led_controller_test_tut_4A.c:47:10: note: (near initialization for 'ints')
+../src/led_controller_test_tut_4A.c:47:16: warning: excess elements in array initializer
+    5446, 9150, 4889   // 3 randomly generated values
+                ^~~~
+../src/led_controller_test_tut_4A.c:47:16: note: (near initialization for 'ints')
+'Finished building: ../src/led_controller_test_tut_4A.c'
+' '
+'Building target: led_controller_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../led_controller_test_bsp/ps7_cortexa9_0/lib -o "led_controller_test.elf"  ./src/led_controller_test_tut_4A.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: led_controller_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size led_controller_test.elf  |tee "led_controller_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30016	   1544	  23256	  54816	   d620	led_controller_test.elf
+'Finished building: led_controller_test.elf.size'
+' '
+17:02:32 **** Auto Build of configuration Debug for project led_controller_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/led_controller_test_tut_4A.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led_controller_test_tut_4A.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../led_controller_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/led_controller_test_tut_4A.d" -MT"src/led_controller_test_tut_4A.o" -o "src/led_controller_test_tut_4A.o" "../src/led_controller_test_tut_4A.c"
+../src/led_controller_test_tut_4A.c:2:1: warning: "/*" within comment [-Wcomment]
+ /*  led_test.c
+  
+'Finished building: ../src/led_controller_test_tut_4A.c'
+' '
+'Building target: led_controller_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../led_controller_test_bsp/ps7_cortexa9_0/lib -o "led_controller_test.elf"  ./src/led_controller_test_tut_4A.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: led_controller_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size led_controller_test.elf  |tee "led_controller_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30036	   1544	  23256	  54836	   d634	led_controller_test.elf
+'Finished building: led_controller_test.elf.size'
+' '
+17:02:36 **** Auto Build of configuration Debug for project led_controller_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/led_controller_test_tut_4A.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led_controller_test_tut_4A.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../led_controller_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/led_controller_test_tut_4A.d" -MT"src/led_controller_test_tut_4A.o" -o "src/led_controller_test_tut_4A.o" "../src/led_controller_test_tut_4A.c"
+../src/led_controller_test_tut_4A.c:2:1: warning: "/*" within comment [-Wcomment]
+ /*  led_test.c
+  
+'Finished building: ../src/led_controller_test_tut_4A.c'
+' '
+'Building target: led_controller_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../led_controller_test_bsp/ps7_cortexa9_0/lib -o "led_controller_test.elf"  ./src/led_controller_test_tut_4A.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: led_controller_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size led_controller_test.elf  |tee "led_controller_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30252	   1544	  23256	  55052	   d70c	led_controller_test.elf
+'Finished building: led_controller_test.elf.size'
+' '
+17:02:41 **** Auto Build of configuration Debug for project led_controller_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/led_controller_test_tut_4A.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led_controller_test_tut_4A.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../led_controller_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/led_controller_test_tut_4A.d" -MT"src/led_controller_test_tut_4A.o" -o "src/led_controller_test_tut_4A.o" "../src/led_controller_test_tut_4A.c"
+../src/led_controller_test_tut_4A.c:2:1: warning: "/*" within comment [-Wcomment]
+ /*  led_test.c
+  
+'Finished building: ../src/led_controller_test_tut_4A.c'
+' '
+'Building target: led_controller_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../led_controller_test_bsp/ps7_cortexa9_0/lib -o "led_controller_test.elf"  ./src/led_controller_test_tut_4A.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: led_controller_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size led_controller_test.elf  |tee "led_controller_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30036	   1544	  23256	  54836	   d634	led_controller_test.elf
+'Finished building: led_controller_test.elf.size'
+' '
+17:02:45 **** Auto Build of configuration Debug for project led_controller_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/led_controller_test_tut_4A.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led_controller_test_tut_4A.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../led_controller_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/led_controller_test_tut_4A.d" -MT"src/led_controller_test_tut_4A.o" -o "src/led_controller_test_tut_4A.o" "../src/led_controller_test_tut_4A.c"
+../src/led_controller_test_tut_4A.c:2:1: warning: "/*" within comment [-Wcomment]
+ /*  led_test.c
+  
+../src/led_controller_test_tut_4A.c: In function 'main':
+../src/led_controller_test_tut_4A.c:47:16: warning: excess elements in array initializer
+    5446, 9150, 4889   // 3 randomly generated values
+                ^~~~
+../src/led_controller_test_tut_4A.c:47:16: note: (near initialization for 'ints')
+'Finished building: ../src/led_controller_test_tut_4A.c'
+' '
+'Building target: led_controller_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../led_controller_test_bsp/ps7_cortexa9_0/lib -o "led_controller_test.elf"  ./src/led_controller_test_tut_4A.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: led_controller_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size led_controller_test.elf  |tee "led_controller_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30032	   1544	  23256	  54832	   d630	led_controller_test.elf
+'Finished building: led_controller_test.elf.size'
+' '
+17:02:48 **** Auto Build of configuration Debug for project led_controller_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/led_controller_test_tut_4A.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/led_controller_test_tut_4A.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../led_controller_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/led_controller_test_tut_4A.d" -MT"src/led_controller_test_tut_4A.o" -o "src/led_controller_test_tut_4A.o" "../src/led_controller_test_tut_4A.c"
+../src/led_controller_test_tut_4A.c:2:1: warning: "/*" within comment [-Wcomment]
+ /*  led_test.c
+  
+'Finished building: ../src/led_controller_test_tut_4A.c'
+' '
+'Building target: led_controller_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../led_controller_test_bsp/ps7_cortexa9_0/lib -o "led_controller_test.elf"  ./src/led_controller_test_tut_4A.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: led_controller_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size led_controller_test.elf  |tee "led_controller_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30036	   1544	  23256	  54836	   d634	led_controller_test.elf
+'Finished building: led_controller_test.elf.size'
+' '
+17:02:56 **** Incremental Build of configuration Debug for project led_controller_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
